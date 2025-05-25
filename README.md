@@ -5,4 +5,4 @@ Well, here is it in python.
 A fun computer vision project that makes you disappear on camera using color detection — just like Harry Potter’s invisibility cloak! Built with Python and OpenCV, this project uses real-time video masking to replace your cloak with the background. 🧙‍♂️✨
 
 ### Install OpenCV
-Install the core OpenCV library to work with image processing, computer vision, a
+Install the core OpenCV library to work with image processing, computer vision, and
