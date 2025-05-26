@@ -9,4 +9,4 @@ A fun computer vision project that makes you disappear on camera using color det
 ### Install OpenCV
 Install the core OpenCV library to work with image processing, computer vision, and camera input.
 
--
+--
