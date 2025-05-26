@@ -11,4 +11,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
 
 ---
 ## Installation
- - Using pip (recommend
+ - Using pip (recommende
