@@ -1,4 +1,4 @@
-= ord('q')):
+= o
 		break;
 
 cv2.destroyAllWindows()
