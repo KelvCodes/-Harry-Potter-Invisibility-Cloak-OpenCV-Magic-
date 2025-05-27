@@ -1,4 +1,4 @@
-rackbarPos("lower_hue","bars")
+
 	lower_saturation = cv2.getTrackbarPos("lower_saturation","bars")
 
 	#Kernel to be used for dilation
