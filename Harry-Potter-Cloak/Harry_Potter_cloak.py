@@ -1,8 +1,7 @@
 
 
 
-#getTrackbarPos("upper_saturation", "bars")
-	upper_value = cv2.getTrackbarPos("upper_value", "bars")
+#getTrackbarPos("upper_saturation", "bars")alue = cv2.getTrackbarPos("upper_value", "bars")
 	lower_value = cv2.getTrackbarPos("lower_value","bars")
 	lower_hue = cv2.getTrackbarPos("lower_hue","bars")
 	lower_saturation = cv2.getTrackbarPos("lower_saturation","bars")
