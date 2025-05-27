@@ -1,4 +1,4 @@
-ey(3) == ord('q')):
+= ord('q')):
 		break;
 
 cv2.destroyAllWindows()
