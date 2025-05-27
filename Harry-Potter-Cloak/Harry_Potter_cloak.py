@@ -1,5 +1,4 @@
-
-	mask = cv2.dilate(mask,kernel,5)
+kernel,5)
 	
 	#The mixing of frames in a combination to achieve the required frame
 	b = frame[:,:,0]
