@@ -1,4 +1,4 @@
-'s Cloal)
+loal)
 
 	if(cv2.waitKey(3) == ord('q')):
 		break;
