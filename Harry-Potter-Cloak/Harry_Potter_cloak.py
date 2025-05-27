@@ -1,6 +1,5 @@
 o 
-	g = frame[:,:,1]
-	r = frame[:,:,2]
+	g 
 	b = cv2.bitwise_and(mask_inv, b)
 	g = cv2.bitwise_and(mask_inv, g)
 	r = cv2.bitwise_and(mask_inv, r)
