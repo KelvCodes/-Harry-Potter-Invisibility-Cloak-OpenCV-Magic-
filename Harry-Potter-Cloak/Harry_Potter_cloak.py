@@ -1,6 +1,5 @@
 )
-	blanket_area = me_inv, blanket_area)
-
+	blanket_area = me_inv, 
 	cv2.imshow("Harry's Cloak",final)
 
 	if(cv2.waitKey(3) == ord('q')):
