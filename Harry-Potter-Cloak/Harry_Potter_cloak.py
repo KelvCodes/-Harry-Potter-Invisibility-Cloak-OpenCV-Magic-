@@ -1,5 +1,4 @@
-sk,3)
-	mask_inv = 255-mask 
+
 	mask = cv2.dilate(mask,kernel,5)
 	
 	#The mixing of frames in a combination to achieve the required frame
