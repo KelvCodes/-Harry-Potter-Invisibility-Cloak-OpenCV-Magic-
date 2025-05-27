@@ -1,7 +1,4 @@
-(b,g,r))
 
-	b = init_frame[:,:,0]
-	g = init_frame[:,:,1]
 	r = init_frame[:,:,2]
 	b = cv2.bitwise_and(b,mask)
 	g = cv2.bitwise_and(g,mask)
