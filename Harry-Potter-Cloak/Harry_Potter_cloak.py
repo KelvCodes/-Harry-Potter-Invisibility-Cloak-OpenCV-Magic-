@@ -1,4 +1,4 @@
- = numpy.array([lower_hue,lower_saturation,lower_value])
+hue,lower_saturation,lower_value])
 
 	mask = cv2.inRange(inspect, lower_hsv, upper_hsv)
 	mask = cv2.medianBlur(mask,3)
