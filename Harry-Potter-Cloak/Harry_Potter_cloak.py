@@ -1,5 +1,4 @@
-o achieve the required frame
-	b = frame[:,:,0]
+o 
 	g = frame[:,:,1]
 	r = frame[:,:,2]
 	b = cv2.bitwise_and(mask_inv, b)
