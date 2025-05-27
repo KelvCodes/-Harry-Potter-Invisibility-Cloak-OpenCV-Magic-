@@ -1,4 +1,4 @@
-rry's Cloak",final)
+ry's Cloal)
 
 	if(cv2.waitKey(3) == ord('q')):
 		break;
