@@ -1,38 +1,7 @@
 
 
 
-#initial function for the callin of the trackbar
-def hello(x):
-	#only for referece
-	print("")
-
-#initialisation of the camera
-cap = cv2.VideoCapture(0)
-bars = cv2.namedWindow("bars")
-
-cv2.createTrackbar("upper_hue","bars",110,180,hello)
-cv2.createTrackbar("upper_saturation","bars",255, 255, hello)
-cv2.createTrackbar("upper_value","bars",255, 255, hello)
-cv2.createTrackbar("lower_hue","bars",68,180, hello)
-cv2.createTrackbar("lower_saturation","bars",55, 255, hello)
-cv2.createTrackbar("lower_value","bars",54, 255, hello)
-
-#Capturing the initial frame for creation of background
-while(True):
-	cv2.waitKey(1000)
-	ret,init_frame = cap.read()
-	#check if the frame is returned then brake
-	if(ret):
-		break
-
-# Start capturing the frames for actual magic!!
-while(True):
-	ret,frame = cap.read()
-	inspect = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-	#getting the HSV values for masking the cloak
-	upper_hue = cv2.getTrackbarPos("upper_hue", "bars")
-	upper_saturation = cv2.getTrackbarPos("upper_saturation", "bars")
+#getTrackbarPos("upper_saturation", "bars")
 	upper_value = cv2.getTrackbarPos("upper_value", "bars")
 	lower_value = cv2.getTrackbarPos("lower_value","bars")
 	lower_hue = cv2.getTrackbarPos("lower_hue","bars")
