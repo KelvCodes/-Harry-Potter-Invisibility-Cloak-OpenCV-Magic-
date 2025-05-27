@@ -1,5 +1,4 @@
-
-	lower_saturation = cv2.getTrackbarPos("lower_saturation","bars")
+2.getTrackbarPos("lower_saturation","bars")
 
 	#Kernel to be used for dilation
 	kernel = numpy.ones((3,3),numpy.uint8)
