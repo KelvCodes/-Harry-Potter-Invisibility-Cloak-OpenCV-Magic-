@@ -1,6 +1,4 @@
 
-
-	#Kernel to be used for dilation
 	kernel = numpy.ones((3,3),numpy.uint8)
 
 	upper_hsv = numpy.array([upper_hue,upper_saturation,upper_value])
