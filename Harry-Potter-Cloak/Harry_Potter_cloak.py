@@ -1,6 +1,4 @@
-
-	r = cv2.bitwise_and(mask_inv, r)
-	frame_inv = cv2.merge((b,g,r))
+(b,g,r))
 
 	b = init_frame[:,:,0]
 	g = init_frame[:,:,1]
