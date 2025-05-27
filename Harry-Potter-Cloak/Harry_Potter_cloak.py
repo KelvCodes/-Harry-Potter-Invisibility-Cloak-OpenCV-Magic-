@@ -1,5 +1,4 @@
-
-	kernel = numpy.ones((3,3),numpy.uint8)
+(3,3),numpy.uint8)
 
 	upper_hsv = numpy.array([upper_hue,upper_saturation,upper_value])
 	lower_hsv = numpy.array([lower_hue,lower_saturation,lower_value])
