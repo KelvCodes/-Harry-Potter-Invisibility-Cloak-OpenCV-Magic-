@@ -1,4 +1,4 @@
-2.getTrackbarPos("lower_saturation","bars")
+ion","bars")
 
 	#Kernel to be used for dilation
 	kernel = numpy.ones((3,3),numpy.uint8)
