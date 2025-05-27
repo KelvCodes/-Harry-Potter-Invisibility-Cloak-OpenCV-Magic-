@@ -1,5 +1,4 @@
-import cv2
-import numpy
+
 
 
 #initial function for the callin of the trackbar
