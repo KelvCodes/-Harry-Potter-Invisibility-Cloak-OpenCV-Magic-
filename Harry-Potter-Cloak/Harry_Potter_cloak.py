@@ -1,4 +1,4 @@
-ehow("Harry's Cloak",final)
+rry's Cloak",final)
 
 	if(cv2.waitKey(3) == ord('q')):
 		break;
