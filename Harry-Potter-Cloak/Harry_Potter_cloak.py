@@ -1,6 +1,4 @@
-mask)
-	g = cv2.bitwise_and(g,mask)
-	r = cv2.bitwise_and(r,mask)
+)
 	blanket_area = cv2.merge((b,g,r))
 
 	final = cv2.bitwise_or(frame_inv, blanket_area)
