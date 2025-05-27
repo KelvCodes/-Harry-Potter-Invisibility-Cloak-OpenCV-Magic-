@@ -1,4 +1,4 @@
- frames in a combination to achieve the required frame
+o achieve the required frame
 	b = frame[:,:,0]
 	g = frame[:,:,1]
 	r = frame[:,:,2]
