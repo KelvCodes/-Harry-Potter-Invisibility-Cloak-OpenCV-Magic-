@@ -1,5 +1,4 @@
-ct, lower_hsv, upper_hsv)
-	mask = cv2.medianBlur(mask,3)
+sk,3)
 	mask_inv = 255-mask 
 	mask = cv2.dilate(mask,kernel,5)
 	
