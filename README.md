@@ -15,4 +15,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
    ```bash
    pip install open-cv python
 
- - If you want access to additional OpenCV module
+ - If you want access to additional OpenCV modules
