@@ -1,6 +1,4 @@
 
-import numpy as np
-
 def nothing(x):
     pass  # Placeholder function for trackbar callbacks
 
