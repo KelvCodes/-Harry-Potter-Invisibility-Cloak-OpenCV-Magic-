@@ -1,6 +1,5 @@
 
-    upper_bound = np.array([upper_h, upper_s, upper_v])
-
+  
     # Create mask
     mask = cv2.inRange(hsv, lower_bound, upper_bound)
     mask = cv2.medianBlur(mask, 3)
