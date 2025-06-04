@@ -1,3 +1,1 @@
 
-cv2.destroyAllWindows()
-
