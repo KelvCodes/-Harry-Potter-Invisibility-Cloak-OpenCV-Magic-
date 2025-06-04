@@ -1,6 +1,4 @@
 
-
-    lower_bound = np.array([lower_h, lower_s, lower_v])
     upper_bound = np.array([upper_h, upper_s, upper_v])
 
     # Create mask
