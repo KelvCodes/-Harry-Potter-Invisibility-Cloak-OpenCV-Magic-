@@ -1,5 +1,4 @@
 
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     # Read trackbar values
     upper_h = cv2.getTrackbarPos("Upper Hue", "Trackbars")
