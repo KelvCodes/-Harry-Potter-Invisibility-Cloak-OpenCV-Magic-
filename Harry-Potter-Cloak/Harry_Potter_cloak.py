@@ -1,7 +1,4 @@
 
-
-
-# Allow the camera to warm up and capture the static background
 print("Capturing background...")
 while True:
     ret, background = cap.read()
