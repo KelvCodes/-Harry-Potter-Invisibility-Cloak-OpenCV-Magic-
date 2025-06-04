@@ -1,6 +1,4 @@
 
-print("Capturing background...")
-while True:
     ret, background = cap.read()
     if ret:
         background = cv2.flip(background, 1)
