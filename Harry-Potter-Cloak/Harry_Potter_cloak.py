@@ -1,8 +1,4 @@
-
-  
-        background = cv2.flip(background, 1)
-        break
-    cv2.waitKey(1000)
+000)
 
 print("Background captured. Starting invisibility cloak...")
 
