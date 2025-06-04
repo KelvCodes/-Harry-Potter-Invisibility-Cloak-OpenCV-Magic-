@@ -1,5 +1,4 @@
 
-    lower_h = cv2.getTrackbarPos("Lower Hue", "Trackbars")
     lower_s = cv2.getTrackbarPos("Lower Saturation", "Trackbars")
     lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
 
