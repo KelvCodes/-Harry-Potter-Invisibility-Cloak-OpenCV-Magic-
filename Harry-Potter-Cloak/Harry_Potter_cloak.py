@@ -1,5 +1,4 @@
 
-def nothing(x):
     pass  # Placeholder function for trackbar callbacks
 
 # Initialize camera
