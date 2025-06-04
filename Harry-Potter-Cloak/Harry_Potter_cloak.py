@@ -1,6 +1,3 @@
-000)
-
-print("Background captured. Starting invisibility cloak...")
 
 # Process frames continuously
 while True:
