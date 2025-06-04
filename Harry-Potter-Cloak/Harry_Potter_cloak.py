@@ -1,6 +1,4 @@
 
-    pass  # Placeholder function for trackbar callbacks
-
 # Initialize camera
 cap = cv2.VideoCapture(0)
 cv2.namedWindow("Trackbars")
