@@ -1,7 +1,4 @@
 
-  
-3), np.uint8), iterations=1)
-    mask_inv = cv2.bitwise_not(mask)
 
     # Segment out the cloak and background areas
     cloak_area = cv2.bitwise_and(background, background, mask=mask)
