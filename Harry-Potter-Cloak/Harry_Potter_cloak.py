@@ -1,7 +1,4 @@
 
-
-    # Segment out the cloak and background areas
-    cloak_area = cv2.bitwise_and(background, background, mask=mask)
     visible_area = cv2.bitwise_and(frame, frame, mask=mask_inv)
 
     # Combine both to create final output
