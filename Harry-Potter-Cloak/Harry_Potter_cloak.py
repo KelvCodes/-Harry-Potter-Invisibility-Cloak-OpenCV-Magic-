@@ -24,3 +24,8 @@ cv2.createTrackbar("Upper Value", "Trackbars", 255, 255, nothing)
 # ------------------- Capture Background -------------------
 print("Warming up the camera. Please stay out of the frame...")
 cv2.waitKey(2000)  # Wait before capturing background
+
+while True:
+    ret, background = cap.read()
+    if not ret:
+        continue
