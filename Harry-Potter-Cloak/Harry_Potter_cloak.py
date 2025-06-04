@@ -1,7 +1,4 @@
 
-
-    # Read trackbar values
-    upper_h = cv2.getTrackbarPos("Upper Hue", "Trackbars")
     upper_s = cv2.getTrackbarPos("Upper Saturation", "Trackbars")
     upper_v = cv2.getTrackbarPos("Upper Value", "Trackbars")
     lower_h = cv2.getTrackbarPos("Lower Hue", "Trackbars")
