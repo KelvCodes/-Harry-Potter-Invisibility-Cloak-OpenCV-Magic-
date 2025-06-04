@@ -1,5 +1,4 @@
-re(0)
-cv2.namedWindow("Trackbars")
+
 
 # Create trackbars for color range adjustment
 cv2.createTrackbar("Upper Hue", "Trackbars", 110, 180, nothing)
