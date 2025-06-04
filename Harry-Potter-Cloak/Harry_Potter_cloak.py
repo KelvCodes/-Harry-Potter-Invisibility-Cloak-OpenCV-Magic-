@@ -1,6 +1,4 @@
 
-    # Combine both to create final output
-    final_output = cv2.addWeighted(cloak_area, 1, visible_area, 1, 0)
 
     cv2.imshow("Harry's Cloak", final_output)
 
