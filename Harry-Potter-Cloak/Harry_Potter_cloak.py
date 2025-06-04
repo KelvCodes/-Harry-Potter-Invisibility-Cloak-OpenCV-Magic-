@@ -1,6 +1,5 @@
 
-    ret, background = cap.read()
-    if ret:
+  
         background = cv2.flip(background, 1)
         break
     cv2.waitKey(1000)
