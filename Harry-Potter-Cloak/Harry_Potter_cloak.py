@@ -1,6 +1,4 @@
 
-    visible_area = cv2.bitwise_and(frame, frame, mask=mask_inv)
-
     # Combine both to create final output
     final_output = cv2.addWeighted(cloak_area, 1, visible_area, 1, 0)
 
