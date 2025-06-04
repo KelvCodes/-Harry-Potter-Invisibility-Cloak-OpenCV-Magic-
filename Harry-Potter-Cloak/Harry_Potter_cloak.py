@@ -1,6 +1,4 @@
-
-# Initialize camera
-cap = cv2.VideoCapture(0)
+re(0)
 cv2.namedWindow("Trackbars")
 
 # Create trackbars for color range adjustment
