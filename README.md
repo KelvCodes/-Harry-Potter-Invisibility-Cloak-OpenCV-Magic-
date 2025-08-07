@@ -19,4 +19,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
  - If you want access to additional OpenCV modules (e.g.,extra features from opencv-contrib)
 
 ---
-## Contributi
+## Contributio
