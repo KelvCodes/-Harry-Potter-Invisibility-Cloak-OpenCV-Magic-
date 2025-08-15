@@ -1,7 +1,5 @@
  wear your cloak and press 'q' to quit.")
-
-    regetTrackbarPos("Lower Hue", "Trackbars")
-    lower_s = cv2.getTrackbarPos("Lower Saturation", "Trackbars")
+ cv2.getTrackbarPos("Lower Saturation", "Trackbars")
     lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
     
     lower_bound = np.array([lower_h, lower_s, lower_v])
