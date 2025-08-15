@@ -1,4 +1,4 @@
-pper Saturation", "Trackbars", 255, 255, nothing)
+ 255, nothing)
 cv2.createTrackbar("Upper Value", "Trackbars", 255, 255, nothing)
 
 # ------------------- Capture Background -------------------
