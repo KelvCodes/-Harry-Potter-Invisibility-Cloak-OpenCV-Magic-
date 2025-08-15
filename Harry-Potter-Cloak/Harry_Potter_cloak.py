@@ -1,6 +1,6 @@
 
 
-def nothing(x):
+deng(x):
     pass  # Trackbar callback function
 
 # ------------------- Setup -------------------
