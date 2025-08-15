@@ -1,5 +1,3 @@
- ing)
-cv2.createTrackbar("Upper Value", "Trackbars", 255, 255, nothing)
 
 # ------------------- Capture Background -------------------
 print("Warming up the camera. Please stay out of the frame...")
