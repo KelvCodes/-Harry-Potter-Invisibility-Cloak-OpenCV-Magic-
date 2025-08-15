@@ -1,5 +1,5 @@
 
-# ------------------- Setup -------------------
+# -------------------
 # Start video capture
 cap = cv2.VideoCapture(0)
 
