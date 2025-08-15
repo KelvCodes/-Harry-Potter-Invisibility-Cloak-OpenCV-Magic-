@@ -1,5 +1,4 @@
-ra.")
-    exit()
+
 
 cv2.namedWindow("Trackbars", cv2.WINDOW_NORMAL)
 
