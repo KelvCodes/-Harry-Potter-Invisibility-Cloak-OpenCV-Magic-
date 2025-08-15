@@ -2,9 +2,6 @@
  cv2.getTrackbarPos("Lower Saturation", "Trackbars")
     lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
     
-    lower_bound = np.array([lower_h, lower_s, lower_v])
-    upper_bound = np.array([upper_h, upper_s, upper_v])
-
     # Create masks
     mask = cv2.inRange(hsv, lower_bound, upper_bound)
     mask = cv2.medianBlur(mask, 3)
