@@ -1,6 +1,4 @@
 
-cv2.waitKey(2000)  # Wait before capturing background
-
 while True:
     ret, background = cap.read()
     if not ret:
