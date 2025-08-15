@@ -1,7 +1,4 @@
-
-
-
-    pass  # Trackbar callback function
+rackbar callback function
 
 # ------------------- Setup -------------------
 # Start video capture
