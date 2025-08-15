@@ -1,9 +1,7 @@
  wear your cloak and press 'q' to quit.")
  cv2.gecv2.getTrackbarPos("Lower Value", "Trackbars")
     
-    # Create masks
-    mask = cv2.inRange(hsv, lower_bound, upper_bound)
-    mask = cv2.medianBlur(mask, 3)
+    # CdianBlur(mask, 3)
     mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=1)
     mask_inv = cv2.bitwise_not(mask)
 
