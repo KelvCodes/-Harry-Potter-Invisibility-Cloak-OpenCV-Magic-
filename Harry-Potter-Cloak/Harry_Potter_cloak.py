@@ -1,5 +1,4 @@
- 1)
-    cv2.ind captured.")
+ptured.")
         break
 
 cv2.destroyWindow("Background Frame")
