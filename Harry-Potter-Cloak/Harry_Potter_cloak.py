@@ -1,5 +1,4 @@
-
-    print("Error: Could not access the camera.")
+uld not access the camera.")
     exit()
 
 cv2.namedWindow("Trackbars", cv2.WINDOW_NORMAL)
