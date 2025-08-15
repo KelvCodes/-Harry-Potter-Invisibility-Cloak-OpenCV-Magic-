@@ -1,4 +1,4 @@
- 255, nothing)
+ ing)
 cv2.createTrackbar("Upper Value", "Trackbars", 255, 255, nothing)
 
 # ------------------- Capture Background -------------------
