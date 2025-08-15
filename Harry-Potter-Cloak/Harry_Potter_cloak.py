@@ -1,10 +1,6 @@
  wear your cloak and press 'q' to quit.")
 
-    ret, frame = cap.read()
-    if not ret:
-        print("Error: Unable to fetch frame.")
-        break
-
+    ret,
     frame = cv2.flip(frame, 1)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
