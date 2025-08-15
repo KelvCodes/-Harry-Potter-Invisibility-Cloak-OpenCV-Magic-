@@ -1,6 +1,6 @@
 
 
-deng(x):
+
     pass  # Trackbar callback function
 
 # ------------------- Setup -------------------
