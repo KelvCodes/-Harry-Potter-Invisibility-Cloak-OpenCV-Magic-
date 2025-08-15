@@ -1,6 +1,4 @@
-
-        continue
-    background = cv2.flip(background, 1)
+round, 1)
     cv2.imshow("Background Frame", background)
     if cv2.waitKey(1) & 0xFF == ord('b'):
         print("Background captured.")
