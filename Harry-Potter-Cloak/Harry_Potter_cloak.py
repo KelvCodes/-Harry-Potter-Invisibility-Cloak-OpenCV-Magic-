@@ -1,4 +1,3 @@
-rackbar callback function
 
 # ------------------- Setup -------------------
 # Start video capture
