@@ -1,7 +1,4 @@
 
-
-
-# Trackbars for HSV thresholds
 cv2.createTrackbar("Lower Hue", "Trackbars", 68, 180, nothing)
 cv2.createTrackbar("Lower Saturation", "Trackbars", 55, 255, nothing)
 cv2.createTrackbar("Lower Value", "Trackbars", 54, 255, nothing)
