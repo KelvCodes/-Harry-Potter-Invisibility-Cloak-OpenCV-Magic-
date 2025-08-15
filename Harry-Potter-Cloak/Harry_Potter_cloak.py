@@ -1,6 +1,5 @@
  wear your cloak and press 'q' to quit.")
 
-while True:
     ret, frame = cap.read()
     if not ret:
         print("Error: Unable to fetch frame.")
