@@ -1,7 +1,5 @@
 round, 1)
-    cv2.imshow("Background Frame", background)
-    if cv2.waitKey(1) & 0xFF == ord('b'):
-        print("Background captured.")
+    cv2.ind captured.")
         break
 
 cv2.destroyWindow("Background Frame")
