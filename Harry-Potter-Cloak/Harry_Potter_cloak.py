@@ -3,10 +3,7 @@
     regetTrackbarPos("Lower Hue", "Trackbars")
     lower_s = cv2.getTrackbarPos("Lower Saturation", "Trackbars")
     lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
-    upper_h = cv2.getTrackbarPos("Upper Hue", "Trackbars")
-    upper_s = cv2.getTrackbarPos("Upper Saturation", "Trackbars")
-    upper_v = cv2.getTrackbarPos("Upper Value", "Trackbars")
-
+    
     lower_bound = np.array([lower_h, lower_s, lower_v])
     upper_bound = np.array([upper_h, upper_s, upper_v])
 
