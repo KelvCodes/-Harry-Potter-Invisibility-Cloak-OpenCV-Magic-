@@ -1,5 +1,4 @@
 
-t of the frame...")
 cv2.waitKey(2000)  # Wait before capturing background
 
 while True:
