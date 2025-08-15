@@ -1,6 +1,5 @@
  wear your cloak and press 'q' to quit.")
- cv2.getTrackbarPos("Lower Saturation", "Trackbars")
-    lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
+ cv2.gecv2.getTrackbarPos("Lower Value", "Trackbars")
     
     # Create masks
     mask = cv2.inRange(hsv, lower_bound, upper_bound)
