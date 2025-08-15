@@ -1,7 +1,4 @@
 
-while True:
-    ret, background = cap.read()
-    if not ret:
         continue
     background = cv2.flip(background, 1)
     cv2.imshow("Background Frame", background)
