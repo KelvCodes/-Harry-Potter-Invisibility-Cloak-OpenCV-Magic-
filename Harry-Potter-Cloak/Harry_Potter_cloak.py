@@ -1,6 +1,4 @@
-oCapture(0)
 
-if not cap.isOpened():
     print("Error: Could not access the camera.")
     exit()
 
