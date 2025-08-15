@@ -1,4 +1,4 @@
-mpy as np
+
 
 def nothing(x):
     pass  # Trackbar callback function
