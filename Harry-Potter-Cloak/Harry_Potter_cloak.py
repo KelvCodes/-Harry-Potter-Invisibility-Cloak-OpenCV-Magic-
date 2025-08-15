@@ -1,6 +1,5 @@
 
-# ------------------- Capture Background -------------------
-print("Warming up the camera. Please stay out of the frame...")
+ camera. Please stay out of the frame...")
 cv2.waitKey(2000)  # Wait before capturing background
 
 while True:
