@@ -1,10 +1,4 @@
-ptured.")
-        break
-
-cv2.destroyWindow("Background Frame")
-
-# ------------------- Main Loop -------------------
-print("Now wear your cloak and press 'q' to quit.")
+ wear your cloak and press 'q' to quit.")
 
 while True:
     ret, frame = cap.read()
