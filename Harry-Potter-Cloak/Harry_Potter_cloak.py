@@ -1,6 +1,5 @@
 
-
-cv2.namedWindow("Trackbars", cv2.WINDOW_NORMAL)
+ackbars", cv2.WINDOW_NORMAL)
 
 # Trackbars for HSV thresholds
 cv2.createTrackbar("Lower Hue", "Trackbars", 68, 180, nothing)
