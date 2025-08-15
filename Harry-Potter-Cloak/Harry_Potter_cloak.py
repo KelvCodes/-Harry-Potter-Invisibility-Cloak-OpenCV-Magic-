@@ -1,4 +1,4 @@
-uld not access the camera.")
+ss the camera.")
     exit()
 
 cv2.namedWindow("Trackbars", cv2.WINDOW_NORMAL)
