@@ -1,4 +1,3 @@
-"Trackbars", 110, 180, nothing)
 cv2.createTrackbar("Upper Saturation", "Trackbars", 255, 255, nothing)
 cv2.createTrackbar("Upper Value", "Trackbars", 255, 255, nothing)
 
