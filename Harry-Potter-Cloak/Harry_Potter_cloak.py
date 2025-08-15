@@ -1,11 +1,6 @@
  wear your cloak and press 'q' to quit.")
 
-    ret,
-    frame = cv2.flip(frame, 1)
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-
-    # Get current HSV threshold values
-    lower_h = cv2.getTrackbarPos("Lower Hue", "Trackbars")
+    regetTrackbarPos("Lower Hue", "Trackbars")
     lower_s = cv2.getTrackbarPos("Lower Saturation", "Trackbars")
     lower_v = cv2.getTrackbarPos("Lower Value", "Trackbars")
     upper_h = cv2.getTrackbarPos("Upper Hue", "Trackbars")
