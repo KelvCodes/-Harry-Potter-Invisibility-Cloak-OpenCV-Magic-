@@ -1,4 +1,4 @@
-round, 1)
+ 1)
     cv2.ind captured.")
         break
 
