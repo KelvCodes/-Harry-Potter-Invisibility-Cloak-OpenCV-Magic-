@@ -1,5 +1,4 @@
-
-import numpy as np
+mpy as np
 
 def nothing(x):
     pass  # Trackbar callback function
