@@ -1,4 +1,4 @@
-ars."""p.array([
+y([
         cv2.getTrackbarPos("Lower Hue", window_name),
         cv2.getTrackbarPos("Lower Saturation", window_name),
         cv2.getTrackbarPos("Lower Value", window_name)
