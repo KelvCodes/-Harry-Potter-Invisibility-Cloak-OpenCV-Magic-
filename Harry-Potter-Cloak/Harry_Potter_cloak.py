@@ -1,4 +1,4 @@
-ower Value", window_name)
+e)
     ])
     upper = np.array([
         cv2.getTrackbarPos("Upper Hue", window_name),
