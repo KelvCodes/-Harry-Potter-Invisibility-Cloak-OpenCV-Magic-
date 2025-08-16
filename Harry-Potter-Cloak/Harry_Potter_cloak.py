@@ -1,4 +1,4 @@
-nds from trackbars."""
+ars."""
     lower = np.array([
         cv2.getTrackbarPos("Lower Hue", window_name),
         cv2.getTrackbarPos("Lower Saturation", window_name),
