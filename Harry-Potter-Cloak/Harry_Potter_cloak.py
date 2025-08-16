@@ -1,13 +1,7 @@
 ground
      "Background Capture", frame)
 
-        if cv2.waitKey(1) & 0xFF == ord('b'):
-            backgr
-    # Main invisibility effect loop
-    print("🧥 Wear your cloak now! Press 'q' to quit.")
-
-    while True:
-        ret, frame = cap.read()
+     
         if not ret:
             print("⚠️ Could not read frame.")
             break
