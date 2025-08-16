@@ -1,5 +1,4 @@
-
-lper Functions -------------------
+nctions -------------------
 def trackbar_callback(_):
     """Callback for trackbar, does nothing but required by OpenCV."""
     pass
