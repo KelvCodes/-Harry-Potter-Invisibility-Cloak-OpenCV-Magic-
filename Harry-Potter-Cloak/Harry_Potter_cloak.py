@@ -1,9 +1,4 @@
-np.array([
-     ckbarPos("Upper Value", window_name)
-    ])
-    return lower, upper
-
-# ------------------- Main Program -------------------
+np.arr------ Main Program -------------------
 def main():
     cap = cv2.VideoCapture(0)
 
