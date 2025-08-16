@@ -1,10 +1,3 @@
-ground
-     "Background Capture", frame)
-
-     
-        if not ret:
-            print("⚠️ Could not read frame.")
-            break
 
         frame = cv2.flip(frame, 1)
         hsv_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
