@@ -1,4 +1,4 @@
-t_hsv_bounds(window_name):
+t_hsv_boundme):
     """Retrieve HSV bounds from trackbars."""
     lower = np.array([
         cv2.getTrackbarPos("Lower Hue", window_name),
