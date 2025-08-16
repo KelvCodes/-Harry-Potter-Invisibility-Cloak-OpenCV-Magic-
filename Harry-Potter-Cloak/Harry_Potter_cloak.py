@@ -1,6 +1,5 @@
  trackbars for color    cv2.createTrackbar("Lower Hue", window_name, 68, 180, trackbar_callback)
-    cv2.createTrackbar("Lower Saturation", window_name, 55, 255, trackbar_callback)
-    cv2.createTrackbar("Lower Value", window_name, 54, 255, trackbar_callback)
+    cv2.createTrackbar("Lowue", window_name, 54, 255, trackbar_callback)
     cv2.createTrackbar("Upper Hue", window_name, 110, 180, trackbar_callback)
     cv2.createTrackbar("Upper Saturation", window_name, 255, 255, trackbar_callback)
     cv2.createTrackbar("Upper Value", window_name, 255, 255, trackbar_callback)
