@@ -1,9 +1,5 @@
 ground
-        ret, frame = cap.read()
-        if not ret:
-            continue
-        frame = cv2.flip(frame, 1)
-        cv2.imshow("Background Capture", frame)
+     "Background Capture", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('b'):
             background = frame.copy()
