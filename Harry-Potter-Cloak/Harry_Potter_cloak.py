@@ -1,4 +1,4 @@
- trackbarwindow_name, 110, 180, trackbar_callback)
+ame, 110, 180, trackbar_callback)
     cv2.createTrackbar("Upper Saturation", window_name, 255, 255, trackbar_callback)
     cv2.createTrackbar("Upper Value", window_name, 255, 255, trackbar_callback)
 
