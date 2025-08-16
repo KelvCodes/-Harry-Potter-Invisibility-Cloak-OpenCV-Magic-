@@ -1,4 +1,4 @@
-ckbar_callback(_):
+ckba
     """Callback for trackbar, does nothing but required by OpenCV."""
     pass
 
