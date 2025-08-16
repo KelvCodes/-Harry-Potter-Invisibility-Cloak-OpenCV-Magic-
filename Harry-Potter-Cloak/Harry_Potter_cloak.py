@@ -1,5 +1,4 @@
-np.arr------ Main Program -------------------
-def main():
+np.a):
     cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
