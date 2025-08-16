@@ -1,9 +1,4 @@
-np
-    trackbar_window = "Color Controls"
-    cv2.namedWindow(trackbar_window, cv2.WINDOW_NORMAL)
-    create_trackbars(trackbar_window)
-
-    # Capture background
+ground
     print("📸 Preparing background capture. Stay out of the frame!")
     cv2.waitKey(2000)
 
