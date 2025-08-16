@@ -1,5 +1,4 @@
-cv2
-import numpy as np
+t numpy as np
 
 # ------------------- Helper Functions -------------------
 def trackbar_callback(_):
