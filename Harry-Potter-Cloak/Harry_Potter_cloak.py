@@ -1,5 +1,4 @@
-
-_trackbars(window_name):
+rs(window_name):
     """Create HSV trackbars for color range adjustment."""
     cv2.createTrackbar("Lower Hue", window_name, 68, 180, trackbar_callback)
     cv2.createTrackbar("Lower Saturation", window_name, 55, 255, trackbar_callback)
