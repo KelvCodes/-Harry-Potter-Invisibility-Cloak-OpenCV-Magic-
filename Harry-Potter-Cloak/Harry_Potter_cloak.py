@@ -1,4 +1,4 @@
- Saturation", window_name),
+ow_name),
         cv2.getTrackbarPos("Lower Value", window_name)
     ])
     upper = np.array([
