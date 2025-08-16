@@ -1,4 +1,4 @@
- for trackbar, does nothing but required by OpenCV."""
+kbar, does nothing but required by OpenCV."""
     pass
 
 def create_trackbars(window_name):
