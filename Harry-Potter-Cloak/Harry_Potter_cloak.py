@@ -2,12 +2,7 @@ ground
      "Background Capture", frame)
 
         if cv2.waitKey(1) & 0xFF == ord('b'):
-            background = frame.copy()
-            print("✅ Background captured.")
-            break
-
-    cv2.destroyWindow("Background Capture")
-
+            backgr
     # Main invisibility effect loop
     print("🧥 Wear your cloak now! Press 'q' to quit.")
 
