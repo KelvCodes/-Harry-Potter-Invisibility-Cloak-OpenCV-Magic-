@@ -4,12 +4,6 @@
 
         lower_bound, upper_bound = get_hsv_bounds(trackbar_window)
 
-        # Create mask
-        mask = cv2.inRange(hsv_frame, lower_bound, upper_bound)
-        mask = cv2.medianBlur(mask, 3)
-        mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=1)
-        mask_inv = cv2.bitwise_not(mask)
-
         # Apply invisibility effect
         cloak_area = cv2.bitwise_and(background, background, mask=mask)
         visible_area = cv2.bitwise_and(frame, frame, mask=mask_inv)
