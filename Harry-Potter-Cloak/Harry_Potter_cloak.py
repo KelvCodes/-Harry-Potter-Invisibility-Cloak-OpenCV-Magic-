@@ -1,9 +1,4 @@
 ground
-    print("📸 Preparing background capture. Stay out of the frame!")
-    cv2.waitKey(2000)
-
-    background = None
-    while True:
         ret, frame = cap.read()
         if not ret:
             continue
