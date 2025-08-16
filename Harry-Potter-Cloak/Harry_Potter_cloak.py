@@ -1,5 +1,4 @@
-
-    """Retrieve HSV bounds from trackbars."""
+nds from trackbars."""
     lower = np.array([
         cv2.getTrackbarPos("Lower Hue", window_name),
         cv2.getTrackbarPos("Lower Saturation", window_name),
