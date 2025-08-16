@@ -1,5 +1,4 @@
-------
-def trackbar_callback(_):
+ckbar_callback(_):
     """Callback for trackbar, does nothing but required by OpenCV."""
     pass
 
