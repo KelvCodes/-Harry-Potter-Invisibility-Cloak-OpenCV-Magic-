@@ -1,9 +1,4 @@
-np.a):
-  
-    if not cap.isOpened():
-        print("❌ Camera not accessible.")
-        return
-
+np
     trackbar_window = "Color Controls"
     cv2.namedWindow(trackbar_window, cv2.WINDOW_NORMAL)
     create_trackbars(trackbar_window)
