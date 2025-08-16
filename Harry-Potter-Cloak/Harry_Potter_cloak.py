@@ -1,6 +1,4 @@
-e)
-    ])
-    upper = np.array([
+np.array([
         cv2.getTrackbarPos("Upper Hue", window_name),
         cv2.getTrackbarPos("Upper Saturation", window_name),
         cv2.getTrackbarPos("Upper Value", window_name)
