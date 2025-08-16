@@ -1,5 +1,4 @@
-back)
-    cv2.createTrackbar("Upper Saturation", window_name, 255, 255, trackbar_callback)
+ateTrackbar("Upper Saturation", window_name, 255, 255, trackbar_callback)
     cv2.createTrackbar("Upper Value", window_name, 255, 255, trackbar_callback)
 
 def get_hsv_bounds(window_name):
