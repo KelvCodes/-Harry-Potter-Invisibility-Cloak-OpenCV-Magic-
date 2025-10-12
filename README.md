@@ -20,4 +20,5 @@ Install the core OpenCV library to work with image processing, computer vision, 
 
 ---
 ## Contribution
-If you've got ideas to make this an project better
+If you've got ideas to make this any
+project better
