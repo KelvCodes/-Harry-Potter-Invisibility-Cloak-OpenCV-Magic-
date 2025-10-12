@@ -22,4 +22,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
 ## Contribution
 If you've got ideas to make this any
 project better?
-Feel free to fork this repository, ma
+Feel free to fork this repository, mak
