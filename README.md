@@ -21,4 +21,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
 ---
 ## Contribution
 If you've got ideas to make this project any better?
-Feel free to fork this repository, make improvements and make a pull request.
+Feel free to fork this repository, make improvements and make a pull request.🤝
