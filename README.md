@@ -23,4 +23,4 @@ Install the core OpenCV library to work with image processing, computer vision, 
 You've got ideas to make this project any better?
 Feel free to; 
 1. Fork this repository.
-2. Make your mima a pul
+2. Make your mima a pl
