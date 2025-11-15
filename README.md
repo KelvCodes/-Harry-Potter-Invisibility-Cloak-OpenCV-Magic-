@@ -25,4 +25,4 @@ Feel free to;
 1. Fork this repository.
 2. Make your improved contributions.
 3. Create your new branch
-4. Make a pull request with a brief description of your contrib
+4. Make a pull request with a brief description of your contribut
