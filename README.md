@@ -24,4 +24,4 @@ You've got ideas to make this project any better?
 Feel free to; 
 1. Fork this repository.
 2. Make your improved contributions.
-3. Create your new branch with a bri
+3. Create your new branch with a brie
