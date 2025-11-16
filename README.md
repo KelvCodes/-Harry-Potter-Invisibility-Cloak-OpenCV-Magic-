@@ -1,4 +1,4 @@
-## Harry-Potter-Invisibility-Cloak-OpenCV-Magic
+# Harry-Potter-Invisibility-Cloak-OpenCV-Magic
 Remember the classic, award winning(oscar) novel series?, Harry Potter??
 Also,do remember one of Harry's Christmas gift?...The Invinsible Cloak!
 Well, here is it in the python programming language.
