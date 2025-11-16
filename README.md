@@ -26,4 +26,4 @@ Feel free to;
 2. Make your improved contributions.
 3. Create your new branch
 4. Make a pull request with a brief description of your contributions
-5. Now
+5. Now s
