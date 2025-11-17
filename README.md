@@ -1,7 +1,7 @@
 # Harry-Potter-Invisibility-Cloak-OpenCV-Magic
 Remember the classic, award winning(oscar) novel series?, Harry Potter??
 Also,do remember one of Harry's Christmas gift?...The Invinsible Cloak!
-Well, here is it in the python programming language.
+Well, here is it in the python programming language!
 A fun computer vision project that makes you disappear on camera using color detection; just like Harry Potter’s invisibility cloak! Built with Python and OpenCV, this project uses real-time video masking to replace your cloak with the background!,just like in the movie!🧙‍♂️✨
 
 ---
