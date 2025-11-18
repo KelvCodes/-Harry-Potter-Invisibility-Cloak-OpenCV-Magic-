@@ -1,6 +1,4 @@
 
-    ])
-    return lower, upper
 
 # ------------------- Main Function -------------------
 def invisibility_cloak():
