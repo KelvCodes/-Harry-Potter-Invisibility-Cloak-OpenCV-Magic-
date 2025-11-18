@@ -1,4 +1,4 @@
-numpy as np
+s np
 
 # ------------------- Utility Functions -------------------
 def nothing(_):
