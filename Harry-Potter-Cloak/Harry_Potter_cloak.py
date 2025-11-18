@@ -1,4 +1,4 @@
-rackbar("UV", window_name, 255, 255, nothing)  # Upper Value
+ window_name, 255, 255, nothing)  # Upper Value
 
 def read_trackbar_values(window_name):
     """Read current HSV range values from trackbars."""
