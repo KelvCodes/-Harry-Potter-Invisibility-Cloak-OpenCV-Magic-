@@ -1,6 +1,4 @@
-
-
-# ------------------- Main Function -------------------
+n Function -------------------
 def invisibility_cloak():
     cap = cv2.VideoCapture(0)
 
