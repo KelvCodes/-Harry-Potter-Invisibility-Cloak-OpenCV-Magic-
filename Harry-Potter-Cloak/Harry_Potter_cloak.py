@@ -1,4 +1,4 @@
-rackbar("US", window_name, 255, 255, nothing)  # Upper Saturation
+indow_name, 255, 255, nothing)  # Upper Saturation
     cv2.createTrackbar("UV", window_name, 255, 255, nothing)  # Upper Value
 
 def read_trackbar_values(window_name):
