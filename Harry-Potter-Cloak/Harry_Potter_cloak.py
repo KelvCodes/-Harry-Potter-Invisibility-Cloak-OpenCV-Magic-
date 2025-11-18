@@ -1,4 +1,4 @@
-255, nothing)   # Lower Value
+ # Lower Value
     cv2.createTrackbar("UH", window_name, 110, 180, nothing)  # Upper Hue
     cv2.createTrackbar("US", window_name, 255, 255, nothing)  # Upper Saturation
     cv2.createTrackbar("UV", window_name, 255, 255, nothing)  # Upper Value
