@@ -1,5 +1,4 @@
-cv2
-import numpy as np
+numpy as np
 
 # ------------------- Utility Functions -------------------
 def nothing(_):
