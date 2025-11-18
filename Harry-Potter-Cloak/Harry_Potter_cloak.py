@@ -1,6 +1,4 @@
 
-
-def read_trackbar_values(window_name):
     """Read current HSV range values from trackbars."""
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
