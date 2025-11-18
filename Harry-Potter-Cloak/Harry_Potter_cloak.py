@@ -1,4 +1,4 @@
--------- Utility Functions -------------------
+tility Functions -------------------
 def nothing(_):
     """Dummy function for trackbar callbacks."""
     pass
