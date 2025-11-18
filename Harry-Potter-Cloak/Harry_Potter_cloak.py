@@ -1,6 +1,5 @@
 
-
-    # Cw with trackbars
+bars
     controls = "Cloak Controls"
     cv2.namedWindow(controls, cv2.WINDOW_NORMAL)
     setup_trackbars(controls)
