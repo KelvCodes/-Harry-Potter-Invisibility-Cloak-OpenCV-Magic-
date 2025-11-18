@@ -1,4 +1,4 @@
-kbar callbacks."""
+backs."""
     pass
 
 def setup_trackbars(window_name):
