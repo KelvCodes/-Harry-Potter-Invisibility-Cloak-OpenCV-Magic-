@@ -1,4 +1,4 @@
-ty F---------------
+
 def nothing(_):
     """Dummy function for trackbar callbacks."""
     pass
