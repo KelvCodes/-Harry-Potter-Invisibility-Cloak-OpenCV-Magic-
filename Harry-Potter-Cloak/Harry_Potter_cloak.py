@@ -1,4 +1,4 @@
-thing(_):
+_):
     """Dummy function for trackbar callbacks."""
     pass
 
