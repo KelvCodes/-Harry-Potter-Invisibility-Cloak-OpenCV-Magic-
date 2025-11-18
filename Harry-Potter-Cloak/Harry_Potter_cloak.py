@@ -1,5 +1,4 @@
-
-def nothing(_):
+thing(_):
     """Dummy function for trackbar callbacks."""
     pass
 
