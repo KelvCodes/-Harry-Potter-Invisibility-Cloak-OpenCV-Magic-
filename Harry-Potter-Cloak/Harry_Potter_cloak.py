@@ -1,4 +1,4 @@
-f setup_trackbars(window_name):
+_trackbars(window_name):
     """Create HSV range trackbars for cloak detection."""
     cv2.createTrackbar("LH", window_name, 68, 180, nothing)   # Lower Hue
     cv2.createTrackbar("LS", window_name, 55, 255, nothing)   # Lower Saturation
