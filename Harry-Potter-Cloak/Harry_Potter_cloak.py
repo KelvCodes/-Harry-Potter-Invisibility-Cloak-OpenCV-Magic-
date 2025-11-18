@@ -1,4 +1,4 @@
-nothing)  # Upper Value
+
 
 def read_trackbar_values(window_name):
     """Read current HSV range values from trackbars."""
