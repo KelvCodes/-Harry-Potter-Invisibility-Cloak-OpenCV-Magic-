@@ -1,5 +1,4 @@
-n Function -------------------
-def invisibility_cloak():
+n Function -------
     cap = cv2.VideoCapture(0)
 
     if not cap.isOpened():
