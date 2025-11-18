@@ -1,5 +1,4 @@
-n Function -------
-    cap = cv2.VideoCapture(0)
+n Function ture(0)
 
     if not cap.isOpened():
         print("❌ Could not access the camera.")
