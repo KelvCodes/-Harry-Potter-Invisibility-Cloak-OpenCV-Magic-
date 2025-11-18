@@ -1,4 +1,4 @@
-unction for trackbar callbacks."""
+ for trackbar callbacks."""
     pass
 
 def setup_trackbars(window_name):
