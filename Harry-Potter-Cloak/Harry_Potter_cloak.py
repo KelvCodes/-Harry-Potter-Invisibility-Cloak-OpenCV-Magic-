@@ -1,7 +1,4 @@
-
-
-
-    print("📸 Capturing background... Please move out of the frame and press 'b'")
+d... Please move out of the frame and press 'b'")
     background = None
 
     while True:
