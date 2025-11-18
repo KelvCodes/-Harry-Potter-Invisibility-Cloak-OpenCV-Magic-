@@ -1,6 +1,5 @@
 
 
-    setup_trackbars(controls)
 
     # Capture background
     print("📸 Capturing background... Please move out of the frame and press 'b'")
