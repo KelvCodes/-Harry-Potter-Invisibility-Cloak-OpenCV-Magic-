@@ -1,5 +1,4 @@
-amera.")
-        return
+
 
     # Create window with trackbars
     controls = "Cloak Controls"
