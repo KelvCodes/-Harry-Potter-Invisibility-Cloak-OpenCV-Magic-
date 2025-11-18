@@ -1,6 +1,5 @@
 
-    pass
-
+   
 def setup_trackbars(window_name):
     """Create HSV range trackbars for cloak detection."""
     cv2.createTrackbar("LH", window_name, 68, 180, nothing)   # Lower Hue
