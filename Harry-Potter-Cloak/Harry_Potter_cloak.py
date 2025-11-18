@@ -1,4 +1,4 @@
-("UV", window_name)
+
     ])
     return lower, upper
 
