@@ -1,6 +1,5 @@
 
 
-  dWindow(controls, cv2.WINDOW_NORMAL)
     setup_trackbars(controls)
 
     # Capture background
