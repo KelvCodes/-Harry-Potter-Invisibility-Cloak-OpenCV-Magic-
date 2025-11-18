@@ -1,4 +1,4 @@
- not access the camera.")
+amera.")
         return
 
     # Create window with trackbars
