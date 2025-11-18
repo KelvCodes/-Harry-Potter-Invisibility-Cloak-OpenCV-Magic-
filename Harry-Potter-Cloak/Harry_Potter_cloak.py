@@ -1,5 +1,4 @@
-
-        print("❌ Could not access the camera.")
+ not access the camera.")
         return
 
     # Create window with trackbars
