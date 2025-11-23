@@ -28,4 +28,4 @@ Feel free to;
 4. Make a pull request with a brief description of your contributions
 5. Now wait patiently for your contributions to be reviewed and merged if needed.
 
-   # Thank you!
+# Thank you!
