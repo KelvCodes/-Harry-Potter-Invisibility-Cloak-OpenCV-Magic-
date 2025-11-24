@@ -3,11 +3,7 @@
 
     for i in range(num_frames):
         ret, frame = cap.
-
-        frame = cv2.flip(frame, 1)
-        bg_frames.append(frame)
-
-        cv2.imshow("Background Setup", frame)
+rame)
         cv2.waitKey(1)
 
     cv2.destroyWindow("Background Setup")
