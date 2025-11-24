@@ -1,7 +1,5 @@
 
 
-
-#                    INVISIBILITY CLOAK
 # ============================================================
 
 def capture_background(cap, num_frames=30):
