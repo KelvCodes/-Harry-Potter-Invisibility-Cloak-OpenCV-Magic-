@@ -6,10 +6,6 @@
 
     cv2.destroytype(np.uint8)
 
-
-def invisibility_cloak():
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-
     if not cap.isOpened():
         print("❌ Camera not found. Please connect a webcam.")
         return
