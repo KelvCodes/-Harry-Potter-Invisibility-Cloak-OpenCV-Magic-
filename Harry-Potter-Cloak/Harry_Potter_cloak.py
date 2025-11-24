@@ -1,18 +1,4 @@
-=30):
-
-
-
-        cv2.waitKey(1)
-
-    cv2.destroytype(np.uint8)
-
-    if not cap.isOpened():
-        print("❌ Camera not found. Please connect a webcam.")
-        return
-
-    # Setup controls window
-    control_window = "Cloak Controls"
-    cv2.namedWindow(control_window, cv2.WINDOW_NORMAL)
+ndow, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(control_window, 400, 300)
     setup_trackbars(control_window)
 
