@@ -1,5 +1,4 @@
-
-def nothing(_):
+ng(_):
     """Dummy callback for trackbars."""
     pass
 
