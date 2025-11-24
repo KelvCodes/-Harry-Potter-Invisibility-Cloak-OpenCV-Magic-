@@ -1,5 +1,4 @@
-i cv2
-import numpy as np
+numpy as np
 import time
 
 # ============================================================
