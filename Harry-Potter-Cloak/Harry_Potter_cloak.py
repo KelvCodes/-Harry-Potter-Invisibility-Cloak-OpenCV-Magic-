@@ -1,4 +1,4 @@
-arPos("LS", window_name),
+
         cv2.getTrackbarPos("LV", window_name)
     ])
 
