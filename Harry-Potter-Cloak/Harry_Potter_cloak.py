@@ -1,7 +1,5 @@
 
 
-# ============================================================
-
 def capture_background(cap, num_frames=30):
     """
     Capture a stable background by averaging multiple frames
