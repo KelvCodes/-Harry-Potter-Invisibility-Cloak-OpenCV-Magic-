@@ -1,4 +1,4 @@
-TrackbarPos("US", window_name),
+os("US", window_name),
         cv2.getTrackbarPos("UV", window_name)
     ])
 
