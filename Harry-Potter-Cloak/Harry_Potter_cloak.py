@@ -1,6 +1,4 @@
-
-
-def capture_background(cap, num_frames=30):
+=30):
     """
     Capture a stable background by averaging multiple frames
     for better smoothness and reduced noise.
