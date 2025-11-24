@@ -1,9 +1,7 @@
 =30):
 
 
-    for i in range(num_frames):
-        ret, frame = cap.
-rame)
+
         cv2.waitKey(1)
 
     cv2.destroyWindow("Background Setup")
