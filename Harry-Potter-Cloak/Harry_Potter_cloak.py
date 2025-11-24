@@ -1,5 +1,4 @@
-V", window_name)
-    ])
+V", window_nam
 
     return lower, upper
 
