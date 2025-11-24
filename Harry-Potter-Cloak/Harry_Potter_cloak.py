@@ -4,10 +4,7 @@
 
         cv2.waitKey(1)
 
-    cv2.destroyWindow("Background Setup")
-
-    print("✅ Background captured successfully!")
-    return np.median(bg_frames, axis=0).astype(np.uint8)
+    cv2.destroytype(np.uint8)
 
 
 def invisibility_cloak():
