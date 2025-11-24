@@ -2,9 +2,7 @@
 
 
     for i in range(num_frames):
-        ret, frame = cap.read()
-        if not ret:
-            continue
+        ret, frame = cap.
 
         frame = cv2.flip(frame, 1)
         bg_frames.append(frame)
