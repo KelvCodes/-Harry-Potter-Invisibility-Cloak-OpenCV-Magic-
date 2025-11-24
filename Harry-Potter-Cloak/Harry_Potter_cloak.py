@@ -1,7 +1,5 @@
 =30):
-    """
-    Capture a stduced noise.
-    """
+
 
     for i in range(num_frames):
         ret, frame = cap.read()
