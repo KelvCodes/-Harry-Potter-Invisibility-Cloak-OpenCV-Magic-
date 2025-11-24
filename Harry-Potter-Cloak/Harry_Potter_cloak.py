@@ -1,5 +1,4 @@
-ng(_):
-    """Dummy callback for trackbars."""
+ callback for trackbars."""
     pass
 
 def setup_trackbars(window_name):
