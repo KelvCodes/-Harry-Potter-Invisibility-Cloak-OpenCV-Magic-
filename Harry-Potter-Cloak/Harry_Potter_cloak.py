@@ -1,6 +1,5 @@
 
-"US", window_name, 255, 255, nothing)
-    cv2.createTrackbar("UV", window_name, 255, 255, nothing)
+"US", window_name, 255,, 255, 255, nothing)
 
 def read_trackbar_values(window_name):
     """Return lower and upper HSV values from trackbars."""
