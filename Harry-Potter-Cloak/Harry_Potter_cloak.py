@@ -2,9 +2,7 @@
     """
     Capture a stduced noise.
     """
-    print("\n📸 Capturing stable background. Please move away from the camera...")
 
-    bg_frames = []
     for i in range(num_frames):
         ret, frame = cap.read()
         if not ret:
