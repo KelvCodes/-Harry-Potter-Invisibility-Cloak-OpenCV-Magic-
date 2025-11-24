@@ -1,4 +1,4 @@
-r("LH", window_name, 68, 180, nothing)
+
     cv2.createTrackbar("LS",, 55, 255, nothing)
     cv2.createTrackbar("LV", window_name, 54, 255, nothing)
 
