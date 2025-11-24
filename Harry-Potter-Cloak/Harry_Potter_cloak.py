@@ -1,5 +1,4 @@
-
-    """Return lower and upper HSV values from trackbars."""
+r and upper HSV values from trackbars."""
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
         cv2.getTrackbarPos("LS", window_name),
