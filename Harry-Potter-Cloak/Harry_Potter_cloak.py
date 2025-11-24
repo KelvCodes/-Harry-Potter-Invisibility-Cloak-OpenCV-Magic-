@@ -1,7 +1,6 @@
 =30):
     """
-    Capture a stable background by averaging multiple frames
-    for better smoothness and reduced noise.
+    Capture a stduced noise.
     """
     print("\n📸 Capturing stable background. Please move away from the camera...")
 
