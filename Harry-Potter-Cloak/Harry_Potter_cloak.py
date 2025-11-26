@@ -1,5 +1,4 @@
-arPos("UV", window_name),
-    ])
+arPos("UV", window_nam
 
     return lower, upper
 
