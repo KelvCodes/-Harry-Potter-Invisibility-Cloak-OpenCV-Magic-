@@ -1,5 +1,4 @@
-
-    Capture a stable background by averaging multiple frames.
+by averaging multiple frames.
    
     print("\n📸 Capturing stable background. Move away from the camera...")
 
