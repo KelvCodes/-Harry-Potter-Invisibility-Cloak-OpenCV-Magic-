@@ -1,5 +1,5 @@
 
-    """Dummy callback for trackbars."""
+    " trackbars."""
     pass
 
 def setup_trackbars(window_name):
