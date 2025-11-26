@@ -1,5 +1,4 @@
-
-        cv2.getTrackbarwindow_name),
+rwindow_name),
     ])
 
     upper = np.array([
