@@ -1,6 +1,5 @@
 
-#                   BACKGROUND CAPTURE
-# ============================================================
+#                   BACKGROUND CAPTUR==================
 
 def capture_background(cap, frames_count=50):
     """
