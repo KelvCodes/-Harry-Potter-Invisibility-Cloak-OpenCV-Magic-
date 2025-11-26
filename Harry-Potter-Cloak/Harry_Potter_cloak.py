@@ -1,8 +1,7 @@
 
 #                   BACKGROUND CAPTUR==================
 
-def capture_background(cap, frames_count=50):
-    """
+
     Capture a stable background by averaging multiple frames.
     Higher frame count = smoother + more stable background.
     """
