@@ -1,12 +1,5 @@
 by averaging multiple fra
-
- llected_frames, axis=0).astype(np.uint8)
-    print("✅ Background captured successfully!")
-    return background
-
-
-# ============================================================
-#                   INVISIBILITY CLOAK LOGIC
+LITY CLOAK LOGIC
 # ============================================================
 
 def invisibility_cloak():
