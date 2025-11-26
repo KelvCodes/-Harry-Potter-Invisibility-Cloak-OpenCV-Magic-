@@ -1,6 +1,4 @@
 
-# ============================================================
-
 def nothing(_):
     """Dummy callback for trackbars."""
     pass
