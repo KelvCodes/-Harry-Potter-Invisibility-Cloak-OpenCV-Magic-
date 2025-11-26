@@ -1,5 +1,4 @@
-
-        cv2.getTrackbarPos("UV", window_name),
+arPos("UV", window_name),
     ])
 
     return lower, upper
