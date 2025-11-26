@@ -1,5 +1,4 @@
 
-defg(_):
     """Dummy callback for trackbars."""
     pass
 
