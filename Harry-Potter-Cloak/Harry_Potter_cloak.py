@@ -1,7 +1,6 @@
 
     Capture a stable background by averaging multiple frames.
-    Higher frame count = smoother + more stable background.
-    """
+   
     print("\n📸 Capturing stable background. Move away from the camera...")
 
     collected_frames = []
