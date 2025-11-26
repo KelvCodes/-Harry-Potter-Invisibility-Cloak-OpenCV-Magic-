@@ -1,7 +1,4 @@
 
-#                   BACKGROUND CAPTUR==================
-
-
     Capture a stable background by averaging multiple frames.
     Higher frame count = smoother + more stable background.
     """
