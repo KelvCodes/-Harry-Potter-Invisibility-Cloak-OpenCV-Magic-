@@ -1,8 +1,4 @@
-by averaging multiple frames.
-   
-    print("\n📸 Capturing stable background. Move away from the camera...")
-
-    collected_frames = []
+by averaging multiple fra
 
     for i in range(frames_count):
         ret, frame = cap.read()
