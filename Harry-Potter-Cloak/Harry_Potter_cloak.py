@@ -1,6 +1,4 @@
-w_name, 255, 255, nothing)e, 255, 255, nothing)
-er HSV values from trackbars."""
-    lower = np.array([
+
         cv2.getTrackbarPos("LH", window_name),
         cv2.getTrackbarPos("LS", window_name),
         cv2.getTrackbarPos("LV", window_name),
