@@ -3,13 +3,7 @@ LITY CLOAK LOGIC
 # ============================================================
 
 def invisibility_cloak():
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-
-    if not cap.isOpened():
-        print("❌ Camera not detected.")
-        return
-
-    # Control window
+    cap = cv2.VideoC
     controls = "Cloak Controls"
     cv2.namedWindow(controls, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(controls, 400, 300)
