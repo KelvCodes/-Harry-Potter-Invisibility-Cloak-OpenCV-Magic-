@@ -1,9 +1,7 @@
 by averaging multiple fra
 
     for i in range(frames_count):
-        ret, frame = cap.read()
-        if not ret:
-            continue
+        ret, 
 
         frame = cv2.flip(frame, 1)
         collected_frames.append(frame)
