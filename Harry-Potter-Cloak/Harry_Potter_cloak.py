@@ -1,12 +1,6 @@
 by averaging multiple fra
 
-    for i in range(frames_count):
-        ret, 
-
-        frame = cv2.flip(frame, 1)
-       d Capturing...")
-
-    background = np.median(collected_frames, axis=0).astype(np.uint8)
+ llected_frames, axis=0).astype(np.uint8)
     print("✅ Background captured successfully!")
     return background
 
