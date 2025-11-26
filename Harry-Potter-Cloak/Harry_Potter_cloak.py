@@ -1,5 +1,4 @@
-etTrackbarPos("UH", window_name),
-        cv2.getTrackbarPos("US", window_name),
+2.getTrackbarPos("US", window_name),
         cv2.getTrackbarPos("UV", window_name),
     ])
 
