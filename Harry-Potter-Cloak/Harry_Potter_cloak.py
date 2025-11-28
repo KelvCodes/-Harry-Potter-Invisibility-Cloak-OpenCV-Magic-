@@ -1,5 +1,4 @@
-
-def nothing(_):
+ing(_):
     """Dummy callback for trackbars."""
     pass
 
