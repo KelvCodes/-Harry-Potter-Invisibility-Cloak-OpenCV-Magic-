@@ -1,5 +1,4 @@
-
-    """Dummy callback for trackbars."""
+callback for trackbars."""
     pass
 
 
