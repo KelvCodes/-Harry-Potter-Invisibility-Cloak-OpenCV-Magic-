@@ -1,4 +1,4 @@
-callback for trackbars."""
+for trackbars."""
     pass
 
 
