@@ -1,6 +1,5 @@
 H", window_name),
-        cv2.getTrackbarPos("LS", window_name),
-        cv2.getTrackbarPos("LV", window_name),
+        cv2.getTrackbarPos("LS", w_name),
     ])
 
     upper = np.array([
