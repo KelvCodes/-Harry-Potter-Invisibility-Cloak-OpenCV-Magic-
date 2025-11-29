@@ -1,6 +1,4 @@
 
-
-def_):
     """Dummy callback for trackbars."""
     pass
 
