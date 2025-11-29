@@ -1,5 +1,4 @@
-numpy as 
-import os
+numpy
 
 # ============================================================
 #                       UTILITY FUNCTIONS
