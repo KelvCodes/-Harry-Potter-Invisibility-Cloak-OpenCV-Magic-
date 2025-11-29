@@ -1,16 +1,4 @@
 
-    collected_frames = []
-
-    for i in range(frames_count):
-        ret, frame = cap.read()
-        if not ret:
-            continue
-
-        frame = cv2.flip(frame, 1)
-        collected_frames.append(frame)
-
-        cv2.imshow("Background Capturing...", frame)
-        cv2.waitKey(1)
 
     cv2.destroyWindow("Background Capturing...")
 
