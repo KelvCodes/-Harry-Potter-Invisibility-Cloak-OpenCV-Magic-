@@ -1,6 +1,6 @@
 ================================================
 
-def nothing(_):
+def_):
     """Dummy callback for trackbars."""
     pass
 
