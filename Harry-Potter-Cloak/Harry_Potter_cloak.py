@@ -1,4 +1,4 @@
-_name, 255, 255, nothing)
+255, nothing)
     cv2.createTrackbar("UV", window_name, 255, 255, nothing)
 
 def get_trackbar_values(window_name):
