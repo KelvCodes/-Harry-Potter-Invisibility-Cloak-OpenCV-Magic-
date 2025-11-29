@@ -1,5 +1,4 @@
-ng)
-    cv2.createTrackbar("UV", window_name, 255, 255, nothing)
+reateTrackbar("UV", window_name, 255, 255, nothing)
 
 def get_trackbar_values(window_name):
     """Return lower and upper HSV values from trackbars."""
