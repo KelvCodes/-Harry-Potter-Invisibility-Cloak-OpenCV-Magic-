@@ -1,5 +1,5 @@
 
-def getrackbar_values(window_name):
+trackbar_values(window_name):
     """Return lower and upper HSV values from trackbars."""
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
