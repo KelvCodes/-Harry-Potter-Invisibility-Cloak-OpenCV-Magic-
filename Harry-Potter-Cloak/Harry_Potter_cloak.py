@@ -1,10 +1,6 @@
 
 #                   BACKGROUND CAPTURE
-# ============================================================
-
-def capture_background(cap, frames_count=70):
-    """
-    Capture a stable background by averaging multiple frames.
+# =========by averaging multiple frames.
     Higher frame count = more stable background.
     """
     print("\n📸 Capturing stable background. PLEASE move away...")
