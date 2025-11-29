@@ -1,17 +1,4 @@
 
-
-    cv2.destroyWindow("Background Capturing...")
-
-    background = np.median(collected_frames, axis=0).astype(np.uint8)
-    print("✅ Background captured successfully!")
-
-    return background
-
-
-# ============================================================
-#                  MASK PROCESSING / IMPROVEMENT
-# ============================================================
-
 def process_mask(mask):
     """Improve mask using morphology + blur."""
 
