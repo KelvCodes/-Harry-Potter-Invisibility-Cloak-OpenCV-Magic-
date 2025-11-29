@@ -1,10 +1,4 @@
 
-#                   BACKGROUND CAPTURE
-# =========by averaging multiple frames.
-    Higher frame count = more stable background.
-    """
-    print("\n📸 Capturing stable background. PLEASE move away...")
-
     collected_frames = []
 
     for i in range(frames_count):
