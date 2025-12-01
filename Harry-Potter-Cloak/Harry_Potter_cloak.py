@@ -1,4 +1,4 @@
-y as np
+np
 import time
 import os
 
