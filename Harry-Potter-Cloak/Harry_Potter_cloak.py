@@ -1,5 +1,4 @@
-
-    """Callback for trackbars (unused)."""
+or trackbars (unused)."""
     pass
 
 
