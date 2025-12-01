@@ -1,6 +1,4 @@
 
-    pass
-
 
 def setup_trackbars(window_name):
     """Create HSV range trackbars for cloak color tuning."""
