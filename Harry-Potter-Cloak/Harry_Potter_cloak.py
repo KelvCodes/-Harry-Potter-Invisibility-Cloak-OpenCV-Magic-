@@ -1,4 +1,4 @@
-othing(
+
     """Callback for trackbars (unused)."""
     pass
 
