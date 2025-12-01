@@ -1,6 +1,4 @@
-
-
-def nothing(_):
+othing(_):
     """Callback for trackbars (unused)."""
     pass
 
