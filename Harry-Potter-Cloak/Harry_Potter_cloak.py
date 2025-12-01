@@ -1,4 +1,4 @@
-othing(_):
+othing(
     """Callback for trackbars (unused)."""
     pass
 
