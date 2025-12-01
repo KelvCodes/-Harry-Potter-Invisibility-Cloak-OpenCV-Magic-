@@ -1,18 +1,6 @@
 
 
-def
-    return lower, upper
 
-
-# ============================================================
-#                      BACKGROUND CAPTURE
-# ============================================================
-
-def capture_background(cap, frames_count=70):
-    """Capture a stable background by averaging multiple frames."""
-    print("\nCapturing stable background. Please move out of the frame...")
-
-    frames = []
     for _ in range(frames_count):
         ret, frame = cap.read()
         if not ret:
