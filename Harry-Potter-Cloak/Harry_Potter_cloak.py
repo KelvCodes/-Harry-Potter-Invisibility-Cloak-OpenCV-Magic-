@@ -1,4 +1,4 @@
-=========================================
+
 
 def nothing(_):
     """Callback for trackbars (unused)."""
