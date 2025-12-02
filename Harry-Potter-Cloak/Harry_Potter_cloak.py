@@ -1,7 +1,6 @@
 
 
-
-def nothing(_):
+ nothing(_):
     """Trackbar callback (unused)."""
     pass
 
