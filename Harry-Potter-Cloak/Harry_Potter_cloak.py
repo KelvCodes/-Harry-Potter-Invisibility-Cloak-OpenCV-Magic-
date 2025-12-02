@@ -1,6 +1,5 @@
 
-(unused)."""
-    pass
+(unused)
 
 
 def setup_trackbars(window_name):
