@@ -1,17 +1,7 @@
 rackbarPos("LV", window_name)])
 , window_name)])
 
-    return lower, upper
-
-
-# ============================================================
-#                 BACKGROUND CAPTURE
-# ============================================================
-
-def capture_background(cap, frames_count=80):
-    """Capture background using median of multiple frames."""
-
-    print("\n📸 Capturing background... MOVE OUT OF FRAME.")
+"\n📸 Capturing background... MOVE OUT OF FRAME.")
 
     frames = []
     last_frame = None
