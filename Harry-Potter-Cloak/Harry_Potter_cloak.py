@@ -1,16 +1,4 @@
-rackbarPos("LV", window_name)])
-, window_name)])
 
-"\n📸 Capturing background... MOVE OUT OF FRAME.")
-
-    frames = []
-    last_frame = None
-
-    for i in range(frames_count):
-
-        ret, frame = cap.read()
-        if not ret:
-            continue
 
         frame = cv2.flip(frame, 1)
 
