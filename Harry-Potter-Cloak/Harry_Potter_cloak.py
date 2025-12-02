@@ -1,4 +1,4 @@
-e, 255, 255, nothing)
+thing)
 
 
 def get_trackbar_values(window_name):
