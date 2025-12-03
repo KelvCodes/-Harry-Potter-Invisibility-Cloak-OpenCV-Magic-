@@ -1,5 +1,5 @@
 
-import numpy as np
+ numpy as np
 import time
 import os
 
