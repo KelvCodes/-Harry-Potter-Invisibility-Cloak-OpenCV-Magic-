@@ -1,6 +1,5 @@
 
-allback (unused)."""
-    pass
+allba
 
 
 def setup_trackbars(window_name):
