@@ -1,6 +1,5 @@
 
-
-    """Trackbar callback (unused)."""
+allback (unused)."""
     pass
 
 
