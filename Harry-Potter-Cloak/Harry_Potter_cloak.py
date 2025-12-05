@@ -1,18 +1,4 @@
-k for visual feedback."""
-    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    cv2.drawContours(frame, contours, -1, (0, 255, 255), 2)
-    return frame
 
-
-# ============================================================
-#                   MAIN INVISIBILITY LOGIC
-# ============================================================
-
-def invisibility_cloak():
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    if not cap.isOpened():
-        print("Camera not detected.")
-        return
 
     # HSV sliders window
     win = "Cloak Controls"
