@@ -1,21 +1,4 @@
 
-
-    # HSV sliders window
-    win = "Cloak Controls"
-    cv2.namedWindow(win, cv2.WINDOW_NORMAL)
-    cv2.resizeWindow(win, 420, 290)
-    setup_trackbars(win)
-
-    # Capture initial background
-    background = capture_background(cap)
-
-    auto_detect = False
-    prev_time = time.time()
-    fps_log = []
-    snapshot_dir = "Snapshots"
-    os.makedirs(snapshot_dir, exist_ok=True)
-
-    print("\nCommands:")
     print("[q] Quit")
     print("[a] Toggle auto-detect color")
     print("[b] Recapture background")
