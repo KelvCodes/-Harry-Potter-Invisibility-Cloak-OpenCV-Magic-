@@ -1,9 +1,4 @@
-
-ore frames with movement
-        if last_frame is not None:
-            diff = cv2
-        last_frame = frame
-        frames.append(frame)
+ frames.append(frame)
         cv2.imshow("Capturing Background", frame)
         cv2.waitKey(1)
 
