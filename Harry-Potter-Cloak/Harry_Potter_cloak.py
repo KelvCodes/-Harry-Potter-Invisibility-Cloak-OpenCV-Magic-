@@ -1,4 +1,4 @@
-, 255, 25teTrackbar("UV", window_name, 255, 255, nothing)
+teTrackbar("UV", window_name, 255, 255, nothing)
 
 
 def get_trackbar_values(window_name):
