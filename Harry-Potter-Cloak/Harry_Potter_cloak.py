@@ -2,15 +2,7 @@ TrackbarPos("UV",==================
 #                   BACKGROUND CAPTURE
 # ============================================================
 
-def capture_background(cap, frames_count=80, threshold=3):
-    """Capture stable background using median of multiple frames and motion detection."""
-    print("\nCapturing background. Please move out of frame...")
-
-    frames = []
-    last_frame = None
-
-    for _ in range(frames_count):
-        ret, frame = cap.read()
+def capture_bac
         if not ret:
             continue
 
