@@ -1,12 +1,3 @@
- frames.append(frame)
-        cv2.imshow("Capturing Background", frame)
-        cv2.waitKey(1)
-
-    cv2.destroyWindow("Capturing Background")
-    background = np.median(frames, axis=0).astype(np.uint8)
-    print("Background captured successfully.")
-    return background
-
 
 # ============================================================
 #                   MASK PROCESSING
