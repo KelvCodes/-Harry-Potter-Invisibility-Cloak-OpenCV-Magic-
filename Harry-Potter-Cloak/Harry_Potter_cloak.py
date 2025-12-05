@@ -1,4 +1,4 @@
-55, nothing)
+
     cv2.createTrackbar("LV", window_name, 54, 255, nothing)
     cv2.createTrackbar("UH", window_name, 110, 180, nothing)
     cv2.createTrackbar("US", window_name, 255, 255, nothing)
