@@ -1,8 +1,5 @@
 
-
-        frame = cv2.flip(frame, 1)
-
-        # Motion detection: ignore frames with movement
+ore frames with movement
         if last_frame is not None:
             diff = cv2.absdiff(frame, last_frame)
             if np.mean(diff) > threshold:
