@@ -1,8 +1,4 @@
-=========================================
 
-def capture_bac
-        if not ret:
-            continue
 
         frame = cv2.flip(frame, 1)
 
