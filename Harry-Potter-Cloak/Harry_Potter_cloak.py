@@ -1,9 +1,7 @@
 
 ore frames with movement
         if last_frame is not None:
-            diff = cv2.absdiff(frame, last_frame)
-            if np.mean(diff) > threshold:
-                continue
+            diff = cv2
         last_frame = frame
         frames.append(frame)
         cv2.imshow("Capturing Background", frame)
