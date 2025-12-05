@@ -1,19 +1,4 @@
-
-# ============================================================
-#                   MASK PROCESSING
-# ============================================================
-
-def process_mask(mask, kernel_size=(5, 5)):
-    """Smooth and clean mask using morphological operations."""
-    kernel = np.ones(kernel_size, np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=2)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_DILATE, kernel, iterations=1)
-    mask = cv2.GaussianBlur(mask, (7, 7), 0)
-    return mask
-
-
-def draw_cloak_outline(frame, mask):
-    """Draw contours of the cloak for visual feedback."""
+k for visual feedback."""
     contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     cv2.drawContours(frame, contours, -1, (0, 255, 255), 2)
     return frame
