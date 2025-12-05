@@ -1,5 +1,4 @@
-tuning."""
-    cv2.createTrackbar("LH", window_name, 68, 180, nothing)
+tuning."Trackbar("LH", window_name, 68, 180, nothing)
     cv2.createTrackbar("LS", window_name, 55, 255, nothing)
     cv2.createTrackbar("LV", window_name, 54, 255, nothing)
     cv2.createTrackbar("UH", window_name, 110, 180, nothing)
