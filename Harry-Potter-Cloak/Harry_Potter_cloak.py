@@ -1,20 +1,4 @@
 
-    last_frame = None
-
-    for _ in range(frames_count):
-        ret, frame = cap.read()
-        if not ret:
-            continue
-
-        frame = cv2.flip(frame, 1)
-
-        # Motion detection: skip shaky frames
-        if last_frame is not None:
-            diff = cv2.absdiff(frame, last_frame)
-            if np.mean(diff) > motion_threshold:
-                continue
-
-        last_frame = frame.copy()
         frames.append(frame)
 
         cv2.imshow("Capturing Background", frame)
