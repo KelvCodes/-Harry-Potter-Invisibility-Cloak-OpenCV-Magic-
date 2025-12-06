@@ -1,17 +1,4 @@
 
-                      cv2.getTrackbarPos("UV", window_name)])
-    return lower, upper
-
-
-# ============================================================
-#                   BACKGROUND CAPTURE
-# ============================================================
-
-def capture_background(cap, frames_count=60, motion_threshold=2.5):
-    """Capture stable background using median of steady frames."""
-    print("\n⚠️  Capturing background... Please move out of frame.")
-
-    frames = []
     last_frame = None
 
     for _ in range(frames_count):
