@@ -1,7 +1,7 @@
 
 
 
-def get_trackbar_values(window_name):
+_values(window_name):
     """Return HSV lower and upper bounds."""
     lower = np.array([cv2.getTrackbarPos("LH", window_name),
                       cv2.getTrackbarPos("LS", window_name),
