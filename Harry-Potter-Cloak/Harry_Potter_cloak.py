@@ -1,8 +1,4 @@
 
-    """Tral
-    pass
-
-
 def setup_trackbars(window_name):
     """Setup HSV sliders for manual color tuning."""
     cv2.createTrackbar("LH", window_name, 60, 180, nothing)
