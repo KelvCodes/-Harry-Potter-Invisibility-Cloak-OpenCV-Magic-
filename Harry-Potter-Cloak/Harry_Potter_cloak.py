@@ -1,6 +1,5 @@
 
 
- upper bounds."""
     lower = np.array([cv2.getTrackbarPos("LH", window_name),
                       cv2.getTrackbarPos("LS", window_name),
                       cv2.getTrackbarPos("LV", window_name)])
