@@ -1,5 +1,4 @@
-
-import numpy as np
+umpy as np
 import time
 import os
 
