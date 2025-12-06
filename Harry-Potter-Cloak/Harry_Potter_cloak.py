@@ -1,5 +1,4 @@
-uning."""
-    cv2.createTrackbar("LH", window_name, 60, 180, nothing)
+ateTrackbar("LH", window_name, 60, 180, nothing)
     cv2.createTrackbar("LS", window_name, 50, 255, nothing)
     cv2.createTrackbar("LV", window_name, 40, 255, nothing)
     cv2.createTrackbar("UH", window_name, 120, 180, nothing)
