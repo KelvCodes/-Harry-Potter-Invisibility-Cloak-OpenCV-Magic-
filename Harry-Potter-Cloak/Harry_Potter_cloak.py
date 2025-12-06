@@ -1,5 +1,4 @@
 
-# =============
 def nothing(_):
     """Trackbar callback (unused)."""
     pass
