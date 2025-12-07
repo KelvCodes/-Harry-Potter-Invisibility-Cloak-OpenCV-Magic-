@@ -2,12 +2,6 @@ coup.re
 
 
 # ============================================================
-# to clean up the cloak mask."""
-    kernel = np.ones((5, 5), np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=2)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
-    mask = cv2.GaussianBlur(mask, (7, 7), 0)
-    return mask
 
 
 def draw_cloak_outline(frame, mask):
