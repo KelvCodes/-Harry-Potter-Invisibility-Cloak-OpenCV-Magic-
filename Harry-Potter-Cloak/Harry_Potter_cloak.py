@@ -1,6 +1,4 @@
-sed)."""
-    pass
-
+sed)
 
 def setup_trackbars(window_name):
     """Setup HSV sliders for manual color tuning."""
