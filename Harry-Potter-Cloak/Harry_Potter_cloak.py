@@ -1,9 +1,6 @@
 ):
     """
-    Capture a stable background frame by taking the median of steady frames.
-    Frames with too much movement are ignored.
-    """
-    print("\nCapturing background. Please move out of frame.")
+ring background. Please move out of frame.")
 
     frames = []
     last_frame = None
