@@ -1,5 +1,4 @@
 
-        cv2.g", window_name),
         cv2.getTrackbarPos("UV", window_name)
     ])
 
