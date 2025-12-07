@@ -1,5 +1,4 @@
 
-    last_frame = None
 
     for _ in range(frames_count):
         ret, frame = cap.read()
