@@ -1,9 +1,4 @@
-coup.read()
-        # Skip frames with motion
-        if l
-
-        last_frame = frame.copy()
-        frames.append(frame)
+coup.read
 
         cv2.imshow("Capturing Background", frame)
         cv2.waitKey(1)
