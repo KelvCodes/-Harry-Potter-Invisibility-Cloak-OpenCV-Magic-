@@ -1,4 +1,4 @@
-teTrackbar("US", window_name, 255, 255, nothing)
+ar("US", window_name, 255, 255, nothing)
     cv2.createTrackbar("UV", window_name, 255, 255, nothing)
 
 
