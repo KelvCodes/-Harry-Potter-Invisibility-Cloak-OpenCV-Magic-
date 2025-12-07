@@ -1,20 +1,5 @@
 coup.re
 
- (0, 255, 255), 2)
-    return frame
-
-
-# ============================================================
-#                   MAIN INVISIBILITY LOGIC
-# ============================================================
-
-def invisibility_cloak():
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    if not cap.isOpened():
-        print("Camera not detected.")
-        return
-
-    # HSV control window
     win = "Cloak Controls"
     cv2.namedWindow(win)
     cv2.resizeWindow(win, 430, 300)
