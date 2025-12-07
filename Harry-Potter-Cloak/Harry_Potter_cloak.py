@@ -1,6 +1,4 @@
-
-
-def nothing(_):
+ng(_):
     """Trackbar callback (unused)."""
     pass
 
