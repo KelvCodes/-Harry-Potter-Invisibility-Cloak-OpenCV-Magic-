@@ -1,6 +1,4 @@
-
-
-    for _ in range(frames_count):
+count):
         ret, frame = cap.read()
         if not ret:
             continue
