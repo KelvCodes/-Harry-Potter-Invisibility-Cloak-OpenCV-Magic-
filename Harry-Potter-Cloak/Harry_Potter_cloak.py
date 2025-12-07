@@ -1,9 +1,4 @@
 coup.read()
-        if not ret:
-            continue
-
-        frame = cv2.flip(frame, 1)
-
         # Skip frames with motion
         if last_frame is not None:
             diff = cv2.absdiff(frame, last_frame)
