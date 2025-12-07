@@ -1,4 +1,4 @@
-ng(_):
+
     """Trackbar callback (unused)."""
     pass
 
