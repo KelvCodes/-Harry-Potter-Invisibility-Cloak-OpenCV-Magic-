@@ -1,10 +1,4 @@
-coup.read
-
-        cv2.imshow("Capturing Background", frame)
-        cv2.waitKey(1)
-
-    cv2.destroyWindow("Capturing Background")
-, axis=0).astype(np.uint8)
+coup.re
 
 
 # ============================================================
