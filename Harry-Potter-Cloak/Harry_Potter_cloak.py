@@ -1,6 +1,4 @@
-):
-    """
-ring background. Please move out of frame.")
+round. Please move out of frame.")
 
     frames = []
     last_frame = None
