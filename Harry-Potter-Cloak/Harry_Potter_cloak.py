@@ -1,6 +1,4 @@
-ve out of frame.")
 
-    frames = []
     last_frame = None
 
     for _ in range(frames_count):
