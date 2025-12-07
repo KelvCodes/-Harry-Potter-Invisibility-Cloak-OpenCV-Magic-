@@ -1,6 +1,3 @@
-===========================
-#                   BACKGROUND CAPTURE
-# ============================================================
 
 def capture_background(cap, frames_count=60, motion_threshold=2.5):
     """
