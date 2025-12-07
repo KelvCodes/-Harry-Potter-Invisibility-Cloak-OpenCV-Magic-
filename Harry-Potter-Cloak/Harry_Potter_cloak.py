@@ -1,13 +1,6 @@
 coup.re
 
-
-# ============================================================
-
-
-def draw_cloak_outline(frame, mask):
-    """Draw contours around the detected cloak region for visual guidance."""
-    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    cv2.drawContours(frame, contours, -1, (0, 255, 255), 2)
+ (0, 255, 255), 2)
     return frame
 
 
