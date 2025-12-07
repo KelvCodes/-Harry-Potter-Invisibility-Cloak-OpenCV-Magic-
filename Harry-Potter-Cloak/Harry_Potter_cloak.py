@@ -1,5 +1,4 @@
-count):
-        ret, frame = cap.read()
+coup.read()
         if not ret:
             continue
 
