@@ -1,4 +1,4 @@
-round. Please move out of frame.")
+ve out of frame.")
 
     frames = []
     last_frame = None
