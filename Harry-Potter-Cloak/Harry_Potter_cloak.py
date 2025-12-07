@@ -4,13 +4,7 @@ coup.read
         cv2.waitKey(1)
 
     cv2.destroyWindow("Capturing Background")
-
-    if len(frames) == 0:
-        print("Background capture failed.")
-        return None
-
-    print("Background captured successfully.")
-    return np.median(frames, axis=0).astype(np.uint8)
+, axis=0).astype(np.uint8)
 
 
 # ============================================================
