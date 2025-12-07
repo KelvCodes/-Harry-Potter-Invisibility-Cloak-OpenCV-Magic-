@@ -1,20 +1,4 @@
-coup.re
 
-    win = "Cloak Controls"
-    cv2.namedWindow(win)
-    cv2.resizeWindow(win, 430, 300)
-    setup_trackbars(win)
-
-    # Initial background capture
-    background = capture_background(cap)
-    if background is None:
-        return
-
-    auto_detect = False
-    fps_log = []
-    prev_time = time.time()
-
-    snapshot_dir = "Snapshots"
     os.makedirs(snapshot_dir, exist_ok=True)
 
     print("\nKeyboard Commands:")
