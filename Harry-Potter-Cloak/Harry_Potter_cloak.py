@@ -1,6 +1,4 @@
-sed)
-
-def setup_trackbars(window_name):
+up_trackbars(window_name):
     """Setup HSV sliders for manual color tuning."""
     cv2.createTrackbar("LH", window_name, 60, 180, nothing)
     cv2.createTrackbar("LS", window_name, 50, 255, nothing)
