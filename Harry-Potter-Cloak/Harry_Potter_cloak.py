@@ -1,5 +1,5 @@
 
-def capture_background(cap, frames_count=60, motion_threshold=2.5):
+def capturound(cap, frames_count=60, motion_threshold=2.5):
     """
     Capture a stable background frame by taking the median of steady frames.
     Frames with too much movement are ignored.
