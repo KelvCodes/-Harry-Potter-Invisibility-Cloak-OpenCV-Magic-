@@ -1,7 +1,5 @@
 _name),
         cv2.getT
-    return lower, upper
-ACKGROUND CAPTURE LOGIC
 # ============================================================
 
 def capture_background(cap, frames_count=BACKGROUND_FRAMES, motion_threshold=MOTION_THRESHOLD):
