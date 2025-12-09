@@ -1,4 +1,3 @@
-N_BLUR_SIZE = (7, 7)
 
 MASK_PREVIEW = True         # Set to False to disable mask preview windows
 OUTLINE_COLOR = (0, 255, 255)
