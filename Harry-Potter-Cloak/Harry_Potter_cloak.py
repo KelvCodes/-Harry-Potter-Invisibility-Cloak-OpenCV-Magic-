@@ -1,6 +1,5 @@
 _name),
-        cv2.getT
-#kground(cap, frames_count=BACKGROUND_FRAMES, motion_threshold=MOTION_THRESHOLD):
+rames_count=BACKGROUND_FRAMES, motion_threshold=MOTION_THRESHOLD):
     """
     Capture a stable background using the median of multiple static frames.
     Frames with noticeable movement are discarded.
