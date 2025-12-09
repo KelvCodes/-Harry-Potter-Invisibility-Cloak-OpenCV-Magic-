@@ -1,10 +1,4 @@
 
-
-", window_name),
-
-    return lower, upper
-
-
 # ============================================
 
 def capture_background(cap):
