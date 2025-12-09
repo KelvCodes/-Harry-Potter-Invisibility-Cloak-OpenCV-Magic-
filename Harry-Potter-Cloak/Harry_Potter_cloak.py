@@ -1,4 +1,4 @@
- FPS smoothing
+g
 
 MASK_KERNEL_SIZE = (5, 5)
 GAUSSIAN_BLUR_SIZE = (7, 7)
