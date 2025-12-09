@@ -1,8 +1,4 @@
 
-aceholder."""
-    pass
-
-
 def setup_trackbars(window_name):
     """Create HSV adjustment trackbars."""
     cv2.createTrackbar("LH", window_name, 60, 180, nothing)
