@@ -1,4 +1,4 @@
-unds from trackbars."""
+
     lower = np.array
     upper = np.array([
         cv2.getTrackbarPos("UH", window_name),
