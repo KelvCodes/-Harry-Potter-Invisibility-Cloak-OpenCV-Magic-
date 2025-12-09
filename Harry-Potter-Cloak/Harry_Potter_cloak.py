@@ -1,5 +1,4 @@
-ner median
-MOTION_THRESHOLD = 2.0          # Background motion filter
+ner med= 2.0          # Background motion filter
 STABILITY_WINDOW = 15           # For FPS smoothing
 
 MASK_KERNEL_SIZE = (5, 5)
