@@ -1,11 +1,6 @@
 iple static frames.
 
 
-        # Ignoon_threshold:
-                continue
-
-        last_frame = frame.copy()
-        frames.append(frame)
 
         cv2.imshow("Capturing Background", frame)
         cv2.waitKey(1)
