@@ -1,18 +1,4 @@
-n(diff) > MOTION_THRESHOLD:
-            ORPH_OPEN, kernel, iterations=2)
-
-
-# ============================================================
-#                    AUTO COLOR DETECTION
-# ============================================================
-
-def get_auto_color(hsv):
-    """Auto-sample cloak color from center region."""
-    h, w, _ = hsv.shape
-    r = SAMPLE_BOX_SIZE
-
-    region = hsv[h//2-r:h//2+r, w//2-r:w//2+r]
-    avg = np.median(region.reshape(-1, 3), axis=0)
+3), axis=0)
 
     lower = np.array([max(0, avg[0] - 20), 50, 50])
     upper = np.array([min(180, avg[0] + 20), 255, 255])
