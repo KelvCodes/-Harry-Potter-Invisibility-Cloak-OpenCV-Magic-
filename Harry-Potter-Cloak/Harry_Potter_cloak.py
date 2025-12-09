@@ -5,9 +5,7 @@
     return lower, upper
 
 
-# ============================================================
-#                    BACKGROUND CAPTURE
-# ============================================================
+# ============================================
 
 def capture_background(cap):
     """Capture stable median background automatically."""
