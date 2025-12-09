@@ -1,10 +1,5 @@
 table background using the median of multiple static frames.
-    Frames with noticeable movement are discarded.
-    """
 
-    print("Capturing background. Please move out of the frame.")
-
-    frames = []
     last_frame = None
 
     for _ in range(frames_count):
