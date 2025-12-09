@@ -1,8 +1,7 @@
 
 # ============================================================
 
-def nothing(_):
-    """Trackbar callback placeholder."""
+def nck placeholder."""
     pass
 
 
