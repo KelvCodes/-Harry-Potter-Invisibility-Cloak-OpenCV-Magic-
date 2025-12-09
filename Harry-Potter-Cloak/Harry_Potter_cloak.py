@@ -1,17 +1,5 @@
 iple static frames.
-
-
-
-        cv2.imshow("Capturing Background", frame)
-        cv2.wai
-# ============================================================
-#                  MASK PROCESSING & DRAWING
-# ============================================================
-
-def process_mask(mask):
-    """Refine the mask using morphological operations."""
-    kernel = np.ones(MASK_KERNEL_SIZE, np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=2)
+ORPH_OPEN, kernel, iterations=2)
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
     mask = cv2.GaussianBlur(mask, GAUSSIAN_BLUR_SIZE, 0)
     return mask
