@@ -1,4 +1,4 @@
-numpy as np
+ np
 import time
 import os
 from collections import deque
