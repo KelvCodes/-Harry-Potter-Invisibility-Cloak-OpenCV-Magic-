@@ -1,19 +1,4 @@
 
-
-    # Capture background
-    background = capture_background(cap)
-    if background is None:
-        return
-
-    auto_detect = False
-    fps_history = deque(maxlen=STABILITY_WINDOW)
-    prev = time.time()
-
-    snapshot_dir = "Snapshots"
-    os.makedirs(snapshot_dir, exist_ok=True)
-
-    print("\n===== KEYBOARD COMMANDS =====")
-    print("[ q ] Quit")
     print("[ a ] Toggle auto-detect mode")
     print("[ b ] Re-capture background")
     print("[ s ] Save snapshot\n")
