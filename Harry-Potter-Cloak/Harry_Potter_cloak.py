@@ -1,7 +1,5 @@
 
-COLOR = (0, 255, 255)
-OUTLINE_THICKNESS = 2
-
+COLOR = (0, 255,
 SAMPLE_BOX_SIZE = 40            # Auto-detect region box size
 
 
