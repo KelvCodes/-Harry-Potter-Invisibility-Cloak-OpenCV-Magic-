@@ -1,18 +1,4 @@
-3), axis=0)
-===================
 
-def invisibility_cloak():
-
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    if not cap.isOpened():
-        print("❌ No camera detected.")
-        return
-
-    # Trackbar window
-    win = "Cloak Controls"
-    cv2.namedWindow(win)
-    cv2.resizeWindow(win, 430, 300)
-    setup_trackbars(win)
 
     # Capture background
     background = capture_background(cap)
