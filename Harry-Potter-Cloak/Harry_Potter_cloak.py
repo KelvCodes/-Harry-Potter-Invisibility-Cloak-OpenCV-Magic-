@@ -1,10 +1,7 @@
 
 # ============================================
 
-def capture_background(cap):
-    """Captur
-
-    for _ in range(BACKGROUND_FRAMES):
+def capture_backgrou
 
         ret, frame = cap.read()
         if not ret:
