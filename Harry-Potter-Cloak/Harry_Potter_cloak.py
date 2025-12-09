@@ -1,5 +1,4 @@
-, window_name, 255, 255, nothing)
-    cv2.createTrackbar("UV", wind
+
 
 def get_trackbar_values(window_name):
     """Return HSV bounds from trackbars."""
