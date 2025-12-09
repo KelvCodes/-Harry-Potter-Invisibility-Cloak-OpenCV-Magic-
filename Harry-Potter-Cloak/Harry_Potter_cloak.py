@@ -1,5 +1,4 @@
-
-from collections import deque
+ns import deque
 
 # ============================================================
 #                    GLOBAL CONFIGURATION
