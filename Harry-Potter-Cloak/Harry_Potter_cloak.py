@@ -1,4 +1,4 @@
-       # Set to False to disable mask preview windows
+
 OUTLINE_COLOR = (0, 255, 255)
 OUTLINE_THICKNESS = 2
 
