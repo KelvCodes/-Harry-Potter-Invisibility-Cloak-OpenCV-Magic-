@@ -1,5 +1,4 @@
-
-BACKGROUND_FRAMES = 80          # Capture more frames for cleaner median
+        # Capture more frames for cleaner median
 MOTION_THRESHOLD = 2.0          # Background motion filter
 STABILITY_WINDOW = 15           # For FPS smoothing
 
