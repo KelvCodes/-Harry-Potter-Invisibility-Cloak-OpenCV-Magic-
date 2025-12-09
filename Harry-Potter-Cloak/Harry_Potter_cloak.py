@@ -1,6 +1,5 @@
 
-
-def nck placeholder."""
+aceholder."""
     pass
 
 
