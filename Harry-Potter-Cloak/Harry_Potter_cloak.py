@@ -1,10 +1,5 @@
 n(diff) > MOTION_THRESHOLD:
-                continue
-
-=================================
-#                    MASK PROCESSING
-# ======SIZE, np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=2)
+            ORPH_OPEN, kernel, iterations=2)
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
     mask = cv2.GaussianBlur(mask, GAUSSIAN_BLUR_SIZE, 0)
     return mask
