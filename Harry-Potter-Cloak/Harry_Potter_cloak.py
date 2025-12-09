@@ -5,10 +5,7 @@ def capture_backgrou
 
         ret, frame = cap.read()
         if not ret:
-            continue
-
-        frame = cv2.flip(frame, 1)
-        frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
+            crame, (FRAME_WIDTH, FRAME_HEIGHT))
 
         if prev is not None:
             diff = cv2.absdiff(frame, prev)
