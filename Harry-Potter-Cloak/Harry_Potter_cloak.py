@@ -1,7 +1,4 @@
-
-    lower = np.array
-    upper = np.array([
-        kbarPos("US", window_name),
+_name),
         cv2.getT
     return lower, upper
 
