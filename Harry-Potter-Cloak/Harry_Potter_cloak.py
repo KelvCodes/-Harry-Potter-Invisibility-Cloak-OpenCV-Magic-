@@ -1,4 +1,4 @@
-rt numpy as np
+
 import time
 import os
 
