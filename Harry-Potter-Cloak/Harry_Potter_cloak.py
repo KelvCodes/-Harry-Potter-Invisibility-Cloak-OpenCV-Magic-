@@ -7,10 +7,6 @@ n(diff) > MOTION_THRESHOLD:
        
     
 
-    print("✔ Background captured successfully!")
-    return np.median(frames, axis=0).astype(np.uint8)
-
-
 # ============================================================
 #                    MASK PROCESSING
 # ============================================================
