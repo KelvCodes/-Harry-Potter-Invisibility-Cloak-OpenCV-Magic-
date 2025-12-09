@@ -5,11 +5,7 @@ n(diff) > MOTION_THRESHOLD:
 
         frames.append(frame)
        
-    cv2.destroyWindow("Background Capture")
-
-    if len(frames) == 0:
-        print("❌ Background capture failed.")
-        return None
+    
 
     print("✔ Background captured successfully!")
     return np.median(frames, axis=0).astype(np.uint8)
