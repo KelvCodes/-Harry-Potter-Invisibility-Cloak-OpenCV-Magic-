@@ -1,5 +1,4 @@
-cv2
-import numpy as np
+numpy as np
 import time
 import os
 from collections import deque
