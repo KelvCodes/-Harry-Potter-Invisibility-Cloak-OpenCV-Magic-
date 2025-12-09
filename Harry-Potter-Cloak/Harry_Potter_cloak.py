@@ -1,11 +1,7 @@
 
 # ============================================
 
-
-            crame, (FRAME_WIDTH, FRAME_HEIGHT))
-
-        if prev is not None:
-            diff = cv2.absdiff(frame, prev)
+iff(frame, prev)
             if np.mean(diff) > MOTION_THRESHOLD:
                 continue
 
