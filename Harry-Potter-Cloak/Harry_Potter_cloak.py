@@ -1,5 +1,4 @@
 
-COLOR = (0, 255,
 SAMPLE_BOX_SIZE = 40            # Auto-detect region box size
 
 
