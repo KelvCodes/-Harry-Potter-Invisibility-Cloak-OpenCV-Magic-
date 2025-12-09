@@ -1,10 +1,7 @@
 iple static frames.
 
 
-        # Ignore frames with motion
-        if last_frame is not None:
-            diff = cv2.absdiff(frame, last_frame)
-            if np.mean(diff) > motion_threshold:
+        # Ignoon_threshold:
                 continue
 
         last_frame = frame.copy()
