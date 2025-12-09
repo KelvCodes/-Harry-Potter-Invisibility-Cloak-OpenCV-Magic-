@@ -1,7 +1,4 @@
-_name),
-rames_count=BACKGROUND_FRAMES, motion_threshold=MOTION_THRESHOLD):
-    """
-    Capture a stable background using the median of multiple static frames.
+table background using the median of multiple static frames.
     Frames with noticeable movement are discarded.
     """
 
