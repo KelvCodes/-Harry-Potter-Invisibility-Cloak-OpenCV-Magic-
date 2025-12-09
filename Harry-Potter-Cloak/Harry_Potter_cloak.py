@@ -1,9 +1,6 @@
 
     """Return HSV bounds from trackbars."""
-    lower = np.array([
-        cv2.getTrackbarPos("LV", window_name)
-    ])
-
+    lower = np.array
     upper = np.array([
         cv2.getTrackbarPos("UH", window_name),
         cv2.getTrackbarPos("US", window_name),
