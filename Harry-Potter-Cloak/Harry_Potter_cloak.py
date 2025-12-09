@@ -1,6 +1,4 @@
 
-
-FRAME_WIDTH = 640
 FRAME_HEIGHT = 480
 
 BACKGROUND_FRAMES = 80          # Capture more frames for cleaner median
