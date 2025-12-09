@@ -1,8 +1,4 @@
-
-# ============================================
-
-iff(frame, prev)
-            if np.mean(diff) > MOTION_THRESHOLD:
+n(diff) > MOTION_THRESHOLD:
                 continue
 
         prev = frame.copy()
