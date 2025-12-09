@@ -1,8 +1,5 @@
 
-sliders."""
-    lower = np.array([("LH", window_name),
-        cv2.getTrackbarPos("LS", window_name),
-        cv2.get
+
 
     upper = np.array([
         cv2.getTrackbarPos("UH", window_name),
