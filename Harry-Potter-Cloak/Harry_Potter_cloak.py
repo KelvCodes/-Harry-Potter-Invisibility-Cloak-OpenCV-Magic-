@@ -3,10 +3,7 @@ iple static frames.
 
 
         cv2.imshow("Capturing Background", frame)
-        cv2.waitKey(1)
-es, axis=0).astype(np.uint8)
-
-
+        cv2.wai
 # ============================================================
 #                  MASK PROCESSING & DRAWING
 # ============================================================
