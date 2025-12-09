@@ -1,6 +1,5 @@
 g
-
-MASK_KERNEL_SIZE = (5, 5)
+RNEL_SIZE = (5, 5)
 GAUSSIAN_BLUR_SIZE = (7, 7)
 
 MASK_PREVIEW = True
