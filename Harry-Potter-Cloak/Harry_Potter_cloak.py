@@ -1,8 +1,6 @@
 
 
 ", window_name),
-        cv2.getTrackbarPos("US", window_name),
-        cs
 
     return lower, upper
 
