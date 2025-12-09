@@ -2,9 +2,7 @@
     lower = np.array
     upper = np.array([
         kbarPos("US", window_name),
-        cv2.getTrackbarPos("UV", window_name)
-    ])
-
+        cv2.getT
     return lower, upper
 
 
