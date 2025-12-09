@@ -4,9 +4,7 @@ n(diff) > MOTION_THRESHOLD:
         prev = frame.copy()
 
         frames.append(frame)
-        cv2.imshow("Background Capture", frame)
-        cv2.waitKey(1)
-
+       
     cv2.destroyWindow("Background Capture")
 
     if len(frames) == 0:
