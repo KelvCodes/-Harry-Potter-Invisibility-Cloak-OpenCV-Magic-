@@ -1,10 +1,7 @@
 
 # ============================================
 
-def capture_backgrou
 
-        ret, frame = cap.read()
-        if not ret:
             crame, (FRAME_WIDTH, FRAME_HEIGHT))
 
         if prev is not None:
