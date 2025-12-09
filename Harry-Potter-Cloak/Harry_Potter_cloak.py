@@ -1,10 +1,5 @@
 table background using the median of multiple static frames.
 
-  cap.read()
-    s
-
-        frame = cv2.flip(frame, 1)
-        frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
 
         # Ignore frames with motion
         if last_frame is not None:
