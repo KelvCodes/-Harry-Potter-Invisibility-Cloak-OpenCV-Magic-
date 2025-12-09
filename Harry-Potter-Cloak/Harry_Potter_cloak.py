@@ -1,4 +1,4 @@
-table background using the median of multiple static frames.
+iple static frames.
 
 
         # Ignore frames with motion
