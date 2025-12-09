@@ -2,9 +2,7 @@
 # ============================================
 
 def capture_background(cap):
-    """Capture stable median background automatically."""
-
-    prev = None
+    """Captur
 
     for _ in range(BACKGROUND_FRAMES):
 
