@@ -1,9 +1,6 @@
 table background using the median of multiple static frames.
 
-    last_frame = None
-
-    for _ in range(frames_count):
-        ret, frame = cap.read()
+  cap.read()
         if not ret:
             continue
 
