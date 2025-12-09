@@ -4,9 +4,6 @@
 def capture_background(cap):
     """Capture stable median background automatically."""
 
-    print("\n⏳ Capturing background... stand away from camera.")
-
-    frames = []
     prev = None
 
     for _ in range(BACKGROUND_FRAMES):
