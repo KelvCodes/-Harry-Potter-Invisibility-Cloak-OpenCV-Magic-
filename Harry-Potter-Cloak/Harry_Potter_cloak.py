@@ -1,5 +1,4 @@
-er
-STABILITY_WINDOW = 15           # For FPS smoothing
+TY_WINDOW = 15           # For FPS smoothing
 
 MASK_KERNEL_SIZE = (5, 5)
 GAUSSIAN_BLUR_SIZE = (7, 7)
