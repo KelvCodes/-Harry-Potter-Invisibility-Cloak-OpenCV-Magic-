@@ -1,4 +1,4 @@
-       # Background motion filter
+er
 STABILITY_WINDOW = 15           # For FPS smoothing
 
 MASK_KERNEL_SIZE = (5, 5)
