@@ -1,8 +1,6 @@
 
     cv2.createTrackbar("LV", window_name, 40, 255, nothing)
-    cvkbar("UH", window_name, 120, 180, nothing)
-    cv2.createTrackbar("US",me, 255, 255, , nothing)
-
+    cv
 
 def get_trackbar_values(window_name):
     """Get lower & upper HSV from sliders."""
