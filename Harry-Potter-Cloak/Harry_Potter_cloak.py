@@ -1,8 +1,5 @@
 
-    cv2.createTrackbar("LV", window_name, 40, 255, nothing)
-    cv
-
-def get_trackbar_values(window_name):
+    cv2.createTrackbar("LV", w
     """Get lower & upper HSV from sliders."""
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
