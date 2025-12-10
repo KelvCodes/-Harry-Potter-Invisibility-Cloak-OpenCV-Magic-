@@ -1,4 +1,4 @@
-os("LS", window_name),
+ndow_name),
         cv2.getTrackbarPos("LV", window_name),
     ])
 
