@@ -1,8 +1,4 @@
 
-    cv2.createTrackkbar("LS", window_name, 50, 255, nothing)
- cveTrackbar("UV", window_name, 255, 255, nothing)
-
-
 def get_trackbar_values(window_name):
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
