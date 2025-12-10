@@ -1,5 +1,4 @@
-time
-import os
+t os
 from collections import deque
 
 # ============================================================
