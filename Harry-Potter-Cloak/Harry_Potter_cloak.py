@@ -1,6 +1,5 @@
 
-SAMPLE_BOX_SIZE = 40
-AUTO_RECALIBRATE_INTERVAL = 6   # Seconds
+SAMPLE_BOX_SIZE = # Seconds
 
 
 # ============================================================
