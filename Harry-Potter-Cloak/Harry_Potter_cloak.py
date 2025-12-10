@@ -1,5 +1,3 @@
-ackbarPos("LV", window_name),
-    ])
 
     upper = np.array([
         cv2.getTrackbarPos("UH", window_name),
