@@ -4,9 +4,6 @@
 # =====
     prev = None
 
-    for _ in range(BACKGROUND_FRAMES):
-        ret, frame = cap.read()
-        if not ret:
             continue
 
         frame = cv2.flip(frame, 1)
