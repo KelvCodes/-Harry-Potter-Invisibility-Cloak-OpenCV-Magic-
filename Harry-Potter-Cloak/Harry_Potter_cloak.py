@@ -1,10 +1,4 @@
- cv2.iff(frame, prev)
-            if np.mean(diff) > MOTION_THRESHOLD:
-                continue
-y()
-        frames.append(frame)
-
-        cv2.imshow("Background Capture", frame)
+ow("Background Capture", frame)
         cv2.waitKey(1)
 
     cv2.destroyWindow("Background Capture")
