@@ -1,5 +1,4 @@
-
-    uppekbarPos("UH",  window_name),
+,  window_name),
 
 # =====
     prev = None
