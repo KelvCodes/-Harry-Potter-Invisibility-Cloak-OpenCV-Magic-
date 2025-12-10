@@ -1,4 +1,3 @@
-ollections import deque
 
 # ============================================================
 #                    GLOBAL CONFIGURATION
