@@ -1,5 +1,4 @@
-t os
-from collections import deque
+ollections import deque
 
 # ============================================================
 #                    GLOBAL CONFIGURATION
