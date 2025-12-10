@@ -1,12 +1,7 @@
 
     uppekbarPos("UH",  window_name),
 
-
-# ================================================
-
-def capture_background(cap):the camera.")
-
-    frames = []
+# =====
     prev = None
 
     for _ in range(BACKGROUND_FRAMES):
