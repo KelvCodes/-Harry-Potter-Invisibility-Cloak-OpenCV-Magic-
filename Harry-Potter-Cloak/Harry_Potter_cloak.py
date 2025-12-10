@@ -1,4 +1,4 @@
-AN_BLUR_SIZE = (7, 7)
+SIZE = (7, 7)
 
 MASK_PREVIEW = True
 OUTLINE_COLOR = (0, 255, 255)
