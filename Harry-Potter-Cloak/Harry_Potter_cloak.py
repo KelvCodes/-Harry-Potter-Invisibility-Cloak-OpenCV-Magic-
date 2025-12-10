@@ -4,11 +4,7 @@ ow("Background Capture", frame)
     cv2.destroyWindow("Background Capture")
 
     if len(frames) == 0:
-        p
-    print("Background captured successfully.")
-    return np.median(frames, axis=0).astype(np.uint8)
-
-
+      
 # ============================================================
 #                    MASK PROCESSING
 # ============================================================
