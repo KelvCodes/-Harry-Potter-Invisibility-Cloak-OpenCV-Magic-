@@ -1,5 +1,4 @@
-
-def nothing(_):
+(_):
     pass
 
 
