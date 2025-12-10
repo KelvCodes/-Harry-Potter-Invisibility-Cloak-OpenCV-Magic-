@@ -2,9 +2,7 @@
     uppekbarPos("UH",  window_name),
 
 
-# ============================================================
-#                    BACKGROUND CAPTURE
-# ============================================================
+# ================================================
 
 def capture_background(cap):
     print("\nCapturing background... Stand away from the camera.")
