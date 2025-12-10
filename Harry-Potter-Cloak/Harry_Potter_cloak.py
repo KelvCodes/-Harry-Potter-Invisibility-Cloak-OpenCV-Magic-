@@ -1,6 +1,5 @@
 
-    uppekbarPos("UH", window_name),
-        cv2.getTrackbarPos("US", window_name),
+    uppekbarPos("UH",  window_name),
         cv2.getTrackbarPos("UV", window_name),
     ])
     return lower, upper
