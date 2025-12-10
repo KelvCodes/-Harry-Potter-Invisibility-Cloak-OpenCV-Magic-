@@ -1,4 +1,4 @@
- = (5, 5)
+
 GAUSSIAN_BLUR_SIZE = (7, 7)
 
 MASK_PREVIEW = True
