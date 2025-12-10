@@ -4,8 +4,7 @@
 
 # ================================================
 
-def capture_background(cap):
-    print("\nCapturing background... Stand away from the camera.")
+def capture_background(cap):the camera.")
 
     frames = []
     prev = None
