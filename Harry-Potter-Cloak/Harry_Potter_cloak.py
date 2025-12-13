@@ -1,6 +1,4 @@
-
-ap):
-    print("\nCapturing background. Please move out of frame.")
+pturing background. Please move out of frame.")
 
     frames = []
     prev = None
