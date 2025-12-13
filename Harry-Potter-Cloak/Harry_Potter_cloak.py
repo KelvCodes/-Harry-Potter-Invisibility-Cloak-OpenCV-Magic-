@@ -1,8 +1,4 @@
-
-    cv2.destroyWindow("Background Capture")
-
-
-    print("Background captured successfully.")
+lly.")
     return np.median(frames, axis=0).astype(np.uint8)
 
 
