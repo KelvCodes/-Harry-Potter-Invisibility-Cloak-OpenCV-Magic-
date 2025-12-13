@@ -1,5 +1,4 @@
-
-from collections import deque
+tions import deque
 
 # ============================================================
 #                    GLOBAL CONFIGURATION
