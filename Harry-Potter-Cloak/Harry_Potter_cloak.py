@@ -1,8 +1,5 @@
 window_name),
-        cv2.getTrackbarPos("US", window_name),
-        cv2.getTrackbarPos("UV", window_name),
-    ])
-    return lower, upper
+urn lower, upper
 
 
 # ============================================================
