@@ -1,6 +1,4 @@
-me, 255, 
-def get_trackbar_values(window_name):
-    lower = np.array([
+p.array([
         cv2.getTrackbarPos("LH", window_name),
         cv2.getTrackbarPos("LS", window_name),
         cv2.getTrackbarPos("LV", window_name),
