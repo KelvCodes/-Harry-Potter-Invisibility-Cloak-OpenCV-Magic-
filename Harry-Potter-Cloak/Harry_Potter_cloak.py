@@ -1,7 +1,6 @@
 , 5, -1],
               
-MASK_BL255, 255)
-OUTLINE_THICKNESS = 2
+ESS = 2
 ATE_INTERVAL = 6
 
 CALIBRATION_FILE = "hsv_profile.npy"
