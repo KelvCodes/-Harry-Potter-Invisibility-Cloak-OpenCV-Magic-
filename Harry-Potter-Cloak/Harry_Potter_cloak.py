@@ -1,7 +1,5 @@
 , 5, -1],
-                           [0, -1, 0]])
-
-MASK_PREVIEW = True
+              
 MASK_BLEND = 1.0
 
 OUTLINE_COLOR = (0, 255, 255)
