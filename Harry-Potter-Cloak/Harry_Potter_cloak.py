@@ -1,7 +1,6 @@
 
 MASK_KERNEL_SIZE = (5, 5)
-GAUSSIAN_BLUR_SIZE = (7, 7)
-SHARPEN_KERNEL = np.array([[0, -1, 0],
+GAUSSIAp.array([[0, -1, 0],
                            [-1, 5, -1],
                            [0, -1, 0]])
 
