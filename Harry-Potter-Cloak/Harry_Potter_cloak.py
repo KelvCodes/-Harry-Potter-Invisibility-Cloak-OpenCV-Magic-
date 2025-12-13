@@ -1,21 +1,4 @@
 
-    return bg
-
-
-def draw_outline(frame, mask):
-    edges = cv2.Canny(mask, 50, 150)
-    contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    cv2.drawContours(frame, contours, -1, OUTLINE_COLOR, OUTLINE_THICKNESS)
-    return frame
-
-
-# ============================================================
-#                  COLOR AUTO DETECTION
-# ============================================================
-
-def get_auto_color(hsv):
-    h, w, _ = hsv.shape
-    r = SAMPLE_BOX_SIZE
 
     region = hsv[h//2-r:h//2+r, w//2-r:w//2+r]
     avg = np.median(region.reshape(-1, 3), axis=0)
