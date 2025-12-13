@@ -1,6 +1,4 @@
-, 5, -1],
-              
-ERVAL = 6
+
 
 CALIBRATION_FILE = "hsv_profile.npy"
 
