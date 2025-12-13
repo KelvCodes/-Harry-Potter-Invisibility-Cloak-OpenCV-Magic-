@@ -1,6 +1,4 @@
-window_name),
-urn lower, upper
-
+window_nam
 
 # ============================================================
 #                    BACKGROUND CAPTURE
