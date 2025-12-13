@@ -1,7 +1,4 @@
-pturing background. Please move out of frame.")
-
-    frames = []
-    prev = None
+rev = None
 
     for _ in range(BACKGROUND_FRAMES):
         ret, frame = cap.read()
