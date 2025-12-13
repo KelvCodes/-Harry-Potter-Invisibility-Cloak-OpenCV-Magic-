@@ -1,7 +1,6 @@
 , 5, -1],
               
-ESS = 2
-ATE_INTERVAL = 6
+ERVAL = 6
 
 CALIBRATION_FILE = "hsv_profile.npy"
 
