@@ -1,6 +1,4 @@
 
-# ====UND CAPTURE
-# ============================================================
 
 def capture_background(cap):
     print("\nCapturing background. Please move out of frame.")
