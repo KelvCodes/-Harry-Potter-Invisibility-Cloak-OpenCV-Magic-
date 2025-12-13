@@ -1,7 +1,6 @@
 , 5, -1],
               
-MASK_BLEND = 1.0
-
+MASK_BL
 OUTLINE_COLOR = (0, 255, 255)
 OUTLINE_THICKNESS = 2
 
