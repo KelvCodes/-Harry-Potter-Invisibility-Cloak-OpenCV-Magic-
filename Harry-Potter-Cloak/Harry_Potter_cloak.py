@@ -1,10 +1,7 @@
 rev = None
 
     for _ in range(BACKGROUND_FRAMES):
-        ret, frame = cap.read()
-        if not ret:
-            continue
-
+    
         frame = cv2.flip(frame, 1)
         frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
 
