@@ -1,6 +1,4 @@
  = ["normal", "blur", "pixelate", "freeze"]
-current_effect = 0
-
 
 # ============================================================
 #                    TRACKBAR SYSTEM
