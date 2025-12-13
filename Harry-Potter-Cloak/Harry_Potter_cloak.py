@@ -1,9 +1,4 @@
-==================================================
-#                       BACKGROUND EFFECTS
-# ============================================================
 
-def apply_background_effect(bg, effect):
-    if effect == "normal":
         return bg
 
     if effect == "blur":
