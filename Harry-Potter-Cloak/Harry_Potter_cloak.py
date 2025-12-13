@@ -1,11 +1,7 @@
 
         return bg
 
-    if effect == "blur":
-        return cv2.GaussianBlur(bg, (21, 21), 0)
-
-    if effect == "pixelate":
-        small = cv2.resize(bg, (64, 48))
+    if efbg, (64, 48))
         return cv2.resize(small, (FRAME_WIDTH, FRAME_HEIGHT), interpolation=cv2.INTER_NEAREST)
 
     if effect == "freeze":
