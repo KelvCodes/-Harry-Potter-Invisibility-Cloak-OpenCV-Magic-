@@ -4,9 +4,7 @@ rev = None
     
         frame = cv2.flip(frame, 1)
         frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
-
-        if prev is not None:
-            diff = cv2.absdiff(frame, prev)
+= cv2.absdiff(frame, prev)
             if np.mean(diff) > MOTION_THRESHOLD:
                 continue
 
