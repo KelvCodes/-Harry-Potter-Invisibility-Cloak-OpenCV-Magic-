@@ -1,7 +1,4 @@
-
-MASK_KERNEL_SIZE = (5, 5)
-GAUSSIAp.arr[[0, -1, 0],
-                           [-1, 5, -1],
+, 5, -1],
                            [0, -1, 0]])
 
 MASK_PREVIEW = True
