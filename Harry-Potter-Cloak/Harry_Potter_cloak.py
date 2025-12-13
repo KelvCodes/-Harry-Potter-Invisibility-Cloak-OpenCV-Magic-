@@ -1,5 +1,5 @@
 p.array([
-   TrackbarPos("UH", window_name),
+   Tr"UH", window_name),
         cv2.getTrackbarPos("US", window_name),
         cv2.getTrackbarPos("UV", window_name),
     ])
