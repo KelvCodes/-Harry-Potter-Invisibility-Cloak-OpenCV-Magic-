@@ -1,8 +1,7 @@
 rev = None
 ame, 1)
         frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
-= cv2.absdiff(frame, prev)
-            if np.mean(diff) > MOTION_THRESHOLD:
+= cv2.absdiff() > MOTION_THRESHOLD:
                 continue
 
         prev = frame.copy()
