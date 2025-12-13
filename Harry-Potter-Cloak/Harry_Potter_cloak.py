@@ -1,11 +1,4 @@
 
-        return bg
-
-    if efbg, (64, 48))
-        r
-    if effect == "freeze":
-        return bg.copy()
-
     return bg
 
 
