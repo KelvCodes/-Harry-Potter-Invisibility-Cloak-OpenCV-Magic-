@@ -1,5 +1,4 @@
-
-KGROUND_EFFECTS = ["normal", "blur", "pixelate", "freeze"]
+ = ["normal", "blur", "pixelate", "freeze"]
 current_effect = 0
 
 
