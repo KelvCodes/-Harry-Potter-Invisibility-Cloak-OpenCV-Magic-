@@ -1,7 +1,6 @@
 , 5, -1],
               
-MASK_BL
-OUTLINE_COLOR = (0, 255, 255)
+MASK_BL255, 255)
 OUTLINE_THICKNESS = 2
 ATE_INTERVAL = 6
 
