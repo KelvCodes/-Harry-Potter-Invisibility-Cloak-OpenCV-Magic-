@@ -2,8 +2,7 @@
         return bg
 
     if efbg, (64, 48))
-        return cv2.resize(small, (FRAME_WIDTH, FRAME_HEIGHT), interpolation=cv2.INTER_NEAREST)
-
+        r
     if effect == "freeze":
         return bg.copy()
 
