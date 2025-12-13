@@ -1,8 +1,5 @@
 rev = None
-
-    for _ in range(BACKGROUND_FRAMES):
-    
-        frame = cv2.flip(frame, 1)
+ame, 1)
         frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
 = cv2.absdiff(frame, prev)
             if np.mean(diff) > MOTION_THRESHOLD:
