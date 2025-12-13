@@ -1,8 +1,5 @@
 
-
-CALIBRATION_FILE = "hsv_profile.npy"
-
-BACKGROUND_EFFECTS = ["normal", "blur", "pixelate", "freeze"]
+KGROUND_EFFECTS = ["normal", "blur", "pixelate", "freeze"]
 current_effect = 0
 
 
