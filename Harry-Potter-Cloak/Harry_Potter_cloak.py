@@ -1,6 +1,5 @@
 
-
-def capture_background(cap):
+ap):
     print("\nCapturing background. Please move out of frame.")
 
     frames = []
