@@ -1,4 +1,4 @@
-rev = [], None
+
     print("Capturing background...")
 
     for _ in range(BACKGROUND_FRAMES):
