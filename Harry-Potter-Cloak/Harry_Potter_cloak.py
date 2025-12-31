@@ -1,4 +1,4 @@
- 255, 255, nothing)
+ 25
 
 def get_trackbar_values(win):
     lower = np.array([
