@@ -1,6 +1,5 @@
 
-
-    for _ in range(BACKGROUND_FRAMES):
+BACKGROUND_FRAMES):
         ret, frame = cap.read()
         if not ret:
             continue
