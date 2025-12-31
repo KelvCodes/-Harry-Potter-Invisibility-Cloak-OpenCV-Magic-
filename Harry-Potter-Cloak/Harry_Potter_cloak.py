@@ -1,6 +1,4 @@
-
-BACKGROUND_FRAMES):
-        ret, frame = cap.read()
+cap.read()
         if not ret:
             continue
 
