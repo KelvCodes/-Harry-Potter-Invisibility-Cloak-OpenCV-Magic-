@@ -1,7 +1,5 @@
 
-          e)
-        cv2.imshow("Background Capture", frame)
-        cv2.waitKey(1)
+       
 
     cv2.destroyWindow("Background Capture")
 
