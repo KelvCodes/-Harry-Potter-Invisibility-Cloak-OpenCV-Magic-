@@ -1,4 +1,4 @@
-r("UV", win, 255, 255, nothing)
+ 255, 255, nothing)
 
 def get_trackbar_values(win):
     lower = np.array([
