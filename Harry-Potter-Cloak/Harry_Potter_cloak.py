@@ -1,12 +1,5 @@
 
-       
-
- 
-    return np.median(frames, axis=0).astype(np.uint8)
-
-# ============================================================
-#                     MASK LOGIC
-# ============================================================
+=======================================
 
 def refine_mask(mask):
     kernel = np.ones(MASK_KERNEL_SIZE, np.uint8)
