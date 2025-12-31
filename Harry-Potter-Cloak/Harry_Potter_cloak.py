@@ -2,13 +2,6 @@
 
 # ============================================================
 #                   MAIN SYSTEM
-# ============================================================
-
-def invisibility_cloak():
-
-    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    if not cap.isOpened():
-        return
 
     win = "Controls"
     cv2.namedWindow(win)
