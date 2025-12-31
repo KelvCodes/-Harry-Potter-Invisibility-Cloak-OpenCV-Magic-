@@ -1,5 +1,4 @@
 
-        cv2.getTrackbarP"LS", win),
         cv2.getTrackbarPos("LV", win),
     ])
     upper = np.array([
