@@ -1,7 +1,4 @@
-
-MIO = 0.45
-
-ALPHA_STEP = 0.05
+.05
 
 MASK_HISTORY = 5
 
