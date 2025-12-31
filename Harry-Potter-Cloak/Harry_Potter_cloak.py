@@ -1,19 +1,4 @@
 
-
-# ============================================================
-#                   MAIN SYSTEM
-
-    win = "Controls"
-    cv2.namedWindow(win)
-    setup_trackbars(win)
-
-    background = capture_background(cap)
-    if background is None:
-        return
-
-    fps_log = deque(maxlen=FPS_WINDOW)
-    mask_history = deque(maxlen=MASK_HISTORY)
-
     auto_mode = False
     alpha = 1.0
     prev_time = time.time()
