@@ -1,6 +1,4 @@
 
-        frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
-
                 
             if np.mean(cv2.absdiff(frame, prev)) > MOTION_THRESHOLD:
                 continue
