@@ -1,5 +1,4 @@
-
-    cv2.createTrackbar("UV", win, 255, 255, nothing)
+r("UV", win, 255, 255, nothing)
 
 def get_trackbar_values(win):
     lower = np.array([
