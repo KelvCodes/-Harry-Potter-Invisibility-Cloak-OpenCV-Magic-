@@ -1,11 +1,7 @@
 
        
 
-    cv2.destroyWindow("Background Capture")
-
-    if not frames:
-        return None
-
+ 
     return np.median(frames, axis=0).astype(np.uint8)
 
 # ============================================================
