@@ -1,5 +1,4 @@
-cap.read()
-        if not ret:
+cap.t ret:
             continue
 
         frame = cv2.flip(frame, 1)
