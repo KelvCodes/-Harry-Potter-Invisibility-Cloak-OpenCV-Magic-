@@ -1,5 +1,4 @@
 
-    lower = np.array([
         cv2.getTrackbarPos("LH", win),
         cv2.getTrackbarPos("LS", win),
         cv2.getTrackbarPos("LV", win),
