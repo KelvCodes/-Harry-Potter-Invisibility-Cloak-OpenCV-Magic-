@@ -1,5 +1,4 @@
 
-    print("Capturing background...")
 
     for _ in range(BACKGROUND_FRAMES):
         ret, frame = cap.read()
