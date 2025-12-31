@@ -1,5 +1,5 @@
 
-MAX_MASK_RATIO = 0.45
+MIO = 0.45
 
 ALPHA_STEP = 0.05
 
