@@ -1,5 +1,4 @@
 
-    ckbar("UH", win, 120, 180, nothing)
     cv2.createTrackbar("US", win, 255, 255, nothing)
     cv2.createTrackbar("UV", win, 255, 255, nothing)
 
