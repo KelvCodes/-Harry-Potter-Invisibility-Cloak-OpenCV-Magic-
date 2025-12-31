@@ -1,14 +1,6 @@
 
-=======================================
 
 
-    return np.mean(history, axis=0).astype(np.uint8)
-
-def mask_ratio(mask):
-    return np.count_nonzero(mask) / mask.size
-
-# ============================================================
-#                 AUTO COLOR DETECTION
 # ============================================================
 
 def auto_hsv(hsv):
