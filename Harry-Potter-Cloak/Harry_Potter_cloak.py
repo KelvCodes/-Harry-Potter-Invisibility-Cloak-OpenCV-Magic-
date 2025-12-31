@@ -1,8 +1,6 @@
 
                 
-            if np.mean(cv2.absdiff(frame, prev)) > MOTION_THRESHOLD:
-                continue
-
+            if np.mean(cv2.absdiff(frame, prev))
         prev = frame.copy()
         frames.append(frame)
         cv2.imshow("Background Capture", frame)
