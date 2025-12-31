@@ -1,6 +1,4 @@
 
-    ])
-        cv2.getTrackbarPos("UH", win),
         cv2.getTrackbarPos("US", win),
         cv2.getTrackbarPos("UV", win),
     ])
