@@ -1,7 +1,5 @@
 
-
-# =======
-def capture_background(cap):
+p):
     frames, prev = [], None
     print("Capturing background...")
 
