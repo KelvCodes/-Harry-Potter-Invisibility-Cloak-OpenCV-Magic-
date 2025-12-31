@@ -1,5 +1,4 @@
-
-    cv2.createTrackbar("LS", win, 50, 255, nothing)
+", win, 50, 255, nothing)
     cv2.createTrackbar("LV", win, 40, 255, nothing)
     cv2.createTrackbar("UH", win, 120, 180, nothing)
     cv2.createTrackbar("US", win, 255, 255, nothing)
