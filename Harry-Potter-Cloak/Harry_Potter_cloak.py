@@ -1,5 +1,4 @@
-
-    cv2.createTrackbar("US", win, 255, 255, nothing)
+, win, 255, 255, nothing)
     cv2.createTrackbar("UV", win, 255, 255, nothing)
 
 def get_trackbar_values(win):
