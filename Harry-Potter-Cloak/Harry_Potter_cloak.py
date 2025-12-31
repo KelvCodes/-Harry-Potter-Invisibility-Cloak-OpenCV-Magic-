@@ -1,9 +1,6 @@
 
 
-# ============================================================
-#                     BACKGROUND
-# ============================================================
-
+# =======
 def capture_background(cap):
     frames, prev = [], None
     print("Capturing background...")
