@@ -1,12 +1,7 @@
 
 =======================================
 
-def2.MORPH_CLOSE, kernel, 2)
-    mask = cv2.GaussianBlur(mask, GAUSSIAN_BLUR_SIZE, 0)
-    return mask
 
-def stabilize_mask(mask, history):
-    history.append(mask)
     return np.mean(history, axis=0).astype(np.uint8)
 
 def mask_ratio(mask):
