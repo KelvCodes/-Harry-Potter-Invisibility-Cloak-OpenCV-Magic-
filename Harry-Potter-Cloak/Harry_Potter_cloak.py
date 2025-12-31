@@ -1,5 +1,4 @@
 
-        cv2.getTrackbarPos("UV", win),
     ])
     return lower, upper
 
