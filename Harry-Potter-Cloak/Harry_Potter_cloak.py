@@ -1,7 +1,5 @@
 cap.t ret:
-            continue
-
-        frame = cv2.flip(frame, 1)
+(frame, 1)
         frame = cv2.resize(frame, (FRAME_WIDTH, FRAME_HEIGHT))
 
         if prev is not None:
