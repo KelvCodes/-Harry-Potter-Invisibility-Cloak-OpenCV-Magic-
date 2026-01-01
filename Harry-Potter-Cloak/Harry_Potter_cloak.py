@@ -1,5 +1,4 @@
 
-B  : Re-capture background
 [  : Decrease alpha blending
 ]  : Increase alpha blending
 """
