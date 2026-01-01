@@ -1,4 +1,3 @@
-invisibility.
 
 Key Features:
 -------------
