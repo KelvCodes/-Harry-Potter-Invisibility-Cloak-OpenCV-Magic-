@@ -1,4 +1,4 @@
-s a static background, detects a target color in HSV space,
+background, detects a target color in HSV space,
 and replaces detected regions with the background to simulate invisibility.
 
 Key Features:
