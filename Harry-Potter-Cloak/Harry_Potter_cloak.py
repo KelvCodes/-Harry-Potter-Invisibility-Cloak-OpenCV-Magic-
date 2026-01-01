@@ -1,4 +1,4 @@
- and automatic HSV color detection
+HSV color detection
 - Adaptive mask correction
 - Temporal mask stabilization
 - Morphological mask refinement
