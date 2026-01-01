@@ -1,5 +1,4 @@
-
-and replaces detected regions with the background to simulate invisibility.
+es detected regions with the background to simulate invisibility.
 
 Key Features:
 -------------
