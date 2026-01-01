@@ -1,4 +1,4 @@
- mask stabilization
+
 - Morphological mask refinement
 - Alpha blending control
 - Live telemetry (FPS, mask coverage, mode)
