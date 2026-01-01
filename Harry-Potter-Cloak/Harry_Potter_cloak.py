@@ -1,4 +1,4 @@
-regions with the background to simulate invisibility.
+he background to simulate invisibility.
 
 Key Features:
 -------------
