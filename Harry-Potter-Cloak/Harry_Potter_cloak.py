@@ -1,4 +1,4 @@
-r in HSV space,
+
 and replaces detected regions with the background to simulate invisibility.
 
 Key Features:
