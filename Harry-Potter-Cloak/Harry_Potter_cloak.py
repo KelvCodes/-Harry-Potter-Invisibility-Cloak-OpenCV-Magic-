@@ -1,4 +1,4 @@
-ing with motion filtering
+ltering
 - Manual and automatic HSV color detection
 - Adaptive mask correction
 - Temporal mask stabilization
