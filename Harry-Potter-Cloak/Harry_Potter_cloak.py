@@ -1,7 +1,4 @@
 
-
----------
-Q  : Quit
 A  : Toggle auto HSV detection
 B  : Re-capture background
 [  : Decrease alpha blending
