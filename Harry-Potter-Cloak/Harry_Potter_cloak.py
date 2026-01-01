@@ -1,5 +1,4 @@
 
-A  : Toggle auto HSV detection
 B  : Re-capture background
 [  : Decrease alpha blending
 ]  : Increase alpha blending
