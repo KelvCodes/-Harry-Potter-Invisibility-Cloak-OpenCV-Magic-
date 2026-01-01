@@ -1,4 +1,4 @@
-he background to simulate invisibility.
+d to simulate invisibility.
 
 Key Features:
 -------------
