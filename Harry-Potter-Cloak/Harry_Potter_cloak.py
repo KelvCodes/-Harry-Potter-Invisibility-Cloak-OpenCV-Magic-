@@ -3,15 +3,6 @@
 
 SAMPLE_BOX_SIZE = 40
 
-MIN_MASK_RATIO = 0.02
-MAX_MASK_RATIO = 0.45
-
-ALPHA_STEP = 0.05
-
-# =============================================================================
-#                               UI UTILITIES
-# =============================================================================
-
 def noop(_):
     """Dummy callback for trackbars."""
     pass
