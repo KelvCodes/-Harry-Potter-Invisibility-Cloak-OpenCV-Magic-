@@ -1,4 +1,4 @@
-d to simulate invisibility.
+invisibility.
 
 Key Features:
 -------------
