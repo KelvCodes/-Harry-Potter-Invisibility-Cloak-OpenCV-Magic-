@@ -1,6 +1,4 @@
-:
--------------
-- Robust background modeling with motion filtering
+round modeling with motion filtering
 - Manual and automatic HSV color detection
 - Adaptive mask correction
 - Temporal mask stabilization
