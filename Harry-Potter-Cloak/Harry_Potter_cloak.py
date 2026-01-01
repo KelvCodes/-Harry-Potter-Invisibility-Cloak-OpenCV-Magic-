@@ -1,4 +1,4 @@
-round modeling with motion filtering
+ing with motion filtering
 - Manual and automatic HSV color detection
 - Adaptive mask correction
 - Temporal mask stabilization
