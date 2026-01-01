@@ -1,5 +1,4 @@
-
-[  : Decrease alpha blending
+alpha blending
 ]  : Increase alpha blending
 """
 
