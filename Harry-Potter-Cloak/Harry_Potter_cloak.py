@@ -1,6 +1,5 @@
 
 
-Controls:
 ---------
 Q  : Quit
 A  : Toggle auto HSV detection
