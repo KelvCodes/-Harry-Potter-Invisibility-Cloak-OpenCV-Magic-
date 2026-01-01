@@ -1,5 +1,4 @@
-
-Invisibility Cloak System (Advanced Computer Vision Project)
+sion Project)
 ===============================================================================
 Author: Kelvin Agyare Yeboah
 
