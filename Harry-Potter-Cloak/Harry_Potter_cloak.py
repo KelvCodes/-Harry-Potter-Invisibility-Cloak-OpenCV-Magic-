@@ -1,5 +1,4 @@
-
-Key Features:
+:
 -------------
 - Robust background modeling with motion filtering
 - Manual and automatic HSV color detection
