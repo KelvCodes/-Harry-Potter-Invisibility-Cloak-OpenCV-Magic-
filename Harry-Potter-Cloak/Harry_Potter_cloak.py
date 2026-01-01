@@ -1,5 +1,4 @@
-
-- Adaptive mask correction
+orrection
 - Temporal mask stabilization
 - Morphological mask refinement
 - Alpha blending control
