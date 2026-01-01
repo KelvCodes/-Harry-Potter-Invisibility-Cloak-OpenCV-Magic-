@@ -1,4 +1,4 @@
-es detected regions with the background to simulate invisibility.
+regions with the background to simulate invisibility.
 
 Key Features:
 -------------
