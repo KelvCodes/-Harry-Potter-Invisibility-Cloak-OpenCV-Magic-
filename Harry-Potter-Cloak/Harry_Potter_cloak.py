@@ -1,5 +1,4 @@
 
-V and NumPy.
 The system captures a static background, detects a target color in HSV space,
 and replaces detected regions with the background to simulate invisibility.
 
