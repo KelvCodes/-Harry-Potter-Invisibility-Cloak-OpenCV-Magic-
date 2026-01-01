@@ -1,5 +1,4 @@
-ltering
-- Manual and automatic HSV color detection
+ and automatic HSV color detection
 - Adaptive mask correction
 - Temporal mask stabilization
 - Morphological mask refinement
