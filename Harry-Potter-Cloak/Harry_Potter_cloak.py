@@ -1,6 +1,4 @@
-
-
-- Live telemetry (FPS, mask coverage, mode)
+ mask coverage, mode)
 
 Controls:
 ---------
