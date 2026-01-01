@@ -1,1 +1,318 @@
+"""
+===============================================================================
+Invisibility Cloak System (Professional Computer Vision Project)
+===============================================================================
+Author: Kelvin Agyare Yeboah
+
+Description:
+------------
+A real-time invisibility cloak system using OpenCV and NumPy.
+Implements adaptive HSV color detection, temporal mask stabilization,
+edge-aware alpha blending, lighting correction, and motion-aware smoothing
+to achieve a cinematic invisibility illusion.
+
+Controls:
+---------
+Q  : Quit
+A  : Toggle auto HSV detection
+B  : Re-capture background
+[  : Decrease alpha blending
+]  : Increase alpha blending
+"""
+
+import cv2
+import numpy as np
+import time
+from collections import deque
+
+# =============================================================================
+#                               CONFIGURATION
+# =============================================================================
+
+CAMERA_INDEX = 0
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
+FRAME_SIZE = (FRAME_WIDTH, FRAME_HEIGHT)
+
+BACKGROUND_FRAMES = 90
+MOTION_THRESHOLD = 2.0
+
+FPS_WINDOW = 20
+MASK_HISTORY_SIZE = 5
+
+MASK_KERNEL_SIZE = (5, 5)
+GAUSSIAN_BLUR_SIZE = (7, 7)
+
+SAMPLE_BOX_SIZE = 40
+
+MIN_MASK_RATIO = 0.02
+MAX_MASK_RATIO = 0.45
+
+ALPHA_STEP = 0.05
+
+# =============================================================================
+#                               UI UTILITIES
+# =============================================================================
+
+def noop(_):
+    pass
+
+
+def setup_hsv_trackbars(window_name):
+    cv2.createTrackbar("LH", window_name, 60, 180, noop)
+    cv2.createTrackbar("LS", window_name, 50, 255, noop)
+    cv2.createTrackbar("LV", window_name, 40, 255, noop)
+    cv2.createTrackbar("UH", window_name, 120, 180, noop)
+    cv2.createTrackbar("US", window_name, 255, 255, noop)
+    cv2.createTrackbar("UV", window_name, 255, 255, noop)
+
+
+def read_hsv_trackbars(window_name):
+    lower = np.array([
+        cv2.getTrackbarPos("LH", window_name),
+        cv2.getTrackbarPos("LS", window_name),
+        cv2.getTrackbarPos("LV", window_name)
+    ])
+    upper = np.array([
+        cv2.getTrackbarPos("UH", window_name),
+        cv2.getTrackbarPos("US", window_name),
+        cv2.getTrackbarPos("UV", window_name)
+    ])
+    return lower, upper
+
+# =============================================================================
+#                           FRAME PROCESSING
+# =============================================================================
+
+def preprocess_frame(frame):
+    frame = cv2.flip(frame, 1)
+    return cv2.resize(frame, FRAME_SIZE)
+
+
+def refine_mask(mask):
+    kernel = np.ones(MASK_KERNEL_SIZE, np.uint8)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=2)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=2)
+    mask = cv2.GaussianBlur(mask, GAUSSIAN_BLUR_SIZE, 0)
+    return mask
+
+
+def stabilize_mask(mask, history):
+    history.append(mask)
+    return np.mean(history, axis=0).astype(np.uint8)
+
+
+def feather_mask(mask, radius=15):
+    mask_norm = mask.astype(np.float32) / 255.0
+    dist = cv2.distanceTransform((mask == 0).astype(np.uint8), cv2.DIST_L2, 5)
+    feather = np.clip(dist / radius, 0, 1)
+    return (mask_norm * feather * 255).astype(np.uint8)
+
+
+def compute_mask_ratio(mask):
+    return np.count_nonzero(mask) / mask.size
+
+# =============================================================================
+#                           BACKGROUND MODEL
+# =============================================================================
+
+def capture_background(cap):
+    frames = []
+    prev_frame = None
+
+    print("Capturing background... Please remain still.")
+
+    for _ in range(BACKGROUND_FRAMES):
+        ret, frame = cap.read()
+        if not ret:
+            continue
+
+        frame = preprocess_frame(frame)
+
+        if prev_frame is not None:
+            diff = np.mean(cv2.absdiff(frame, prev_frame))
+            if diff > MOTION_THRESHOLD:
+                continue
+
+        prev_frame = frame.copy()
+        frames.append(frame)
+
+        cv2.imshow("Background Capture", frame)
+        cv2.waitKey(1)
+
+    cv2.destroyWindow("Background Capture")
+
+    if not frames:
+        return None
+
+    return np.median(frames, axis=0).astype(np.uint8)
+
+# =============================================================================
+#                       AUTO HSV COLOR DETECTION
+# =============================================================================
+
+def estimate_hsv_from_center(hsv):
+    h, w, _ = hsv.shape
+    r = SAMPLE_BOX_SIZE
+
+    region = hsv[h//2 - r:h//2 + r, w//2 - r:w//2 + r]
+    median = np.median(region.reshape(-1, 3), axis=0)
+
+    lower = np.array([max(0, median[0] - 18), 40, 40])
+    upper = np.array([min(180, median[0] + 18), 255, 255])
+
+    return lower, upper
+
+# =============================================================================
+#                       LIGHTING & MOTION HANDLING
+# =============================================================================
+
+def match_lighting(fg, bg):
+    fg_yuv = cv2.cvtColor(fg, cv2.COLOR_BGR2YUV)
+    bg_yuv = cv2.cvtColor(bg, cv2.COLOR_BGR2YUV)
+    fg_yuv[:, :, 0] = bg_yuv[:, :, 0]
+    return cv2.cvtColor(fg_yuv, cv2.COLOR_YUV2BGR)
+
+# =============================================================================
+#                           TELEMETRY UI
+# =============================================================================
+
+def draw_panel(frame, x, y, w, h, alpha=0.4):
+    overlay = frame.copy()
+    cv2.rectangle(overlay, (x, y), (x + w, y + h), (0, 0, 0), -1)
+    cv2.addWeighted(overlay, alpha, frame, 1 - alpha, 0, frame)
+
+
+def draw_telemetry(frame, fps_log, mask_ratio, alpha, auto_mode):
+    avg_fps = sum(fps_log) / len(fps_log)
+
+    lines = [
+        f"FPS: {avg_fps:.1f}",
+        f"Mask Coverage: {mask_ratio * 100:.1f}%",
+        f"Alpha: {alpha:.2f}",
+        f"Mode: {'AUTO' if auto_mode else 'MANUAL'}"
+    ]
+
+    for i, text in enumerate(lines):
+        cv2.putText(
+            frame, text, (15, 35 + i * 25),
+            cv2.FONT_HERSHEY_SIMPLEX, 0.6,
+            (0, 255, 0), 2
+        )
+
+# =============================================================================
+#                           MAIN APPLICATION
+# =============================================================================
+
+def invisibility_cloak():
+    cap = cv2.VideoCapture(CAMERA_INDEX, cv2.CAP_DSHOW)
+    if not cap.isOpened():
+        print("Camera access failed.")
+        return
+
+    control_window = "HSV Controls"
+    cv2.namedWindow(control_window)
+    setup_hsv_trackbars(control_window)
+
+    background = capture_background(cap)
+    if background is None:
+        print("Background capture failed.")
+        return
+
+    fps_log = deque(maxlen=FPS_WINDOW)
+    mask_history = deque(maxlen=MASK_HISTORY_SIZE)
+
+    auto_mode = False
+    alpha = 1.0
+    last_valid_hsv = None
+    prev_time = time.time()
+    prev_frame = None
+
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+
+        frame = preprocess_frame(frame)
+        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
+        lower, upper = (
+            estimate_hsv_from_center(hsv)
+            if auto_mode
+            else read_hsv_trackbars(control_window)
+        )
+
+        mask = cv2.inRange(hsv, lower, upper)
+        mask = refine_mask(mask)
+
+        ratio = compute_mask_ratio(mask)
+
+        if ratio < MIN_MASK_RATIO and last_valid_hsv:
+            lower, upper = last_valid_hsv
+            mask = cv2.inRange(hsv, lower, upper)
+
+        elif ratio > MAX_MASK_RATIO:
+            lower[1] = min(255, lower[1] + 10)
+            mask = cv2.inRange(hsv, lower, upper)
+
+        if MIN_MASK_RATIO < ratio < MAX_MASK_RATIO:
+            last_valid_hsv = (lower.copy(), upper.copy())
+
+        mask = stabilize_mask(mask, mask_history)
+        mask = feather_mask(mask)
+
+        inverse_mask = cv2.bitwise_not(mask)
+
+        cloak_bg = match_lighting(frame, background)
+        cloak_region = cv2.bitwise_and(cloak_bg, cloak_bg, mask=mask)
+        visible_region = cv2.bitwise_and(frame, frame, mask=inverse_mask)
+
+        flow_alpha = alpha
+        if prev_frame is not None:
+            flow = cv2.calcOpticalFlowFarneback(
+                cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY),
+                cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY),
+                None, 0.5, 3, 15, 3, 5, 1.2, 0
+            )
+            motion_mag = np.mean(np.linalg.norm(flow, axis=2))
+            flow_alpha *= np.clip(1 - motion_mag / 20, 0.6, 1.0)
+
+        output = cv2.addWeighted(
+            cloak_region, flow_alpha,
+            visible_region, 1 - flow_alpha, 0
+        )
+
+        current_time = time.time()
+        fps = 1 / max(current_time - prev_time, 1e-6)
+        prev_time = current_time
+        fps_log.append(fps)
+
+        draw_panel(output, 5, 5, 260, 130)
+        draw_telemetry(output, fps_log, ratio, alpha, auto_mode)
+
+        cv2.imshow("Invisibility Cloak", output)
+
+        key = cv2.waitKey(1) & 0xFF
+        if key == ord('q'):
+            break
+        elif key == ord('a'):
+            auto_mode = not auto_mode
+        elif key == ord('b'):
+            background = capture_background(cap)
+        elif key == ord('['):
+            alpha = max(0.0, alpha - ALPHA_STEP)
+        elif key == ord(']'):
+            alpha = min(1.0, alpha + ALPHA_STEP)
+
+        prev_frame = frame.copy()
+
+    cap.release()
+    cv2.destroyAllWindows()
+
+# =============================================================================
+#                               ENTRY POINT
+# =============================================================================
+
+if __name__ == "__main__":
+    invisibility_cloak()
 
