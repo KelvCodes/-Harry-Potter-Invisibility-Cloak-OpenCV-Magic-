@@ -1,9 +1,4 @@
-
-        f
-    if not frames:
-        return None
-
-    return np.median(frames, axis=0).astype(np.uint8)
+ axis=0).astype(np.uint8)
 
 # =============================================================================
 #                       AUTO HSV COLOR DETECTION
