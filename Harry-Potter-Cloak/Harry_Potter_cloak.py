@@ -1,8 +1,4 @@
-
-    h, w, _ = hsv.shape
-    r = SAMPLE_BOX_SIZE
-
-    region = hsv[h//2 - r:h//2 + r, w//2 - r:w//2 + r]
+//2 + r]
     median = np.median(region.reshape(-1, 3), axis=0)
 
     lower = np.array([max(0, median[0] - 18), 40, 40])
