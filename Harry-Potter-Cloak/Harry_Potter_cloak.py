@@ -1,6 +1,4 @@
 
-    cv2.createTrackbar("US", window_name, 255, 255, noop)
-    cv2.createTrackbar("UV", window_name, 255, 255, noop)
 
 
 def read_hsv_trackbars(window_name):
