@@ -1,5 +1,5 @@
 
-        frames.append(frame)
+        f
 
         cv2.imshow("Background Capture", frame)
         cv2.waitKey(1)
