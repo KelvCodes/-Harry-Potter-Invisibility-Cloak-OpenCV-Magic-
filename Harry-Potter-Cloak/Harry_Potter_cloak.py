@@ -1,5 +1,4 @@
-stabilization,
-edge-aware alpha blending, lighting correction, and motion-aware smoothing
+
 to achieve a cinematic invisibility illusion.
 
 Controls:
