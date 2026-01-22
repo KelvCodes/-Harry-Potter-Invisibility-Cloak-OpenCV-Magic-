@@ -1,7 +1,4 @@
 
-
-
-def feather_mask(mask, radius=15):
     mask_norm = mask.astype(np.float32) / 255.0
     dist = cv2.distanceTransform((mask == 0).astype(np.uint8), cv2.DIST_L2, 5)
     feather = np.clip(dist / radius, 0, 1)
