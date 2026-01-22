@@ -1,9 +1,4 @@
 
-    for _ in range(BACKGROUND_FRAMES):
-        ret, frame = cap.read()
-        if not ret:
-            continue
-
         frame = preprocess_frame(frame)
 
         if prev_frame is not None:
