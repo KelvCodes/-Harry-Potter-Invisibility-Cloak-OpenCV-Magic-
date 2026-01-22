@@ -1,18 +1,4 @@
-
-
-# =============================================================================
-#                       LIGHTING & MOTION HANDLING
-# =============================================================================
-
-def match_lighting(fg, bg):
-    fg_yuv = cv2.cvtColor(fg, cv2.COLOR_BGR2YUV)
-    bg_yuv = cv2.cvtColor(bg, cv2.COLOR_BGR2YUV)
-    fg_yuv[:, :, 0] = bg_yuv[:, :, 0]
-    return cv2.cvtColor(fg_yuv, cv2.COLOR_YUV2BGR)
-
-# =============================================================================
-#                           TELEMETRY UI
-# =============================================================================
+==========================
 
 def draw_panel(frame, x, y, w, h, alpha=0.4):
     overlay = frame.copy()
