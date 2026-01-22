@@ -1,6 +1,4 @@
 
-    return (mask_norm * feather * 255).astype(np.uint8)
-
 
 def compute_mask_ratio(mask):
     return np.count_nonzero(mask) / mask.size
