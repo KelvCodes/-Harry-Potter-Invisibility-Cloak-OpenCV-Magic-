@@ -1,7 +1,3 @@
-sk, cv2.MORPH_CLOSE, kernel, iterations=2)
-    mask = cv2.GaussianBlur(mask, GAUSSIAN_BLUR_SIZE, 0)
-    return mask
-
 
 def stabilize_mask(mask, history):
     history.append(mask)
