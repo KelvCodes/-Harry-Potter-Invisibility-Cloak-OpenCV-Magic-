@@ -1,10 +1,4 @@
 
-        f"Mask Coverage: {mask_ratio * 100:.1f}%",
-        f"Alpha: {alpha:.2f}",
-        f"Mode: {'AUTO' if auto_mode else 'MANUAL'}"
-    ]
-
-    for i, text in enumerate(lines):
         cv2.putText(
             frame, text, (15, 35 + i * 25),
             cv2.FONT_HERSHEY_SIMPLEX, 0.6,
