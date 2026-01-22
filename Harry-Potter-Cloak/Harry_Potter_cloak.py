@@ -1,16 +1,4 @@
-==========================
 
-def draw_panel(frame, x, y, w, h, alpha=0.4):
-    overlay = frame.copy()
-    cv2.rectangle(overlay, (x, y), (x + w, y + h), (0, 0, 0), -1)
-    cv2.addWeighted(overlay, alpha, frame, 1 - alpha, 0, frame)
-
-
-def draw_telemetry(frame, fps_log, mask_ratio, alpha, auto_mode):
-    avg_fps = sum(fps_log) / len(fps_log)
-
-    lines = [
-        f"FPS: {avg_fps:.1f}",
         f"Mask Coverage: {mask_ratio * 100:.1f}%",
         f"Alpha: {alpha:.2f}",
         f"Mode: {'AUTO' if auto_mode else 'MANUAL'}"
