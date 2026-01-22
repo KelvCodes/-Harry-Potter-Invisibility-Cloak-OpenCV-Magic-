@@ -1,5 +1,4 @@
-
-Implements adaptive HSV color detection, temporal mask stabilization,
+stabilization,
 edge-aware alpha blending, lighting correction, and motion-aware smoothing
 to achieve a cinematic invisibility illusion.
 
