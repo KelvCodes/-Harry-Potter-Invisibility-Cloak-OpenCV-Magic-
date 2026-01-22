@@ -1,7 +1,4 @@
-//2 + r]
-    median = np.median(region.reshape(-1, 3), axis=0)
-
-    lower = np.array([max(0, median[0] - 18), 40, 40])
+dian[0] - 18), 40, 40])
     upper = np.array([min(180, median[0] + 18), 255, 255])
 
     return lower, upper
