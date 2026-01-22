@@ -1,5 +1,4 @@
 
-to achieve a cinematic invisibility illusion.
 
 Controls:
 ---------
