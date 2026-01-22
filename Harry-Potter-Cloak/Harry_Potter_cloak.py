@@ -1,7 +1,4 @@
-
-        frame = preprocess_frame(frame)
-
-        if prev_frame is not None:
+one:
             diff = np.mean(cv2.absdiff(frame, prev_frame))
             if diff > MOTION_THRESHOLD:
                 continue
