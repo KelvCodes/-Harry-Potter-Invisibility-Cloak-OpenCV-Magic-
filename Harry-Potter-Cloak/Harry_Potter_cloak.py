@@ -1,7 +1,4 @@
 
-def stabilize_mask(mask, history):
-    history.append(mask)
-    return np.mean(history, axis=0).astype(np.uint8)
 
 
 def feather_mask(mask, radius=15):
