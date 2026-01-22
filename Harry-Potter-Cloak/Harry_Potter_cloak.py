@@ -1,7 +1,4 @@
-dian[0] - 18), 40, 40])
-    upper = np.array([min(180, median[0] + 18), 255, 255])
 
-    return lower, upper
 
 # =============================================================================
 #                       LIGHTING & MOTION HANDLING
