@@ -1,7 +1,4 @@
 
-
-
-def read_hsv_trackbars(window_name):
     lower = np.array([
         cv2.getTrackbarPos("LH", window_name),
         cv2.getTrackbarPos("LS", window_name),
