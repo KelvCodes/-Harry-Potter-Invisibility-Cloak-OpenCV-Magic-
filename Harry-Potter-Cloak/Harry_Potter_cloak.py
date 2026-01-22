@@ -1,5 +1,4 @@
 
-A real-time invisibility cloak system using OpenCV and NumPy.
 Implements adaptive HSV color detection, temporal mask stabilization,
 edge-aware alpha blending, lighting correction, and motion-aware smoothing
 to achieve a cinematic invisibility illusion.
