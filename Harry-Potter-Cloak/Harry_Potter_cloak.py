@@ -1,6 +1,4 @@
 
-
-    cv2.createTrackbar("LH", window_name, 60, 180, noop)
     cv2.createTrackbar("LS", window_name, 50, 255, noop)
     cv2.createTrackbar("LV", window_name, 40, 255, noop)
     cv2.createTrackbar("UH", window_name, 120, 180, noop)
