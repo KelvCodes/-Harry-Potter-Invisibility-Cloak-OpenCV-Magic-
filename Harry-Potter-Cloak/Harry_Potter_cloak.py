@@ -1,8 +1,4 @@
 
-    prev_frame = None
-
-    print("Capturing background... Please remain still.")
-
     for _ in range(BACKGROUND_FRAMES):
         ret, frame = cap.read()
         if not ret:
