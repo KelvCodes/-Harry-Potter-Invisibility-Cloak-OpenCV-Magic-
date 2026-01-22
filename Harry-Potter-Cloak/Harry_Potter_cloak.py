@@ -1,20 +1,4 @@
 
-        cv2.putText(
-            frame, text, (15, 35 + i * 25),
-            cv2.FONT_HERSHEY_SIMPLEX, 0.6,
-            (0, 255, 0), 2
-        )
-
-# =============================================================================
-#                           MAIN APPLICATION
-# =============================================================================
-
-def invisibility_cloak():
-    cap = cv2.VideoCapture(CAMERA_INDEX, cv2.CAP_DSHOW)
-    if not cap.isOpened():
-        print("Camera access failed.")
-        return
-
     control_window = "HSV Controls"
     cv2.namedWindow(control_window)
     setup_hsv_trackbars(control_window)
