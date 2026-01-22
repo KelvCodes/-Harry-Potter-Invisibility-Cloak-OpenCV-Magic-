@@ -1,10 +1,4 @@
- axis=0).astype(np.uint8)
 
-# =============================================================================
-#                       AUTO HSV COLOR DETECTION
-# =============================================================================
-
-def estimate_hsv_from_center(hsv):
     h, w, _ = hsv.shape
     r = SAMPLE_BOX_SIZE
 
