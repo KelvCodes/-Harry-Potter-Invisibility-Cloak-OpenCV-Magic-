@@ -1,6 +1,4 @@
 
-]  : Increase alpha blending
-"""
 
 import cv2
 import numpy as np
