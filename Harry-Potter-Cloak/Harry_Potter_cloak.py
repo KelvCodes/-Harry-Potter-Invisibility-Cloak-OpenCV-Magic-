@@ -1,6 +1,4 @@
-
-    frame = cv2.flip(frame, 1)
-    return cv2.resize(frame, FRAME_SIZE)
+IZE)
 
 
 def refine_mask(mask):
