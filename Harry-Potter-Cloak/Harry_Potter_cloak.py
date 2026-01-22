@@ -1,6 +1,4 @@
 
-def capture_background(cap):
-    frames = []
     prev_frame = None
 
     print("Capturing background... Please remain still.")
