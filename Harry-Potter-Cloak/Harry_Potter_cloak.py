@@ -1,6 +1,4 @@
 
-
-def compute_mask_ratio(mask):
     return np.count_nonzero(mask) / mask.size
 
 # =============================================================================
