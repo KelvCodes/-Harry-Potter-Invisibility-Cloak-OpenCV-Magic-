@@ -1,13 +1,4 @@
-2.WINDOW_NORMAL)
-        cv2.resizeWindow(self.trackbar_window, 400, 300)
-        
-        cv2.createTrackbar("LH", self.trackbar_window, 50, 180, lambda x: None)
-        cv2.createTrackbar("LS", self.trackbar_window, 100, 255, lambda x: None)
-        cv2.createTrackbar("LV", self.trackbar_window, 100, 255, lambda x: None)
-        cv2.createTrackbar("UH", self.trackbar_window, 80, 180, lambda x: None)
-        cv2.createTrackbar("US", self.trackbar_window, 255, 255, lambda x: None)
-        cv2.createTrackbar("UV", self.trackbar_window, 255, 255, lambda x: None)
-    
+
     def get_hsv_range(self) -> Tuple[np.ndarray, np.ndarray]:
         """Get current HSV range based on mode."""
         if self.auto_mode:
