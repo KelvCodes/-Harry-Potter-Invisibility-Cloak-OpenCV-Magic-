@@ -1,5 +1,4 @@
 
-            self.upper[2] = int(min(255, self.original_upper[2] * 1.2))
         else:
             self.lower = self.original_lower.copy()
             self.upper = self.original_upper.copy()
