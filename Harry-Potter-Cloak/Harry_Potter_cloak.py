@@ -1,6 +1,4 @@
 
-    """HSV color range with adaptive adjustment capabilities."""
-    lower: np.ndarray
     upper: np.ndarray
     
     def __post_init__(self):
