@@ -1,6 +1,4 @@
-
-        """Setup HSV adjustment trackbars."""
-        cv2.namedWindow(self.trackbar_window, cv2.WINDOW_NORMAL)
+2.WINDOW_NORMAL)
         cv2.resizeWindow(self.trackbar_window, 400, 300)
         
         cv2.createTrackbar("LH", self.trackbar_window, 50, 180, lambda x: None)
