@@ -1,4 +1,4 @@
-rackbars(self) -> None:
+
         """Setup HSV adjustment trackbars."""
         cv2.namedWindow(self.trackbar_window, cv2.WINDOW_NORMAL)
         cv2.resizeWindow(self.trackbar_window, 400, 300)
