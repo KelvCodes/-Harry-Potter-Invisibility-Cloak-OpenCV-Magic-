@@ -1,8 +1,6 @@
 
     upper: np.ndarray
-    
-    def __post_init__(self):
-        self.original_lower = self.lower.copy()
+    er.copy()
         self.original_upper = self.upper.copy()
     
     def adjust_for_lighting(self, lighting_factor: float) -> None:
