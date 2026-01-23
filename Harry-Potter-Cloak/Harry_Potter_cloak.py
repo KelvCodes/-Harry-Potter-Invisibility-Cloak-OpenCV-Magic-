@@ -1,7 +1,4 @@
-
-    upper: np.ndarray
-    er.copy()
-        self.original_upper = self.upper.copy()
+copy()
     
     def adjust_for_lighting(self, lighting_factor: float) -> None:
         """Adjust HSV ranges based on lighting conditions."""
