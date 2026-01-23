@@ -1,5 +1,4 @@
-
-Implements adaptive HSV color detection with background subtraction, 
+ 
 temporal mask stabilization, edge-aware blending, and GPU acceleration support.
 
 Key Improvements:
