@@ -1,7 +1,4 @@
 
-        '1': (np.array([50, 40, 40]), np.array([80, 255, 255])),   # Green
-        '2': (np.array([0, 120, 70]), np.array([10, 255, 255])),   # Red 1
-        '3': (np.array([170, 120, 70]), np.array([180, 255, 255])), # Red 2
         '4': (np.array([100, 40, 40]), np.array([140, 255, 255])),  # Blue
         '5': (np.array([20, 100, 100]), np.array([30, 255, 255])),  # Yellow
     }
