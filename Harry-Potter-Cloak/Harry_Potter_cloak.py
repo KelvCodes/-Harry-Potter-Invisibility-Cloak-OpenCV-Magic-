@@ -1,7 +1,4 @@
 
-
-----------------
-1. GPU acceleration via CUDA (if available)
 2. Multi-processing for better performance
 3. Adaptive background maintenance
 4. Better edge handling with guided filtering
