@@ -1,5 +1,4 @@
 
-R  : Reset all parameters
 [  : Decrease alpha blending
 ]  : Increase alpha blending
 M  : Toggle mask display
