@@ -1,5 +1,4 @@
 
-B  : Re-capture background
 R  : Reset all parameters
 [  : Decrease alpha blending
 ]  : Increase alpha blending
