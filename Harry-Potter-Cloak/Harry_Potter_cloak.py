@@ -1,7 +1,4 @@
-=======================================
 
-@dataclass
-class Config:
     """Main configuration class for the invisibility cloak system."""
     camera_index: int = 0
     frame_width: int = 1280  # Increased for better quality
