@@ -1,6 +1,5 @@
 
 
-Key Improvements:
 ----------------
 1. GPU acceleration via CUDA (if available)
 2. Multi-processing for better performance
