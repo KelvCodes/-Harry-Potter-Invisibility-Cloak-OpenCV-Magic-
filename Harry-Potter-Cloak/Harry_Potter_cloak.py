@@ -1,6 +1,4 @@
 
-L  : Load saved settings
-1-9: Preset HSV ranges
 """
 
 import cv2
