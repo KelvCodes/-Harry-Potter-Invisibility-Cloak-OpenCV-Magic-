@@ -1,5 +1,4 @@
 
-    enable_multiprocessing: bool = True
     min_mask_ratio: float = 0.01
     max_mask_ratio: float = 0.4
     adaptive_background: bool = True
