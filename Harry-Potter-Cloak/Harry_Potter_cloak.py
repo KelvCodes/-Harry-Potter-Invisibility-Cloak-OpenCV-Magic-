@@ -1,6 +1,4 @@
 
-2. Multi-processing for better performance
-3. Adaptive background maintenance
 4. Better edge handling with guided filtering
 5. Real-time parameter tuning
 6. Error recovery and logging
