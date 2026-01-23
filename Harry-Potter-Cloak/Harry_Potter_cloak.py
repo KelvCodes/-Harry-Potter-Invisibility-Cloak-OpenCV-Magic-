@@ -1,7 +1,4 @@
-""
-    fps_window: int = 30
-    mask_history_size: int = 7
-    gpu_acceleration: bool = False
+
     enable_multiprocessing: bool = True
     min_mask_ratio: float = 0.01
     max_mask_ratio: float = 0.4
