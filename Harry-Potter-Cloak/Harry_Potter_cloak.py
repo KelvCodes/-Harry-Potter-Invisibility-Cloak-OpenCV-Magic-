@@ -1,7 +1,4 @@
-"""===========================================================
-Author: Kelvin Agyare Yeboah
 
-Description:
 ------------
 A high-performance real-time invisibility cloak system using OpenCV and NumPy.
 Implements adaptive HSV color detection with background subtraction, 
