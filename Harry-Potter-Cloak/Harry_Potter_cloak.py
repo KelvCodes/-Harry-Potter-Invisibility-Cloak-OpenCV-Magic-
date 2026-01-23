@@ -1,6 +1,4 @@
 
-        else:
-            self.lower = self.original_lower.copy()
             self.upper = self.original_upper.copy()
 
 class HSVManager:
