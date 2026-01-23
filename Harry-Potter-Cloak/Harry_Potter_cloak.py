@@ -1,9 +1,4 @@
 
-"""
-
-import cv2
-import numpy as np
-import time
 from collections import deque
 import json
 import logging
