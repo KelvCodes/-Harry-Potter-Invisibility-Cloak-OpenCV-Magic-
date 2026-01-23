@@ -1,6 +1,4 @@
-copy()
-    
-    def adjust_for_lighting(self, lighting_factor: float) -> None:
+
         """Adjust HSV ranges based on lighting conditions."""
         # Reduce saturation range in bright conditions
         if lighting_factor > 0.7:
