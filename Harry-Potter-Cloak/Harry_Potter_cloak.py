@@ -1,8 +1,4 @@
 
-class HSVManager:
-    """Manages HSV color detection with adaptive capabilities."""
-    
-    HSV_PRESETS = {
         '1': (np.array([50, 40, 40]), np.array([80, 255, 255])),   # Green
         '2': (np.array([0, 120, 70]), np.array([10, 255, 255])),   # Red 1
         '3': (np.array([170, 120, 70]), np.array([180, 255, 255])), # Red 2
