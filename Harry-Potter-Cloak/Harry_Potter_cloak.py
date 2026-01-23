@@ -1,5 +1,4 @@
 
-        self.current_preset = '1'
         self.auto_mode = False
         self.trackbar_window = "HSV Controls"
         
