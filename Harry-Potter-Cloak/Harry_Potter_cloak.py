@@ -1,5 +1,4 @@
 
-4. Better edge handling with guided filtering
 5. Real-time parameter tuning
 6. Error recovery and logging
 7. Performance monitoring
