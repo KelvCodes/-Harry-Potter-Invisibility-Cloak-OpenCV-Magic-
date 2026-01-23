@@ -1,5 +1,4 @@
- 
-temporal mask stabilization, edge-aware blending, and GPU acceleration support.
+
 
 Key Improvements:
 ----------------
