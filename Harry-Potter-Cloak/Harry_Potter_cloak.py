@@ -1,5 +1,4 @@
 
-            self.lower[1] = int(self.original_lower[1] * 0.8)
             self.upper[1] = int(min(255, self.original_upper[1] * 1.1))
         # Expand value range in dark conditions
         elif lighting_factor < 0.3:
