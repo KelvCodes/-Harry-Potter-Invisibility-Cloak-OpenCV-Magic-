@@ -1,5 +1,4 @@
 
-[  : Decrease alpha blending
 ]  : Increase alpha blending
 M  : Toggle mask display
 S  : Save current settings
