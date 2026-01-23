@@ -1,6 +1,4 @@
 
-M  : Toggle mask display
-S  : Save current settings
 L  : Load saved settings
 1-9: Preset HSV ranges
 """
