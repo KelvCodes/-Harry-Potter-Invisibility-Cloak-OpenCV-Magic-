@@ -1,7 +1,5 @@
 
 
-7. Performance monitoring
-
 Controls:
 ---------
 Q  : Quit
