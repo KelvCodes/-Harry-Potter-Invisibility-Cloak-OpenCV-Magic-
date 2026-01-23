@@ -1,7 +1,4 @@
 
-# =============================================================================
-
-@dataclass
 class HSVColor:
     """HSV color range with adaptive adjustment capabilities."""
     lower: np.ndarray
