@@ -1,7 +1,4 @@
 
-        '4': (np.array([100, 40, 40]), np.array([140, 255, 255])),  # Blue
-        '5': (np.array([20, 100, 100]), np.array([30, 255, 255])),  # Yellow
-    }
     
     def __init__(self, config: Config):
         self.config = config
