@@ -1,5 +1,4 @@
 
-    QUALITY = "quality"    # Highest quality, slower
 
 # =============================================================================
 #                           HSV COLOR MANAGEMENT
