@@ -1,8 +1,4 @@
 ""
-    camera_index: int = 0
-    frame_width: int = 1280  # Increased for better quality
-    frame_height: int = 720
-    background_frames: int = 60  # Reduced for faster capture
     fps_window: int = 30
     mask_history_size: int = 7
     gpu_acceleration: bool = False
