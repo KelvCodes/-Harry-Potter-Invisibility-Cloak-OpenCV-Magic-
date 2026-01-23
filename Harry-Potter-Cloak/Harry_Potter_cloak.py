@@ -1,5 +1,4 @@
 
-        """Adjust HSV ranges based on lighting conditions."""
         # Reduce saturation range in bright conditions
         if lighting_factor > 0.7:
             self.lower[1] = int(self.original_lower[1] * 0.8)
