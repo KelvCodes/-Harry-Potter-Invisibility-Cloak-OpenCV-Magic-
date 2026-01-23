@@ -1,8 +1,4 @@
 
-
-Controls:
----------
-Q  : Quit
 A  : Toggle auto HSV detection
 B  : Re-capture background
 R  : Reset all parameters
