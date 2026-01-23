@@ -1,7 +1,4 @@
-
-
-class ProcessingMode(Enum):
-    """Processing modes for different quality/performance trade-offs."""
+erent quality/performance trade-offs."""
     FAST = "fast"      # Optimized for performance
     BALANCED = "balanced"  # Default balanced mode
     QUALITY = "quality"    # Highest quality, slower
