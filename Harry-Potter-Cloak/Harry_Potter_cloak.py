@@ -1,6 +1,4 @@
 
-            self.upper = self.original_upper.copy()
-
 class HSVManager:
     """Manages HSV color detection with adaptive capabilities."""
     
