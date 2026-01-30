@@ -1,4 +1,4 @@
-m using OpenCV and NumPy.
+
 Implements advanced color detection with temporal stability, GPU acceleration,
 and intelligent resource management.
 
