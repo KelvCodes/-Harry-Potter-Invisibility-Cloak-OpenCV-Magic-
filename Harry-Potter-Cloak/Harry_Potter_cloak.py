@@ -2,9 +2,6 @@
 # =============================================================================
 
 def memoize(maxsize=128):
-    """Enhanced memoization decorator with size limit."""
-    def decorator(func):
-        cache = {}
         cache_lock = threading.Lock()
         
         @functools.wraps(func)
