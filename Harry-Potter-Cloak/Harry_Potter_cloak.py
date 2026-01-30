@@ -1,9 +1,4 @@
 
-class ProcessingMode(Enum):
-    FAST = "fast"
-    BALANCED = "balanced"
-    QUALITY = "quality"
-
 # HSV Presets as constants for better performance
 HSV_PRESETS = {
     '1': (np.array([50, 40, 40], dtype=np.uint8), np.array([80, 255, 255], dtype=np.uint8)),
