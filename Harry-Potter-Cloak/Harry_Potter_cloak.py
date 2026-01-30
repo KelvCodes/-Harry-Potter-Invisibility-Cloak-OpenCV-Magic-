@@ -1,5 +1,4 @@
 
-    '1': (np.array([50, 40, 40], dtype=np.uint8), np.array([80, 255, 255], dtype=np.uint8)),
     '2': (np.array([0, 120, 70], dtype=np.uint8), np.array([10, 255, 255], dtype=np.uint8)),
     '3': (np.array([170, 120, 70], dtype=np.uint8), np.array([180, 255, 255], dtype=np.uint8)),
     '4': (np.array([100, 40, 40], dtype=np.uint8), np.array([140, 255, 255], dtype=np.uint8)),
