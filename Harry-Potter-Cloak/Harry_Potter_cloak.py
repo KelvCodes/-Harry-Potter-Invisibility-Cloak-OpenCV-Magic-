@@ -1,6 +1,4 @@
 
-@dataclass
-class Config:
     """Optimized configuration with sensible defaults."""
     camera_index: int = 0
     frame_width: int = 1280
