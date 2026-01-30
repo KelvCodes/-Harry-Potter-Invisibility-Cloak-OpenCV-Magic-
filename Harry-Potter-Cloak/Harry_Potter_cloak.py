@@ -1,6 +1,5 @@
 
     camera_index: int = 0
-    frame_width: int = 1280
     frame_height: int = 720
     background_frames: int = 30  # Reduced for faster startup
     fps_window: int = 20  # Smaller window for more responsive FPS
