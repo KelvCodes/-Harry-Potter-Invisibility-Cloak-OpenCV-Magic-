@@ -1,4 +1,5 @@
-zed real-time invisibility cloak system using OpenCV and NumPy.
+
+ibility cloak system using OpenCV and NumPy.
 Implements advanced color detection with temporal stability, GPU acceleration,
 and intelligent resource management.
 
