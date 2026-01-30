@@ -2,7 +2,7 @@
         return (self.frame
     @property
     def frame_area(self) -> int:
-        return self.frame_width * self.frame_height
+        return selfidth * self.frame_height
 
 class ProcessingMode(Enum):
     FAST = "fast"
