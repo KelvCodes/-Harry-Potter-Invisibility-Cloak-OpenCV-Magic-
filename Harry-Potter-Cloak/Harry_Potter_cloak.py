@@ -1,6 +1,4 @@
 
-        return selfidth * self.frame_height
-
 class ProcessingMode(Enum):
     FAST = "fast"
     BALANCED = "balanced"
