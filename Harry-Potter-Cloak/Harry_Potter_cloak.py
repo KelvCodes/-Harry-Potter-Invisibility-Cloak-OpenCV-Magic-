@@ -1,5 +1,4 @@
 
-    enable_caching: bool = True  # Enable operation caching
     
     @property
     def frame_size(self) -> Tuple[int, int]:
