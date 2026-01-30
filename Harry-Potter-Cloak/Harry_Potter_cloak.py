@@ -1,6 +1,4 @@
 
-    mask_history_size: int = 5  # Reduced for better performance
-    gpu_acceleration: bool = False
     enable_multiprocessing: bool = True
     num_threads: int = 4  # Explicit thread count
     min_mask_ratio: float = 0.005  # More sensitive
