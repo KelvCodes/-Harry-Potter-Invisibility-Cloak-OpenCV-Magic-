@@ -1,5 +1,4 @@
-
-8. Profile-guided optimizations
+guided optimizations
 """
 
 import cv2
