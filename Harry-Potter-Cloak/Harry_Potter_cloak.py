@@ -1,5 +1,4 @@
 
-    enable_multiprocessing: bool = True
     num_threads: int = 4  # Explicit thread count
     min_mask_ratio: float = 0.005  # More sensitive
     max_mask_ratio: float = 0.35
