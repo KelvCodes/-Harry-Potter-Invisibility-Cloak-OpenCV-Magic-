@@ -1,4 +1,4 @@
-bility, GPU acceleration,
+
 and intelligent resource management.
 
 Key Optimizations:
