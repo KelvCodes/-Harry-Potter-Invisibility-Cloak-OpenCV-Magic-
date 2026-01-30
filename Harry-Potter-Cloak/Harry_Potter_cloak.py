@@ -1,6 +1,4 @@
 
-
-Key Optimizations:
 -----------------
 1. Caching and memoization for expensive operations
 2. Lazy loading of resources
