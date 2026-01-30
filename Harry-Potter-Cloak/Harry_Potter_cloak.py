@@ -1,16 +1,5 @@
 
-# =============================================================================
 
-def memoize(maxsize=128):
-        cache_lock = threading.Lock()
-        
-        @functools.wraps(func)
-        def wrapper(*args, **kwargs):
-            # Create a cache key from args and kwargs
-            key = (args, tuple(sorted(kwargs.items())))
-            
-            with cache_lock:
-                if key in cache:
                     return cache[key]
             
             result = func(*args, **kwargs)
