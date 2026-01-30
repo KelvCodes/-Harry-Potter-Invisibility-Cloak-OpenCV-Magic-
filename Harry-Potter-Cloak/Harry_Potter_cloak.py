@@ -1,6 +1,4 @@
 
-# =============================================================================
-
 @dataclass
 class Config:
     """Optimized configuration with sensible defaults."""
