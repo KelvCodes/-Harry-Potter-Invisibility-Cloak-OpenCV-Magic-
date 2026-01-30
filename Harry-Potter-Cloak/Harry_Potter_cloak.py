@@ -1,5 +1,4 @@
 
-    def frame_area(self) -> int:
         return selfidth * self.frame_height
 
 class ProcessingMode(Enum):
