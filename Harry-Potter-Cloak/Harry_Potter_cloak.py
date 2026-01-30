@@ -1,4 +1,4 @@
-ization for expensive operations
+xpensive operations
 2. Lazy loading of resources
 3. Efficient memory management with context managers
 4. Optimized NumPy operations with vectorization
