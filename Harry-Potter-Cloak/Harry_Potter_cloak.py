@@ -1,5 +1,4 @@
 
-    adaptive_background: bool = True
     background_learning_rate: float = 0.001
     logging_level: int = logging.INFO
     enable_caching: bool = True  # Enable operation caching
