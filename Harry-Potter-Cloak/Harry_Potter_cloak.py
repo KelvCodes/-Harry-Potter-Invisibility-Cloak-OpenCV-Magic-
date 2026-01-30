@@ -1,6 +1,5 @@
  Tuple[int, int]:
-        return (self.frame_width, self.frame_height)
-    
+        return (self.frame
     @property
     def frame_area(self) -> int:
         return self.frame_width * self.frame_height
