@@ -1,4 +1,4 @@
-color detection with temporal stability, GPU acceleration,
+ith temporal stability, GPU acceleration,
 and intelligent resource management.
 
 Key Optimizations:
