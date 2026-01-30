@@ -1,5 +1,4 @@
 
-and intelligent resource management.
 
 Key Optimizations:
 -----------------
