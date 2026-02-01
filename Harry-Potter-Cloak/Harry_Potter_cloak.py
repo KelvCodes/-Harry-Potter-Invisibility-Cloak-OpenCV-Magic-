@@ -1,6 +1,4 @@
 
-    max_mask_ratio: float = 0.35
-    adaptive_background: bool = True
     background_learning_rate: float = 0.001
     logging_level: int = logging.INFO
     
