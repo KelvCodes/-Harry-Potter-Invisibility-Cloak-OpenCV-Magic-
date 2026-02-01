@@ -1,7 +1,4 @@
-
-    
-    FAST = "fast"
-    BALANCED = "balanced"
+nced"
     QUALITY = "quality"
 
 
