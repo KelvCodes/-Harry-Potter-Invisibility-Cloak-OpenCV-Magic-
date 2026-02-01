@@ -1,5 +1,4 @@
-
-Author: Kelvin Agyare Yeboah
+yare Yeboah
 
 Description:
 ------------
