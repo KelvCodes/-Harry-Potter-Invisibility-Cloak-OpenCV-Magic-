@@ -1,6 +1,4 @@
-=============================================
 
-@dataclass
 class SystemConfig:
     """System configuration with sensible defaults."""
     camera_index: int = 0
