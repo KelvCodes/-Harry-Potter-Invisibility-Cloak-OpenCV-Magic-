@@ -1,7 +1,4 @@
 
-
-    @property
-    def frame_area(self) -> int:
     
 class ProcessingMode(Enum):
     """Processing quality modes."""
