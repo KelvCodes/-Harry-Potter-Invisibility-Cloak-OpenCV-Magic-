@@ -1,4 +1,4 @@
-================================================
+
 Author: Kelvin Agyare Yeboah
 
 Description:
