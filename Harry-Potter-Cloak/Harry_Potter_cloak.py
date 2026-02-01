@@ -1,4 +1,3 @@
-d NumPy. Implporal stability and resource optimization.
 
 Key Features:
 ------------
