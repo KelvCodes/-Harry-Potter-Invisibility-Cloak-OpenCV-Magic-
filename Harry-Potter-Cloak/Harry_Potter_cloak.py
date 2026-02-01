@@ -1,5 +1,4 @@
 
-    min_mask_ratio: float = 0.005
     max_mask_ratio: float = 0.35
     adaptive_background: bool = True
     background_learning_rate: float = 0.001
