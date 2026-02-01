@@ -1,7 +1,5 @@
 
 
-        return (self.frame_width, self.frame_height)
-    
     @property
     def frame_area(self) -> int:
         return self.frame_width * self.frame_height
