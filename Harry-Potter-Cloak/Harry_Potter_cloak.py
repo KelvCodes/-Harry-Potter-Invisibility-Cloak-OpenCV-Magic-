@@ -1,4 +1,4 @@
-ak system using OpenCV and NumPy. Implements
+ using OpenCV and NumPy. Implements
 color detection with temporal stability and resource optimization.
 
 Key Features:
