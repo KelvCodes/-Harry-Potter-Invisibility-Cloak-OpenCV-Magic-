@@ -1,5 +1,4 @@
 
-    background_frames: int = 30
     fps_window: int = 20
     mask_history_size: int = 5
     enable_gpu: bool = False
