@@ -1,5 +1,4 @@
-d NumPy. Implements
-color detection with temporal stability and resource optimization.
+d NumPy. Implporal stability and resource optimization.
 
 Key Features:
 ------------
