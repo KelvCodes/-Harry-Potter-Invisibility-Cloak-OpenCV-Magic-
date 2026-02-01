@@ -1,6 +1,5 @@
 
-    fps_window: int = 20
-    mask_history_size: int = 5
+    fps_window: int = 205
     enable_gpu: bool = False
     enable_multithreading: bool = True
     num_threads: int = 4
