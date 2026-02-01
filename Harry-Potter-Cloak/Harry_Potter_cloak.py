@@ -1,4 +1,4 @@
- System 3.0 (Optimized Computer Vision Project)
+ Computer Vision Project)
 ===============================================================================
 Author: Kelvin Agyare Yeboah
 
