@@ -1,20 +1,4 @@
-
-def timer_decorator(func):
-    """Decorator to measure function execution time."""
-    @functools.wraps(func)
-    def wrapper(*args, **kwargs):
-        start_time = time.perf_counter()
-        result = func(*args, **kwargs)
-        end_time = time.perf_counter()
-        logging.debug(f"{func.__name__} executed in {end_time-start_time:.4f}s")
-        return result
-    return wrapper
-
-
-class PerformanceTimer:
-    """Context manager for timing code blocks."""
-    def __enter__(self):
-        self.start_time = time.perf_counter()
+_counter()
         return self
     
     def __exit__(self, exc_type, exc_val, exc_tb):
