@@ -1,5 +1,4 @@
 
-Key Features:
 ------------
 1. Real-time cloak effect with background replacement
 2. Adaptive color range management
