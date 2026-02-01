@@ -1,6 +1,5 @@
 
 
-Description:
 ------------
 A real-time invisibility cloak system using OpenCV and NumPy. Implements
 color detection with temporal stability and resource optimization.
