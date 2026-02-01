@@ -1,6 +1,5 @@
 
-    logging_level: int = logging.INFO
-Tuple[int, int]:
+
         return (self.frame_width, self.frame_height)
     
     @property
