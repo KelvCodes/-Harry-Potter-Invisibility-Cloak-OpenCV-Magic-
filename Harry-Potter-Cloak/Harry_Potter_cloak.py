@@ -1,6 +1,3 @@
-=============================================================================
-#                           PERFORMANCE UTILITIES
-# =============================================================================
 
 def timer_decorator(func):
     """Decorator to measure function execution time."""
