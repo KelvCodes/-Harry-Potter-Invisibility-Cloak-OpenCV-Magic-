@@ -1,5 +1,4 @@
 
-    background_learning_rate: float = 0.001
     logging_level: int = logging.INFO
     
     @property
