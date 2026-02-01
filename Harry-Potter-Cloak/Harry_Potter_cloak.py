@@ -1,6 +1,4 @@
-
-    '1': (np.array([50, 40, 40], dtyp
-          np.array([10, 255, 255], dtype=np.uint8)),   # Red (low)
+uint8)),   # Red (low)
     '3': (np.array([170, 120, 70], dtype=np.uint8), 
           np.array([180, 255, 255], dtype=np.uint8)),  # Red (high)
     '4': (np.array([100, 40, 40], dtype=np.uint8), 
