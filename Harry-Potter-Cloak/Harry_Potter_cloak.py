@@ -1,4 +1,4 @@
-loak effect with background replacement
+t with background replacement
 2. Adaptive color range management
 3. Temporal stability for smooth transitions
 4. Performance optimizations
