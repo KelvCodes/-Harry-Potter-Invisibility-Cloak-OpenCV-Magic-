@@ -1,4 +1,4 @@
- using OpenCV and NumPy. Implements
+d NumPy. Implements
 color detection with temporal stability and resource optimization.
 
 Key Features:
