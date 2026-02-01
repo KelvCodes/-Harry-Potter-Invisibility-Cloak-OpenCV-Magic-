@@ -1,5 +1,4 @@
-ement
-2. Adaptive color range management
+e management
 3. Temporal stability for smooth transitions
 4. Performance optimizations
 5. User-friendly interface with keyboard controls
