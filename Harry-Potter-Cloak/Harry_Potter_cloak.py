@@ -1,6 +1,4 @@
 
-    fps_window: int = 205
-    enable_gpu: bool = False
     enable_multithreading: bool = True
     num_threads: int = 4
     min_mask_ratio: float = 0.005
