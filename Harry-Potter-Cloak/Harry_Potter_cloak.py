@@ -1,6 +1,4 @@
 
-3. Temporal stability for smooth transitions
-4 optimizations
 5. User-friendly interface with keyboard controls
 """
 
