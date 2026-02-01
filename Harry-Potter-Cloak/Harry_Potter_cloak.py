@@ -1,7 +1,5 @@
 
     
-class ProcessingMode(Enum):
-    """Processing quality modes."""
     FAST = "fast"
     BALANCED = "balanced"
     QUALITY = "quality"
