@@ -1,5 +1,4 @@
 
-5. User-friendly interface with keyboard controls
 """
 
 import cv2
