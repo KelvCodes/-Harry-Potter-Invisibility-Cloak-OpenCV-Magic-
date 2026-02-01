@@ -1,6 +1,4 @@
-uint8)),   # Red (low)
-    '3': (np.array([170, 120, 70], dt
-          np.array([140, 255, 255], dtype=np.uint8)),  # Blue
+e=np.uint8)),  # Blue
     '5': (np.array([20, 100, 100], dtype=np.uint8), 
           np.array([30, 255, 255], dtype=np.uint8)),   # Orange
 }
