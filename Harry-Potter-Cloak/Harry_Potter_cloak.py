@@ -1,5 +1,4 @@
 
-    frame_height: int = 720
     background_frames: int = 30
     fps_window: int = 20
     mask_history_size: int = 5
