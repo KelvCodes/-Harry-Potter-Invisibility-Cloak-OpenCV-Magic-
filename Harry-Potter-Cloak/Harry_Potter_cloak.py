@@ -1,5 +1,4 @@
-nced"
-    QUALI
+
 # HSV color presets for different cloak colors
 HSV_PRESETS = {
     '1': (np.array([50, 40, 40], dtype=np.uint8), 
