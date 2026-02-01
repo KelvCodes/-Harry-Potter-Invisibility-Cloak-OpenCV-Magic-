@@ -1,4 +1,4 @@
-t with background replacement
+ement
 2. Adaptive color range management
 3. Temporal stability for smooth transitions
 4. Performance optimizations
