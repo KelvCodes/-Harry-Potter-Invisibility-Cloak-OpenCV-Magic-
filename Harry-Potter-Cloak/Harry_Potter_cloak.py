@@ -2,9 +2,7 @@
 
     @property
     def frame_area(self) -> int:
-        return self.frame_width * self.frame_height
-
-
+    
 class ProcessingMode(Enum):
     """Processing quality modes."""
     FAST = "fast"
