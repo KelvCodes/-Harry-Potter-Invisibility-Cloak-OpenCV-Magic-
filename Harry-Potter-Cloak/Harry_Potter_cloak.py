@@ -1,5 +1,4 @@
-
-from pathlib import Path
+t Path
 import sys
 import gc
 
