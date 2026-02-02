@@ -1,5 +1,4 @@
 
-    CUDA_AVAILABLE = 
 
 try:
     from sklearn.cluster import KMeans
