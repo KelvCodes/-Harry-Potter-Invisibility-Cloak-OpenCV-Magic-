@@ -1,6 +1,4 @@
 
-    target_fps: int = 60
-    
     # Processing settings
     processing_mode: str = "balanced"  # "fast", "balanced", "quality"
     enable_gpu: bool = CUDA_AVAILABLE
