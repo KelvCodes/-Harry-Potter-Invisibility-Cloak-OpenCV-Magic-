@@ -1,6 +1,4 @@
 
-    SKLEARN_AVAILABLE = True
-except ImportError:
     SKLEARN_AVAILABLE = False
 
 # Configure logging
