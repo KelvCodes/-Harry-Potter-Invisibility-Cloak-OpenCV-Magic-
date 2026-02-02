@@ -1,19 +1,4 @@
-d"  # "fast", "balanced", "qu
-    enable_multithreading: bool = True
-    num_threads: int = max(1, mp.cpu_count() - 1)
-    
-    # Color detection
-    color_sensitivity: float = 0.8
-    adaptive_threshold: bool = True
-    use_multi_color: bool = True
-    max_colors: int = 3
-    
-    # Background
-    background_frames: int = 30
-    background_update_rate: float = 0.01
-    enable_background_restoration: bool = True
-    background_model: str = "mog2"  # "static", "mog2", "knn"
-    
+
     # Mask processing
     mask_smoothing: float = 0.7
     temporal_stability: int = 5
