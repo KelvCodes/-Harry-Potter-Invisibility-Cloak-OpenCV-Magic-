@@ -1,6 +1,4 @@
 
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
         logging.FileHandler('cloak_system.log'),
         logging.StreamHandler()
     ]
