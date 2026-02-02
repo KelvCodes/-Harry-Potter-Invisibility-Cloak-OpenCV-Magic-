@@ -1,6 +1,4 @@
-
-------------
-An advanced real-time invisibility cloak system with improved:
+me invisibility cloak system with improved:
 1. Multi-color detection with blending
 2. Machine learning-based color adaptation
 3. GPU acceleration with OpenCL
