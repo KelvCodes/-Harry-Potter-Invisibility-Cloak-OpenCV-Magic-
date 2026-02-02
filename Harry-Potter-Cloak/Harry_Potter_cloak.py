@@ -1,7 +1,4 @@
 
-# =============================================================================
-
-@dataclass
 class SystemConfig:
     """Enhanced system configuration."""
     # Camera settings
