@@ -1,5 +1,4 @@
-t, Any, Deque
-from collections import deque, defaultdict
+import deque, defaultdict
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 import multiprocessing as mp
 from pathlib import Path
