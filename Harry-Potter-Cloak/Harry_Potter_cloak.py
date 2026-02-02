@@ -1,6 +1,5 @@
 
-    CUDA_AVAILABLE = False
-    cp = None
+    CUDA_AVAILABLE = 
 
 try:
     from sklearn.cluster import KMeans
