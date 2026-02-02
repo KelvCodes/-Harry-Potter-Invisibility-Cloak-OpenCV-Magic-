@@ -1,6 +1,4 @@
 
-
-Description:
 ------------
 An advanced real-time invisibility cloak system with improved:
 1. Multi-color detection with blending
