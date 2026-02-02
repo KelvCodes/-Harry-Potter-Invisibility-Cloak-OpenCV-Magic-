@@ -1,6 +1,4 @@
 
-6. Comprehensive GUI with parameter control
-"""
 
 import cv2
 import numpy as np
