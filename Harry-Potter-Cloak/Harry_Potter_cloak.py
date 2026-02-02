@@ -1,5 +1,4 @@
-d"  # "fast", "balanced", "quality"
-    enable_gpu: bool = CUDA_AVAILABLE
+d"  # "fast", "balanced", "qu
     enable_multithreading: bool = True
     num_threads: int = max(1, mp.cpu_count() - 1)
     
