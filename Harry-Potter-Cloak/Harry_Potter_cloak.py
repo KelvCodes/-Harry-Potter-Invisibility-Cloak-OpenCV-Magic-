@@ -1,5 +1,4 @@
-
-5. Advanced temporal stabilization
+on
 6. Real-time parameter adjustment GUI
 
 Key Features:
