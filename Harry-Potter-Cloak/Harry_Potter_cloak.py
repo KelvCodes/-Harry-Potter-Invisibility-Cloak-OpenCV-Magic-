@@ -1,4 +1,4 @@
-t Path
+
 import sys
 import gc
 
