@@ -1,4 +1,4 @@
-oak effect with multiple color support
+
 2. AI-powered color range optimization
 3. Temporal stability with optical flow
 4. Background reconstruction
