@@ -1,6 +1,4 @@
 
-    frame_width: int = 1280
-    frame_height: int = 720
     target_fps: int = 60
     
     # Processing settings
