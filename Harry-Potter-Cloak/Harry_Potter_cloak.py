@@ -1,5 +1,4 @@
-
-1. Multi-color detection with blending
+g
 2. Machine learning-based color adaptation
 3. GPU acceleration with OpenCL
 4. Background restoration with inpainting
