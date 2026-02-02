@@ -1,6 +1,4 @@
 
-
-Key Features:
 ------------
 1. Real-time cloak effect with multiple color support
 2. AI-powered color range optimization
