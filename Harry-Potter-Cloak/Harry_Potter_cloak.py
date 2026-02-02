@@ -1,5 +1,4 @@
-on
-6. Real-time parameter adjustment GUI
+
 
 Key Features:
 ------------
