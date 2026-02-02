@@ -1,5 +1,4 @@
 
-3. Temporal stability with optical flow
 4. Background reconstruction
 5. Performance profiling and optimization
 6. Comprehensive GUI with parameter control
