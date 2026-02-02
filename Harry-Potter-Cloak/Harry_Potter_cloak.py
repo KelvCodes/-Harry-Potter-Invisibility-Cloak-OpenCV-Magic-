@@ -1,5 +1,4 @@
 
-Invisibility Cloak System 4.0 (Enhanced Computer Vision Project)
 ===============================================================================
 Author: Kelvin Agyare Yeboah
 
