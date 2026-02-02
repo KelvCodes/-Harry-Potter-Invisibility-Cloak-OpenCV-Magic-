@@ -1,6 +1,4 @@
-
-class SystemConfig:
-    """Enhanced system configuration."""
+n."""
     # Camera settings
     camera_index: int = 0
     frame_width: int = 1280
