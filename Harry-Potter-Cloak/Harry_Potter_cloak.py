@@ -1,4 +1,3 @@
-lvin Agyare Yeboah
 
 Description:
 ------------
