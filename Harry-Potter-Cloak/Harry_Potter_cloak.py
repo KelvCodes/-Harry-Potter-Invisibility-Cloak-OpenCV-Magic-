@@ -1,4 +1,4 @@
-l-time invisibility cloak system with improved:
+sibility cloak system with improved:
 1. Multi-color detection with blending
 2. Machine learning-based color adaptation
 3. GPU acceleration with OpenCL
