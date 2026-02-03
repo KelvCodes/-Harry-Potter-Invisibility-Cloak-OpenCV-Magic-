@@ -1,5 +1,4 @@
 
-5. Performance profiling and optimization
 6. Comprehensive GUI with parameter control
 """
 
