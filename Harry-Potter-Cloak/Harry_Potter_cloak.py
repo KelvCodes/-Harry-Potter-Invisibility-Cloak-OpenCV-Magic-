@@ -1,5 +1,4 @@
-t
-2. AI-powered color range optimization
+
 3. Temporal stability with optical flow
 4. Background reconstruction
 5. Performance profiling and optimization
