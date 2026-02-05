@@ -1,5 +1,4 @@
 
-    mask_smoothing: float = 0.7  # Temporal smoothing factor (0-1)
     temporal_stability: int = 5  # Number of frames to consider for stability
     feather_amount: float = 0.1  # Edge feathering amount (0-1)
     min_mask_area: float = 0.001  # Minimum mask area as % of frame (reject noise)
