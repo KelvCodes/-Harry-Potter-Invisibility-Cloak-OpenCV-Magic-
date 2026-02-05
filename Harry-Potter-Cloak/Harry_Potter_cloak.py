@@ -1,5 +1,4 @@
 
-import gc
 
 # Optional imports for enhanced features
 try:
