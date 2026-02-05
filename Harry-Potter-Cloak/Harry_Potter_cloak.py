@@ -1,5 +1,4 @@
 
-except ImportError:
     SKLEARN_AVAILABLE = False
 
 # Configure logging for system monitoring and debugging
