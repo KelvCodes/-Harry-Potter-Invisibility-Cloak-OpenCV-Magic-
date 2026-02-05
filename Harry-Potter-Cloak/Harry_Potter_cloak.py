@@ -1,6 +1,4 @@
 
-
-# Configure logging for system monitoring and debugging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
