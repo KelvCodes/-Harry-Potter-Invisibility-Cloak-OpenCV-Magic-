@@ -1,6 +1,4 @@
-
-    enable_multithreading: bool = True  # Parallel processing
-    num_threads: int = max(1, mp.cpu_count() - 1)  # Use all but one CPU core
+PU core
     
     # Color detection
     color_sensitivity: float = 0.8  # How strongly to apply cloak effect (0-1)
