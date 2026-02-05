@@ -1,6 +1,4 @@
-elf) -> Tuple[int, intdth, self.frame_height)
-    
-    @property
+elf) 
     def frame_area(self) -> int:
         """Calculate total number of pixels in frame."""
         return self.frame_width * self.frame_height
