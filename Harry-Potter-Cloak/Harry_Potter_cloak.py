@@ -1,8 +1,6 @@
 
-        return self.frame_width * self.frame_height
+        return self.frame_wid
 
-
-class ProcessingMode(Enum):
     """
     Enumeration for processing modes.
     Controls trade-off between speed and quality.
