@@ -1,6 +1,5 @@
 
-   
-    processing_mode: str = "balanced"  # Options: "fast", "balanced", "quality"
+    Options: "fast", "balanced", "quality"
     enable_gpu: bool = CUDA_AVAILABLE  # Use GPU if available
     enable_multithreading: bool = True  # Parallel processing
     num_threads: int = max(1, mp.cpu_count() - 1)  # Use all but one CPU core
