@@ -1,6 +1,5 @@
 
-    stats_window: int = 100  # Number of frames to average statistics over
-    cache_size: int = 10  # Size of frame/mask cache for temporal operations
+    stats_window: int = 100  # Number of frames tor temporal operations
     
     # UI settings
     show_controls: bool = True  # Display interactive controls
