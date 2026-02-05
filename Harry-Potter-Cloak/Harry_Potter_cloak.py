@@ -1,6 +1,4 @@
-
-    stat
-    show_controls: bool = True  # Display interactive controls
+s
     show_stats: bool = True  # Show performance statistics
     show_debug: bool = False  # Show debug information
     
