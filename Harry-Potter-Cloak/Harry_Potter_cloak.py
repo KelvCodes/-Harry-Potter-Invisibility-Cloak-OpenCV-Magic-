@@ -1,6 +1,4 @@
 
-        return self.frame_wid
-
     """
     Enumeration for processing modes.
     Controls trade-off between speed and quality.
