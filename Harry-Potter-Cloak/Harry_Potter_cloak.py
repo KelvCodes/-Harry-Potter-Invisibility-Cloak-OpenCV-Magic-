@@ -1,6 +1,4 @@
-
-    temporal_stability: int = 5  # Number of frames to consider for stability
-    feather_amount: float = 0.1  # Edge feathering amount (0-1)
+ feathering amount (0-1)
     min_mask_area: float = 0.001  # Minimum mask area as % of frame (reject noise)
     max_mask_area: float = 0.4  # Maximum mask area as % of frame (prevent overflow)
     
