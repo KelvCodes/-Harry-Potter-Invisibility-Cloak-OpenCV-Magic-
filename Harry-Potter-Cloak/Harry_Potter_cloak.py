@@ -1,8 +1,4 @@
-pproach
-    QUALITY = auto()   # Prioritize quality, lower speed
-    
-    @classmethod
-    def from_string(cls, mode_str: str):
+ str):
         """Convert string to ProcessingMode enum."""
         return {
             "fast": cls.FAST,
