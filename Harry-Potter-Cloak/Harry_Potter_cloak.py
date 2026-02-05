@@ -1,7 +1,5 @@
 
-    stats_window: int = 100  # Number of frames tor temporal operations
-    
-    # UI settings
+    stat
     show_controls: bool = True  # Display interactive controls
     show_stats: bool = True  # Show performance statistics
     show_debug: bool = False  # Show debug information
