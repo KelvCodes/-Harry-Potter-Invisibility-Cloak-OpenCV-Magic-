@@ -1,6 +1,4 @@
-
-    """
-    Enhanced system configuration using dataclass for clean structure.
+e.
     Contains all tunable parameters for the invisibility cloak system.
     """
     # Camera settings
