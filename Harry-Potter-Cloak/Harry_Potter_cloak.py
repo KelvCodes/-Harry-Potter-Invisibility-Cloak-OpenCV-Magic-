@@ -1,6 +1,5 @@
 
-    
-    # Processing settings
+   
     processing_mode: str = "balanced"  # Options: "fast", "balanced", "quality"
     enable_gpu: bool = CUDA_AVAILABLE  # Use GPU if available
     enable_multithreading: bool = True  # Parallel processing
