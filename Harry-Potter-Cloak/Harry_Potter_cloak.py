@@ -1,6 +1,4 @@
 
-    level=logging.%(name)s - %(levelname)s - %(message)s',
-    handlers=[
         logging.FileHandler('cloak_system.log'),  # Log to file
         logging.StreamHandler()  # Also log to console
     ]
