@@ -1,7 +1,4 @@
 
-#           
-
-@dataclass:
     """
     Enhanced system configuration using dataclass for clean structure.
     Contains all tunable parameters for the invisibility cloak system.
