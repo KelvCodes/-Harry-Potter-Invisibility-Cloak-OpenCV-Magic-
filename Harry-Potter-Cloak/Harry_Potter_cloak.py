@@ -1,5 +1,4 @@
 
-    cp = None
 
 try:
     from sklearn.cluster import KMeans
