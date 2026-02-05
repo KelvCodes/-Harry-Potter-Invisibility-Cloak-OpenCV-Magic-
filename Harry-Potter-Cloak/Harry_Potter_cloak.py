@@ -1,5 +1,4 @@
-e.
-    Contains all tunable parameters for the invisibility cloak system.
+
     """
     # Camera settings
     camera_index: int = 0  # Default camera index
