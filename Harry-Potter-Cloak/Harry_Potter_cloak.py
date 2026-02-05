@@ -1,6 +1,4 @@
 
-    background_model: str = "mog2"  # Options: "static", "mog2", "knn"
-    
     # Mask processing
     mask_smoothing: float = 0.7  # Temporal smoothing factor (0-1)
     temporal_stability: int = 5  # Number of frames to consider for stability
