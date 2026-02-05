@@ -1,5 +1,4 @@
 
-    target_fps: int = 60  # Desired frames per second
     
     # Processing settings
     processing_mode: str = "balanced"  # Options: "fast", "balanced", "quality"
