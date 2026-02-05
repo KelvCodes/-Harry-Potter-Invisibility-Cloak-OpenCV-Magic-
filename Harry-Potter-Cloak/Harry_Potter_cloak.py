@@ -1,8 +1,5 @@
 PU core
-    
-    # Color detection
-    color_sensitivity: float = 0.8  # How strongly to apply cloak effect (0-1)
-    adaptive_threshold: bool = True  # Dynamically adjust color detection
+    Dynamically adjust color detection
     use_multi_color: bool = True  # Detect multiple colors simultaneously
     max_colors: int = 3  # Maximum number of colors to detect
     
