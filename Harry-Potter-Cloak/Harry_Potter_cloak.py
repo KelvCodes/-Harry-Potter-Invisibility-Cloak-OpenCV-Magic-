@@ -1,11 +1,4 @@
 
-
-class PerformanceMonitor:
-    """
-    Comprehensive performance monitoring and profiling.
-    Tracks execution times, FPS, and other metrics for optimization.
-    """
-    
     def __init__(self, window_size: int = 100):
         """
         Initialize performance monitor.
