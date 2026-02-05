@@ -1,4 +1,4 @@
- pixels in frame."""
+
         return self.frame_width * self.frame_height
 
 
