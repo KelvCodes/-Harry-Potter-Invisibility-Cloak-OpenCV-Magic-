@@ -1,10 +1,4 @@
- str):
-        """Convert string to ProcessingMode enum."""
-        return {
-            "fast": cls.FAST,
-            "balanced": cls.BALANCED,
-            "quality": cls.QUALITY
-        }.get(mode_str.lower(), cls.BALANCED)
+de_str.lower(), cls.BALANCED)
 
 
 # =============================================================================
