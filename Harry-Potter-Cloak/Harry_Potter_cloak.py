@@ -1,7 +1,4 @@
-
-    
-    @property
-    def frame_size(self) -> Tuple[int, int]:
+elf) -> Tuple[int, int]:
         """Return frame dimensions as tuple (width, height)."""
         return (self.frame_width, self.frame_height)
     
