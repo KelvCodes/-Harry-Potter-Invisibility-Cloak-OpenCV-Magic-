@@ -1,7 +1,5 @@
 
-    
-    # Performance monitoring
-    enable_profiling: bool = False  # Detailed performance analysis
+    e  # Detailed performance analysis
     stats_window: int = 100  # Number of frames to average statistics over
     cache_size: int = 10  # Size of frame/mask cache for temporal operations
     
