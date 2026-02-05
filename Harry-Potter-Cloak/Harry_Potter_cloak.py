@@ -1,8 +1,4 @@
-
-    Controls trade-off between speed and quality.
-    """
-    FAST = auto()      # Prioritize speed, lower quality
-    BALANCED = auto()  # Balanced approach
+pproach
     QUALITY = auto()   # Prioritize quality, lower speed
     
     @classmethod
