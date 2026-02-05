@@ -1,6 +1,4 @@
 
-    """
-    Enumeration for processing modes.
     Controls trade-off between speed and quality.
     """
     FAST = auto()      # Prioritize speed, lower quality
