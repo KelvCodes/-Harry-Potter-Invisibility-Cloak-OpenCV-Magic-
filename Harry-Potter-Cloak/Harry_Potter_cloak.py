@@ -1,5 +1,4 @@
 
-    CUDA_AVAILABLE = False
     cp = None
 
 try:
