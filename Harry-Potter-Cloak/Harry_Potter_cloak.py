@@ -1,6 +1,4 @@
-elf) 
-    def frame_area(self) -> int:
-        """Calculate total number of pixels in frame."""
+ pixels in frame."""
         return self.frame_width * self.frame_height
 
 
