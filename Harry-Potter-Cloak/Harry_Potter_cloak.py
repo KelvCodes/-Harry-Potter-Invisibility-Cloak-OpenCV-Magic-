@@ -1,5 +1,4 @@
 
-import threading
 import queue
 import asyncio
 from dataclasses import dataclass, field, asdict
