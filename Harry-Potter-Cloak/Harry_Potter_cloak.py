@@ -1,6 +1,4 @@
-s
-    show_stats: bool = True  # Show performance statistics
-    show_debug: bool = False  # Show debug information
+
     
     @property
     def frame_size(self) -> Tuple[int, int]:
