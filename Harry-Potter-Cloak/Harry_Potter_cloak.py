@@ -1,5 +1,4 @@
 
-    max_mask_area: float = 0.4  # Maximum mask area as % of frame (prevent overflow)
     
     # Performance monitoring
     enable_profiling: bool = False  # Detailed performance analysis
