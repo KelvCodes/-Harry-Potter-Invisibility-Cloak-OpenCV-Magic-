@@ -1,5 +1,4 @@
 
-    camera_index: int = 0  # Default camera index
     frame_width: int = 1280  # Target frame width
     frame_height: int = 720  # Target frame height
     target_fps: int = 60  # Desired frames per second
