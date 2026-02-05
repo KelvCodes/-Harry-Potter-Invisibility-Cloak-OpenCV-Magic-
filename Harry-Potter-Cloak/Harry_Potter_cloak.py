@@ -1,4 +1,4 @@
- feathering amount (0-1.001  # Minimum mask area as % of frame (reject noise)
+
     max_mask_area: float = 0.4  # Maximum mask area as % of frame (prevent overflow)
     
     # Performance monitoring
