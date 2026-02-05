@@ -1,5 +1,4 @@
 
-    background_frames: int = 30  # Number of frames to capture for background
     background_update_rate: float = 0.01  # How quickly background adapts (0-1)
     enable_background_restoration: bool = True  # Fill in missing background areas
     background_model: str = "mog2"  # Options: "static", "mog2", "knn"
