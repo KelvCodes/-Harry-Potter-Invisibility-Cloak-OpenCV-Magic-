@@ -1,5 +1,4 @@
 
-    use_multi_color: bool = True  # Detect multiple colors simultaneously
     max_colors: int = 3  # Maximum number of colors to detect
     
     # Background management
