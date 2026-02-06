@@ -1,6 +1,4 @@
 
-    max_mask_area: float = 0.4
-    
     # Performance
     enable_profiling: bool = False
     stats_window: int = 100
