@@ -1,5 +1,4 @@
 
-    def __post_init__(self):
         """Validate configuration after initialization."""
         self._validate()
     
