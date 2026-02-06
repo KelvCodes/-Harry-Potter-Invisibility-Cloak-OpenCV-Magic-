@@ -1,5 +1,4 @@
 
-    background_update_rate: float = 0.01
     enable_background_restoration: bool = True
     background_model: str = "mog2"  # static, mog2, knn
     
