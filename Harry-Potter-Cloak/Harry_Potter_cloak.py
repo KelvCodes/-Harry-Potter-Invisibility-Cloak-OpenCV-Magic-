@@ -1,6 +1,5 @@
 
-    show_stats: bool = True
-    show_debug: bool = False
+    show_stats: bool = T
     
     def __post_init__(self):
         """Validate configuration after initialization."""
