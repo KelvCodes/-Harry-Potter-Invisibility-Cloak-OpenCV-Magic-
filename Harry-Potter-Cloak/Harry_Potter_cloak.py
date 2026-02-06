@@ -1,5 +1,4 @@
-
-    CUDA_AVAILABLE = False
+ = False
 try:
     from sklearn.cluster import KMeans
     from sklearn.mixture import GaussianMixture
