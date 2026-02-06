@@ -1,5 +1,4 @@
-d"  # fast, balanced, quality
-    enable_gpu: bool = CUDA_AVAILABLE
+
     enable_multithreading: bool = True
     num_threads: int = field(default_factory=lambda: max(1, mp.cpu_count() - 1))
     
