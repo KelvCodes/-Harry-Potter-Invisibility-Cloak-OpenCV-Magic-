@@ -1,5 +1,4 @@
 
-    use_multi_color: bool = True
     max_colors: int = 3
     
     # Background management
