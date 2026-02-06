@@ -1,5 +1,4 @@
 
-    enable_background_restoration: bool = True
     background_model: str = "mog2"  # static, mog2, knn
     
     # Mask processing
