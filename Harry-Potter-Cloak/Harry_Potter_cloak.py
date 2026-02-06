@@ -1,6 +1,4 @@
 
-    
-    # Background management
     background_frames: int = 30
     background_update_rate: float = 0.01
     enable_background_restoration: bool = True
