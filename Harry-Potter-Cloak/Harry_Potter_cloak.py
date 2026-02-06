@@ -1,9 +1,4 @@
-
-        self._validate()
-    
-    def _validate(self):
-        """Validate configuration parameters."""
-        assert 0 < self.frame_width <= 4096, "Invalid frame width"
+nvalid frame width"
         assert 0 < self.frame_height <= 2160, "Invalid frame height"
         assert 1 <= self.target_fps <= 240, "Invalid FPS target"
         assert 0 <= self.color_sensitivity <= 1, "Invalid sensitivity"
