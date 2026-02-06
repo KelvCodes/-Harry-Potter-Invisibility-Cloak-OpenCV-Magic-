@@ -1,5 +1,5 @@
 
-    feather_amount: float = 0.1
+
     min_mask_area: float = 0.001
     max_mask_area: float = 0.4
     
