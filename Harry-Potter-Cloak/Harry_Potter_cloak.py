@@ -1,6 +1,4 @@
 
-    
-    # Mask processing
     mask_smoothing: float = 0.7
     temporal_stability: int = 5
     feather_amount: float = 0.1
