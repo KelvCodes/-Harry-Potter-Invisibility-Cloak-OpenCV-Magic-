@@ -1,6 +1,5 @@
 
-Author: AI Assistant
-Version: 4.0.0
+Author: AI Assi
 License: MIT
 """
 
