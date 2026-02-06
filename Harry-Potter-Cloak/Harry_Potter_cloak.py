@@ -1,6 +1,4 @@
 
-Author: AI Assi
-License: MIT
 """
 
 import argparse
