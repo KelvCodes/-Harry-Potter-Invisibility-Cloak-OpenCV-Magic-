@@ -1,6 +1,4 @@
-: bool = False
-    stats_window: int = 100
-    cache_size: int = 10
+
     
     # UI settings
     show_controls: bool = True
