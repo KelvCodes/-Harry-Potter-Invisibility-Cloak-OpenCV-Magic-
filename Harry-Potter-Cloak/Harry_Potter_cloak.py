@@ -1,7 +1,4 @@
 
-    
-    # UI settings
-    show_controls: bool = True
     show_stats: bool = True
     show_debug: bool = False
     
