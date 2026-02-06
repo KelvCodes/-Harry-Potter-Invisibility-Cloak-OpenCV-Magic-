@@ -1,8 +1,4 @@
-np
 
-# Optional imports for enhanced features
-try:
-    import cupy as cp
     CUDA_AVAILABLE = True
 except ImportError:
     CUDA_AVAILABLE = False
