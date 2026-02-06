@@ -1,4 +1,4 @@
-ler('cloak_system.log'),
+ystem.log'),
         logging.StreamHandler()
     ]
 )
