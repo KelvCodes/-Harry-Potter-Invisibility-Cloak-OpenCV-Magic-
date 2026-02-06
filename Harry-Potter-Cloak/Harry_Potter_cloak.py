@@ -1,4 +1,4 @@
-=================
+
 Advanced real-time background replacement system with machine learning,
 GPU acceleration, and temporal stabilization.
 
