@@ -1,5 +1,4 @@
 
-    background_model: str = "mog2"  # static, mog2, knn
     
     # Mask processing
     mask_smoothing: float = 0.7
