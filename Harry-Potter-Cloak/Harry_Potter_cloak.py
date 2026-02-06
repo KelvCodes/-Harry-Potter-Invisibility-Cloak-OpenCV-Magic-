@@ -1,6 +1,4 @@
 
-#        
-    """System configuration with validation."""
     
     # Camera settings
     camera_index: int = 0
