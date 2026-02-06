@@ -1,4 +1,4 @@
-e learning,
+
 GPU acceleration, and temporal stabilization.
 
 Author: AI Assistant
