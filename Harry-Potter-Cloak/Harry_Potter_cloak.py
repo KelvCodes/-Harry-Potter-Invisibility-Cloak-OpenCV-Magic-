@@ -1,5 +1,4 @@
 
-except ImportError:
     CUDA_AVAILABLE = False
     cp = None
 
