@@ -1,6 +1,4 @@
-
-from pathlib import Path
-from typing import Any, Callable, Deque, Dict, List, Optional, Tuple, Union
+allable, Deque, Dict, List, Optional, Tuple, Union
 
 import cv2
 import numpy as np
