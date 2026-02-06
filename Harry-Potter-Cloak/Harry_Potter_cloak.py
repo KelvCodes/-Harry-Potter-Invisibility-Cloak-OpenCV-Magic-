@@ -1,5 +1,5 @@
 
-except ImportError:
+
     SKLEARN_AVAILABLE = False
 
 # Configure logging
