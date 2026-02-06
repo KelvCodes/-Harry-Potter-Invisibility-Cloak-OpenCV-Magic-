@@ -1,5 +1,4 @@
 
-        """Validate configuration after initialization."""
         self._validate()
     
     def _validate(self):
