@@ -1,5 +1,4 @@
 
-    max_colors: int = 3
     
     # Background management
     background_frames: int = 30
