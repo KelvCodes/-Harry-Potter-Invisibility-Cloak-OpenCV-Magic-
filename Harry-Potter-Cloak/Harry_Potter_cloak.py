@@ -1,6 +1,4 @@
-
-    # Performance
-    enable_profiling: bool = False
+: bool = False
     stats_window: int = 100
     cache_size: int = 10
     
