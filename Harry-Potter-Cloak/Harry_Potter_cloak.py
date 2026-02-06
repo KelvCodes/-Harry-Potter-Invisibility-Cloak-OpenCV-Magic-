@@ -1,8 +1,5 @@
 
-#                           CONFIGURATION
-# ============================================================================
-
-@dataclass
+#                           CON
 class SystemConfig:
     """System configuration with validation."""
     
