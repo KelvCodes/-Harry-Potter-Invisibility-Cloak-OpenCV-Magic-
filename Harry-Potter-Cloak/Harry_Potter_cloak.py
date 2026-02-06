@@ -1,4 +1,4 @@
-me  system with machine learning,
+e learning,
 GPU acceleration, and temporal stabilization.
 
 Author: AI Assistant
