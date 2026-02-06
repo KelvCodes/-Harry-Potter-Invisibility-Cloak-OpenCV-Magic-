@@ -1,6 +1,4 @@
 
-    num_threads: int = field(default_factory=lambda: max(1, mp.cpu_count() - 1))
-    
     # Color detection
     color_sensitivity: float = 0.8
     adaptive_threshold: bool = True
