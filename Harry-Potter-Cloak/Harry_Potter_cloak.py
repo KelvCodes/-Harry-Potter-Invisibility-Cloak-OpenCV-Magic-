@@ -1,4 +1,4 @@
-ystem.log'),
+
         logging.StreamHandler()
     ]
 )
