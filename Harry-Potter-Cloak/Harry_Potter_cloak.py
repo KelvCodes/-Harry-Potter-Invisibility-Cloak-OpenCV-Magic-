@@ -1,5 +1,4 @@
-"""
-Invisibility Cloak System 4.0
+ity Cloak System 4.0
 ===============================
 Advanced real-time background replacement system with machine learning,
 GPU acceleration, and temporal stabilization.
