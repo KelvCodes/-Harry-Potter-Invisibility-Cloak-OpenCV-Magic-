@@ -1,5 +1,4 @@
 
-    # Color detection
     color_sensitivity: float = 0.8
     adaptive_threshold: bool = True
     use_multi_color: bool = True
