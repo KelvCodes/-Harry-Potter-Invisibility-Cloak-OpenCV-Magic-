@@ -1,6 +1,5 @@
 
-#                           CON
-class SystemConfig:
+#        
     """System configuration with validation."""
     
     # Camera settings
