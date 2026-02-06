@@ -1,6 +1,4 @@
-ging
-logging.basicConfig(
-    level=logging.INFO,
+NFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('cloak_system.log'),
