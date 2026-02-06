@@ -1,5 +1,4 @@
-
-GPU acceleration, and temporal stabilization.
+oral stabilization.
 
 Author: AI Assistant
 Version: 4.0.0
