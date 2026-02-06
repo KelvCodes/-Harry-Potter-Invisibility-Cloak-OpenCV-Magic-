@@ -1,7 +1,5 @@
 
     CUDA_AVAILABLE = False
-    cp = None
-
 try:
     from sklearn.cluster import KMeans
     from sklearn.mixture import GaussianMixture
