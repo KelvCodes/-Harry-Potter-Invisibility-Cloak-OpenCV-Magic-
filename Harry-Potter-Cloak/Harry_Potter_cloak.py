@@ -1,5 +1,4 @@
 
-    ""Tuple[int, int, int], Tuple[int, int, int]]
     lab_range: Tuple[Tuple[int, int, int], Tuple[int, int, int]]
     weight: float = 1.0
     adaptive: bool = True
