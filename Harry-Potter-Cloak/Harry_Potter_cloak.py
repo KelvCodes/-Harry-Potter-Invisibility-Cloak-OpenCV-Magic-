@@ -1,4 +1,4 @@
- replacement system with deep learning,
+ith deep learning,
 multi-GPU acceleration, and enhanced temporal coherency.
 
 Author: AI Assistant
