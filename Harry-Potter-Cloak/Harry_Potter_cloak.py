@@ -1,5 +1,4 @@
 
-    ONNX_AVAILABLE = True
 except ImportError:
     ONNX_AVAILABLE = False
     ort = None
