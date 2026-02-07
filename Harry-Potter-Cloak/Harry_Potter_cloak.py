@@ -1,6 +1,4 @@
-
-    def update(self, sample: np.ndarray) -> None:
-        """Update color model with new sample."""
+ample."""
         if not self.adaptive:
             return
         
