@@ -1,5 +1,5 @@
 
-    level=logging.INFO,
+
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('cloak_system.log', mode='w'),
