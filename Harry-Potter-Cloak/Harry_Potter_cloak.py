@@ -1,7 +1,5 @@
 
 import cv2
-import numpy as np
-
 # Optional imports for enhanced features
 try:
     import cupy as cp
