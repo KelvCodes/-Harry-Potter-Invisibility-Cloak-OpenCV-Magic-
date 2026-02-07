@@ -1,8 +1,5 @@
 
-Version: 5.0.0
-License: MIT
-"""
-
+Vers
 import argparse
 import asyncio
 import json
