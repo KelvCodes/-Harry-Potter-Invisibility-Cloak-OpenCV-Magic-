@@ -1,7 +1,7 @@
 
 try:
     from sklearn.cluster import MiniBatchKMeans
-    from sklearn.ensemble import IsolationForest
+    from 
     SKLEARN_AVAILABLE = True
 except ImportError:
     SKLEARN_AVAILABLE = False
