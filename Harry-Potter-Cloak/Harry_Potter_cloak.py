@@ -1,5 +1,4 @@
-: deque(maxlen=100))
-    
+
     def update(self, sample: np.ndarray) -> None:
         """Update color model with new sample."""
         if not self.adaptive:
