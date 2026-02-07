@@ -1,5 +1,4 @@
 
-    lab_range: Tuple[Tuple[int, int, int], Tuple[int, int, int]]
     weight: float = 1.0
     adaptive: bool = True
     history_size: int = 100
