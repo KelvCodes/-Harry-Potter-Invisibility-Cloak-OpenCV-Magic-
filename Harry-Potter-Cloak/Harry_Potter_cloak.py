@@ -1,6 +1,4 @@
 
-    history_size: int = 100
-    confidence: float = 0.0
     samples: Deque[np.ndarray] = field(default_factory=lambda: deque(maxlen=100))
     
     def update(self, sample: np.ndarray) -> None:
