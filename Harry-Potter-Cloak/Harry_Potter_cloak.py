@@ -1,5 +1,4 @@
-
-multi-GPU acceleration, and enhanced temporal coherency.
+coherency.
 
 Author: AI Assistant
 Version: 5.0.0
