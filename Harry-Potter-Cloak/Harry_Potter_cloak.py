@@ -1,7 +1,4 @@
 
-#                           CONFIGURATION ENHANCEMENTS
-# ============================================================================
-
 @dataclass
 class ColorPreset:
     """Enhanced color preset with adaptive learning."""
