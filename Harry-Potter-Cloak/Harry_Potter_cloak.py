@@ -1,20 +1,4 @@
 
-        std_factor = 1.5
-        new_lower = np.clip(mean_hsv - std_factor * std_hsv, 0, 255).astype(int)
-        new_upper = np.clip(mean_hsv + std_factor * std_hsv, 0, 255).astype(int)
-        
-        # Update ranges
-        self.hsv_range = (tuple(new_lower), tuple(new_upper))
-        
-        # Update confidence based on sample consistency
-        self.confidence = 1.0 - np.minimum(np.mean(std_hsv) / 50.0, 1.0)
-
-
-@dataclass
-class SystemConfig:
-    """Enhanced system configuration with validation."""
-    
-    # Camera settings
     camera_index: int = 0
     frame_width: int = 1280
     frame_height: int = 720
