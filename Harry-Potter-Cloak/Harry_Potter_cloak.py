@@ -1,5 +1,4 @@
 
-import cv2
 # Optional imports for enhanced features
 try:
     import cupy as cp
