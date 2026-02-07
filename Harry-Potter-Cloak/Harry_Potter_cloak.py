@@ -1,6 +1,4 @@
 
-
-try:
     import onnxruntime as ort
     ONNX_AVAILABLE = True
 except ImportError:
