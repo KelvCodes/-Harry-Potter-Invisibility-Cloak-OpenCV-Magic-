@@ -1,4 +1,3 @@
-, Callable, Deque, Dict, List, Optional, Tuple, Union
 
 import cv2
 import numpy as np
