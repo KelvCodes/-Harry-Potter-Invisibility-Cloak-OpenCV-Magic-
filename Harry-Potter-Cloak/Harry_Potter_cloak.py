@@ -1,5 +1,4 @@
 
-    import onrt
     ONNX_AVAILABLE = True
 except ImportError:
     ONNX_AVAILABLE = False
