@@ -1,17 +1,4 @@
-mple)
-        if len(self.samples) >= 10:
-            self._adapt_from_samples()
-    
-    def _adapt_from_samples(self) -> None:
-        """Adapt color ranges from collected samples."""
-        if not self.samples:
-            return
-        
-        samples_array = np.array(self.samples)
-        mean_hsv = np.mean(samples_array, axis=0)
-        std_hsv = np.std(samples_array, axis=0)
-        
-        # Adaptive widening based on variance
+
         std_factor = 1.5
         new_lower = np.clip(mean_hsv - std_factor * std_hsv, 0, 255).astype(int)
         new_upper = np.clip(mean_hsv + std_factor * std_hsv, 0, 255).astype(int)
