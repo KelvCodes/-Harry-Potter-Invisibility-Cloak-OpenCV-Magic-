@@ -1,6 +1,5 @@
 
-    import cupy as cp
-    CUDA_AVAILABLE = True
+    import cupy as
 except ImportError:
     CUDA_AVAILABLE = False
     cp = None
