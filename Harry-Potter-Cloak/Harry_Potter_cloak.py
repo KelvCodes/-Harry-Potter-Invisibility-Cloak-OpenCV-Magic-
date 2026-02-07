@@ -1,5 +1,4 @@
 
-    ONNX_AVAILABLE = False
     ort = None
 
 try:
