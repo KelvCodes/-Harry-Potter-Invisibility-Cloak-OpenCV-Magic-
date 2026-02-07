@@ -1,5 +1,4 @@
-
-    samples: Deque[np.ndarray] = field(default_factory=lambda: deque(maxlen=100))
+: deque(maxlen=100))
     
     def update(self, sample: np.ndarray) -> None:
         """Update color model with new sample."""
