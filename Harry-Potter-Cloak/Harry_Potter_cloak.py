@@ -1,5 +1,4 @@
 
-    weight: float = 1.0
     adaptive: bool = True
     history_size: int = 100
     confidence: float = 0.0
