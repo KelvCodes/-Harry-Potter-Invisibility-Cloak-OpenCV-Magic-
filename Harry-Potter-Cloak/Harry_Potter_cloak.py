@@ -1,8 +1,4 @@
-ample."""
-        if not self.adaptive:
-            return
-        
-        self.samples.append(sample)
+mple)
         if len(self.samples) >= 10:
             self._adapt_from_samples()
     
