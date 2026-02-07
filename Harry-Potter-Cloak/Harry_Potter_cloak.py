@@ -1,6 +1,4 @@
 
-@dataclass
-class ColorPreset:
     """Enhanced color preset with adaptive learning."""
     name: str
     hsv_range: Tuple[Tuple[int, int, int], Tuple[int, int, int]]
