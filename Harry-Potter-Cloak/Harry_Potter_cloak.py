@@ -1,6 +1,4 @@
-
-try:
-    from sklearn.cluster import MiniBatchKMeans
+ort MiniBatchKMeans
     from 
     SKLEARN_AVAILABLE = True
 except ImportError:
