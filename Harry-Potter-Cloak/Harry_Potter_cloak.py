@@ -1,6 +1,4 @@
 
-    ort = None
-
 try:
     from sklearn.cluster import MiniBatchKMeans
     from sklearn.ensemble import IsolationForest
