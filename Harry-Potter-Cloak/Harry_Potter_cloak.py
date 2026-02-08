@@ -1,5 +1,4 @@
-
-from typing import Any, Callable, Deque, Dict, List, Optional, Tuple, Union
+ple, Union
 
 import cv2
 import numpy as np
