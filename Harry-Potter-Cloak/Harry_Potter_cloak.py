@@ -1,6 +1,4 @@
 
-
-Features:
 - Real-time color-based background replacement
 - Multi-GPU acceleration support (CUDA, OpenCL, CuPy)
 - Deep learning-based mask refinement
