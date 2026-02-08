@@ -1,4 +1,4 @@
-k refinement
+
 - Temporal stabilization with optical flow
 - Adaptive color learning
 - Multiple processing modes (fast, balanced, quality, deep learning)
