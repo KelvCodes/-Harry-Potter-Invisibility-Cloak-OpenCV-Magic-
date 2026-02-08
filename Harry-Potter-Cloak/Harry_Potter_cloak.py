@@ -1,5 +1,4 @@
-performance monitoring
-- Theme-based UI with extensive controls
+ensive controls
 - Background modeling and restoration
 - Multi-threaded/processed pipeline optimization
 """
