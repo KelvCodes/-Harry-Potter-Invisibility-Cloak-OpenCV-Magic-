@@ -1,5 +1,4 @@
-
-- Real-time color-based background replacement
+or-based background replacement
 - Multi-GPU acceleration support (CUDA, OpenCL, CuPy)
 - Deep learning-based mask refinement
 - Temporal stabilization with optical flow
