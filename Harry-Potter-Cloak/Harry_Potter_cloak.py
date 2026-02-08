@@ -1,7 +1,4 @@
 
-    from 
-except ImportError:
-    SKLEARN_AVAILABLE = False
 
 # ============================================================================
 #                           LOGGING CONFIGURATION
