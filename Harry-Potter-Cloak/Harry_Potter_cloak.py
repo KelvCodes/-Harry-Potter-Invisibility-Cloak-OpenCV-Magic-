@@ -1,6 +1,4 @@
 
-- Multi-threaded/processed pipeline optimization
-"""
 
 import argparse
 import asyncio
