@@ -1,9 +1,7 @@
 ror:
 
 try:
-    from sklearn.cluster import MiniBatchKMeans  # Background clustering
-    from sklearn.ensemble import IsolationForest  # Anomaly detection
-    SKLEARN_AVAILABLE = True
+    from 
 except ImportError:
     SKLEARN_AVAILABLE = False
 
