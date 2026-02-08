@@ -1,5 +1,4 @@
-ow
-- Adaptive color learning
+olor learning
 - Multiple processing modes (fast, balanced, quality, deep learning)
 - Comprehensive performance monitoring
 - Theme-based UI with extensive controls
