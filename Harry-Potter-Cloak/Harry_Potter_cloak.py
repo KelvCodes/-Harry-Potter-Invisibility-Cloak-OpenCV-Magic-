@@ -1,6 +1,4 @@
-ror:
 
-try:
     from 
 except ImportError:
     SKLEARN_AVAILABLE = False
