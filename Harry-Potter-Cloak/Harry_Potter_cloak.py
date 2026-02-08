@@ -1,5 +1,4 @@
 
-Author: AI Assistant
 Version: 5.0.0
 License: MIT
 
