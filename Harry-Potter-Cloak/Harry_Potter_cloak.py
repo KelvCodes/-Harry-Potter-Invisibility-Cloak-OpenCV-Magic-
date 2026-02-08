@@ -1,4 +1,4 @@
-cceleration support (CUDA, OpenCL, CuPy)
+ support (CUDA, OpenCL, CuPy)
 - Deep learning-based mask refinement
 - Temporal stabilization with optical flow
 - Adaptive color learning
