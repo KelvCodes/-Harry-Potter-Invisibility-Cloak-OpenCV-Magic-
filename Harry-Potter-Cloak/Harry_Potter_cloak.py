@@ -1,17 +1,4 @@
-
-logger = logging.getLogger(__name__)
-
-# ============================================================================
-#                           CONFIGURATION ENHANCEMENTS
-# ============================================================================
-
-@dataclass
-class ColorPreset:
-    """
-    Enhanced color preset with adaptive learning capabilities.
-    
-    This class represents a color range that can be detected, with the ability
-    to adapt and learn from new samples over time. It maintains both HSV and LAB
+ It maintains both HSV and LAB
     color space ranges for more robust detection.
     
     Attributes:
