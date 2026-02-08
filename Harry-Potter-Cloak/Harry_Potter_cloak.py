@@ -1,4 +1,4 @@
- support (CUDA, OpenCL, CuPy)
+UDA, OpenCL, CuPy)
 - Deep learning-based mask refinement
 - Temporal stabilization with optical flow
 - Adaptive color learning
