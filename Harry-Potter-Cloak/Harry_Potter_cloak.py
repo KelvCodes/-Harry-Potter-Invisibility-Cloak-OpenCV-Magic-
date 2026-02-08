@@ -1,6 +1,4 @@
 
-
-#                           LOGGING CONFIGURATION
 # ============================================================================
 
 # Configure logging to both file and console
