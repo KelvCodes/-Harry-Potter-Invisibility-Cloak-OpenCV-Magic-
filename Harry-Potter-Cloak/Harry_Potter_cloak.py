@@ -1,7 +1,4 @@
-ple, Union
 
-import cv2
-import numpy as np
 
 # Optional imports for enhanced features - gracefully handle missing dependencies
 try:
