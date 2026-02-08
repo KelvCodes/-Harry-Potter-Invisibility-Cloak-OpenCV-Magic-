@@ -1,4 +1,4 @@
-ground replacement system with deep learning,
+ement system with deep learning,
 multi-GPU acceleration, and enhanced temporal coherency.
 
 Author: AI Assistant
