@@ -1,4 +1,4 @@
-bilization with optical flow
+ow
 - Adaptive color learning
 - Multiple processing modes (fast, balanced, quality, deep learning)
 - Comprehensive performance monitoring
