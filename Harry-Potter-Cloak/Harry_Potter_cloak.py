@@ -1,6 +1,4 @@
-
-
-except ImportError:
+ror:
 
 try:
     from sklearn.cluster import MiniBatchKMeans  # Background clustering
