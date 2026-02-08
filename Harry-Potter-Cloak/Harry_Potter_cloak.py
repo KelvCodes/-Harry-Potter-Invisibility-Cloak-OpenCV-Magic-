@@ -1,6 +1,4 @@
 
-    CUDA_AVAILABLE = False
-    cp = None
 
 try:
     import onnxruntime as ort  # Deep learning inference
