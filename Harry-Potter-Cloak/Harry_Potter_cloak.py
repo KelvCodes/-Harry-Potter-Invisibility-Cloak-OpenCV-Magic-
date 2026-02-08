@@ -1,6 +1,4 @@
 ,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
         logging.FileHandler('cloak_system.log', mode='w'),  # Log to file
         logging.StreamHandler()  # Log to console
     ]
