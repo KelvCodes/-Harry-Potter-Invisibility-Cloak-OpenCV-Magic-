@@ -1,8 +1,6 @@
 
 
 except ImportError:
-    ONNX_AVAILABLE = False
-    ort = None
 
 try:
     from sklearn.cluster import MiniBatchKMeans  # Background clustering
