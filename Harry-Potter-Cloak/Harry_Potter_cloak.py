@@ -1,7 +1,6 @@
 
 
-try:
-    import onnxruntime as ort  # Deep learning inference
+try:rt  # Deep learning inference
     ONNX_AVAILABLE = True
 except ImportError:
     ONNX_AVAILABLE = False
