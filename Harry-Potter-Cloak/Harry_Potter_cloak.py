@@ -1,6 +1,4 @@
-ng
-- Multiple processing modes (fast, balanced, quality, deep learning)
-- Comprehensive performance monitoring
+performance monitoring
 - Theme-based UI with extensive controls
 - Background modeling and restoration
 - Multi-threaded/processed pipeline optimization
