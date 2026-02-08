@@ -1,4 +1,4 @@
-earning,
+,
 multi-GPU acceleration, and enhanced temporal coherency.
 
 Author: AI Assistant
