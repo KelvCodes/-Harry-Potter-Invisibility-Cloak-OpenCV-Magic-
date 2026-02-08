@@ -1,8 +1,4 @@
-,
-        logging.FileHandler('cloak_system.log', mode='w'),  # Log to file
-        logging.StreamHandler()  # Log to console
-    ]
-)
+
 logger = logging.getLogger(__name__)
 
 # ============================================================================
