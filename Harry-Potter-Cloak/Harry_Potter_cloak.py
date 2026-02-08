@@ -1,5 +1,4 @@
 
-    import cupy as cp  # GPU array computations for CUDA
     CUDA_AVAILABLE = True
 except ImportError:
     CUDA_AVAILABLE = False
