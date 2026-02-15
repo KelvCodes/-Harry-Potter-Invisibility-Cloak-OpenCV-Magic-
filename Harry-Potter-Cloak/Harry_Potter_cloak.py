@@ -1,6 +1,5 @@
-acceleration
-except ImportError:
-    CUDA_AVAILABLE = False
+
+LE = False
     cp = None
 
 try:
