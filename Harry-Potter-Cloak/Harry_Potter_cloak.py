@@ -1,6 +1,5 @@
 
-    ONNX_AVAILABLE = False
-    ort = None
+    ONNX_AVA
 
 try:
     from sklearn.cluster import MiniBatchKMeans  # Background clustering for scene analysis
