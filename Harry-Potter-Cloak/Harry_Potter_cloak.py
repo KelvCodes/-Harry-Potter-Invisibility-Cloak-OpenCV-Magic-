@@ -1,5 +1,4 @@
-g
-- Theme-based UI with extensive controls
+
 - Background modeling and restoration
 - Multi-threaded/processed pipeline optimization
 """
