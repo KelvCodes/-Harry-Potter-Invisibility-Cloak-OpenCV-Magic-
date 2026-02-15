@@ -1,5 +1,4 @@
- modeling and restoration
-- Multi-threaded/processed pipeline optimization
+sed pipeline optimization
 """
 
 import argparse
