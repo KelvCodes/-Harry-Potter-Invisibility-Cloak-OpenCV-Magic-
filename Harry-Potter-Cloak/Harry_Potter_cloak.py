@@ -1,5 +1,4 @@
-
-- Background modeling and restoration
+ modeling and restoration
 - Multi-threaded/processed pipeline optimization
 """
 
