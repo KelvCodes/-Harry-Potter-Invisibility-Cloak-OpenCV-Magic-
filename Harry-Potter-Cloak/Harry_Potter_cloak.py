@@ -1,4 +1,4 @@
-t system with deep learning,
+
 multi-GPU acceleration, and enhanced temporal coherency.
 
 Author: AI Assistant
