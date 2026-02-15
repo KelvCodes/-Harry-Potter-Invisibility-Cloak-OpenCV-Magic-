@@ -1,9 +1,4 @@
-earn.cluster import MiniBatchKMeans  # Background clustering for scene analysis
-r:
-    SKLEARN_AVAILABLE = False
-
-# ============================================================================
-#                           LOGGING CONFIGURATION
+            LOGGING CONFIGURATION
 # ============================================================================
 
 # Configure logging to both file and console for comprehensive monitoring
