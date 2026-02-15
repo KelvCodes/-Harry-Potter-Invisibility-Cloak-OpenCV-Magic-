@@ -1,6 +1,5 @@
 
-import cv2
-import numpy as np
+import cnp
 
 # Optional imports for enhanced features - gracefully handle missing dependencies
 try:
