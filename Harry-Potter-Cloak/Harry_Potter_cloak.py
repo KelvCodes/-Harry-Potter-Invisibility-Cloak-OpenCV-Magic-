@@ -1,5 +1,4 @@
- ONNX runtime
-    ONNX_AVAILABLE = True
+ue
 except ImportError:
     ONNX_AVAILABLE = False
     ort = None
