@@ -1,10 +1,6 @@
 
     level=logging.INFO,
-   # Real-time console output
-   CONFIGURATION ENHANCEMENTS
-# ============================================================================
 
-@dataclass
 class ColorPreset:
     """
     Enhanced color preset with adaptive learning capabilities.
