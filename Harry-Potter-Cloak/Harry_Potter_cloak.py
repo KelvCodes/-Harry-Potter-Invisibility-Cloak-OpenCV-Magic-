@@ -1,4 +1,4 @@
- Deep learning inference with ONNX runtime
+ ONNX runtime
     ONNX_AVAILABLE = True
 except ImportError:
     ONNX_AVAILABLE = False
