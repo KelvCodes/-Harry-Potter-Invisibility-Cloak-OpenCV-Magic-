@@ -1,9 +1,7 @@
 
     ONNX_AVA
 learn.cluster import MiniBatchKMeans  # Background clustering for scene analysis
-    from sklearn.ensemble import IsolationForest  # Anomaly detection for adaptive color learning
-    SKLEARN_AVAILABLE = True
-except ImportError:
+r:
     SKLEARN_AVAILABLE = False
 
 # ============================================================================
