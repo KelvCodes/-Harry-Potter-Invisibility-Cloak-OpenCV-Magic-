@@ -1,5 +1,4 @@
-
-- Multiple processing modes (fast, balanced, quality, deep learning)
+g modes (fast, balanced, quality, deep learning)
 - Comprehensive performance monitoring
 - Theme-based UI with extensive controls
 - Background modeling and restoration
