@@ -1,5 +1,4 @@
 
-License: MIT
 
 Features:
 - Real-time color-based background replacement
