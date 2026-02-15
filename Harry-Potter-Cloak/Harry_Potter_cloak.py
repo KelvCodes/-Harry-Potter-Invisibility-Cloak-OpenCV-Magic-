@@ -1,12 +1,7 @@
 
     level=logging.INFO,
    # Real-time console output
-    ]
-)
-logger = logging.getLogger(__name__)
-
-# ============================================================================
-#                           CONFIGURATION ENHANCEMENTS
+   CONFIGURATION ENHANCEMENTS
 # ============================================================================
 
 @dataclass
