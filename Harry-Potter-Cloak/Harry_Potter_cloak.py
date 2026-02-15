@@ -1,5 +1,4 @@
-
-Advanced real-time background replacement system with deep learning,
+ background replacement system with deep learning,
 multi-GPU acceleration, and enhanced temporal coherency.
 
 Author: AI Assistant
