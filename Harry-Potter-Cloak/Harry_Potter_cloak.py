@@ -1,5 +1,4 @@
-refinement
-- Temporal stabilization with optical flow
+ilization with optical flow
 - Adaptive color learning
 - Multiple processing modes (fast, balanced, quality, deep learning)
 - Comprehensive performance monitoring
