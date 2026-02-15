@@ -1,5 +1,5 @@
 
-multi-GPU acceleration, and enhanced temporal coherency.
+multi-GPU a enhanced temporal coherency.
 
 Author: AI Assistant
 Version: 5.0.0
