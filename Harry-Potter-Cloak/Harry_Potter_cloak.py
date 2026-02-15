@@ -1,4 +1,4 @@
-y as cp  # GPU array computations for CUDA acceleration
+acceleration
     CUDA_AVAILABLE = True
 except ImportError:
     CUDA_AVAILABLE = False
