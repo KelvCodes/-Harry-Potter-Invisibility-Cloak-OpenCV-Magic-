@@ -1,8 +1,6 @@
 
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('cloak_system.log', mode='w'),  # Persistent log file
+   g.FileHandler('cloak_system.log', mode='w'),  # Persistent log file
         logging.StreamHandler()  # Real-time console output
     ]
 )
