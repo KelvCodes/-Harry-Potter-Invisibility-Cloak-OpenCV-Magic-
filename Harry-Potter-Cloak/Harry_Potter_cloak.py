@@ -1,5 +1,5 @@
 acceleration
-    CUDA_AVAILABLE = True
+    CUDA_AVAILA\True
 except ImportError:
     CUDA_AVAILABLE = False
     cp = None
