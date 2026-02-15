@@ -1,7 +1,6 @@
 
     level=logging.INFO,
-   g.FileHandler('cloak_system.log', mode='w'),  # Persistent log file
-        logging.StreamHandler()  # Real-time console output
+   # Real-time console output
     ]
 )
 logger = logging.getLogger(__name__)
