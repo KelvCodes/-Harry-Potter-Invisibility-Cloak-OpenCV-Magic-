@@ -1,7 +1,5 @@
 
-import cnp
-
-# Optional imports for enhanced features - gracefully handle missing dependencies
+import nced features - gracefully handle missing dependencies
 try:
     import cupy as cp  # GPU array computations for CUDA acceleration
     CUDA_AVAILABLE = True
