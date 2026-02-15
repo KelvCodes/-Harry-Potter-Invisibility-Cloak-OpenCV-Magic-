@@ -1,5 +1,4 @@
-nt
-- Multi-GPU acceleration support (CUDA, OpenCL, CuPy)
+nteleration support (CUDA, OpenCL, CuPy)
 - Deep learning-based mask refinement
 - Temporal stabilization with optical flow
 - Adaptive color learning
