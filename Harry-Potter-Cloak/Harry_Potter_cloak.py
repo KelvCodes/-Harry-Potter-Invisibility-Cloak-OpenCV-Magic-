@@ -1,21 +1,4 @@
-
-    level=logging.INFO,
-
-class ColorPreset:
-    """
-    Enhanced color preset with adaptive learning capabilities.
-    
-    This class represents a color range that can be detected, with the ability
-    to adapt and learn from new samples over time. It maintains both HSV and LAB
-    color space ranges for more robust detection against varying lighting conditions.
-    
-    Attributes:
-        name: Identifier for the color preset (e.g., 'green', 'red', 'blue')
-        hsv_range: Tuple of (lower_bound, upper_bound) in HSV color space
-        lab_range: Tuple of (lower_bound, upper_bound) in LAB color space  
-        weight: Importance weight for this color in multi-color detection
-        adaptive: Whether to adapt the color range based on detected samples
-        history_size: Maximum number of samples to keep for adaptation
+ keep for adaptation
         confidence: Current confidence level in this color's detection
         samples: Queue of recent color samples for adaptive learning
     """
