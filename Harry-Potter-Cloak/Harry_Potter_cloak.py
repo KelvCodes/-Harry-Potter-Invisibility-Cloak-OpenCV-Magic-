@@ -1,7 +1,4 @@
 
-LE = False
-    cp = None
-
 try:
     import onnxruntime as ort  # Deep learning inference with ONNX runtime
     ONNX_AVAILABLE = True
